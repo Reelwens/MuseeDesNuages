@@ -17,11 +17,11 @@
         <h1>Le musée des nuages</h1>
 
         <nav>
-            <a href="/">Home</a>
-            <a href="news">Actualités</a>
-            <a href="benefits">Prestations</a>
-            <a href="visit">Réalisations / Visiter</a>
-            <a href="contact">Contact</a>
-            <a href="shop">Boutique</a>
+            <a href="<?= home_url() ?>">Home</a>
+            <a href="<?= home_url() ?>/news">Actualités</a>
+            <a href="<?= home_url() ?>/services">Prestations</a>
+            <a href="<?= home_url() ?>/visit">Réalisations / Visiter</a>
+            <a href="<?= home_url() ?>/contact">Contact</a>
+            <a href="<?= home_url() ?>/shop">Boutique</a>
         </nav>
     </header>
