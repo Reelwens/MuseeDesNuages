@@ -1,6 +1,6 @@
 <?php
 
-function ajout_custom_type_news() {
+function add_new() {
 
 	$post_type = "news";
 	$labels = array(
@@ -39,4 +39,4 @@ function ajout_custom_type_news() {
 
 	register_post_type($post_type, $args );
 }
-add_action( 'init', 'ajout_custom_type_news' );
+add_action( 'init', 'add_new' );

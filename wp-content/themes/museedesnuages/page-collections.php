@@ -1,16 +1,16 @@
 <?php
 
 /**
- * Template Name: All news
+ * Template Name: All collections
 **/
 
 get_header();
 
 ?>
 
-    <h1>Actualités</h1>
+    <h1>Collections</h1>
 
-    <?php $loop = new WP_Query( array( 'post_type' => 'news', 'posts_per_page' => 10 ) ); ?>
+    <?php $loop = new WP_Query( array( 'post_type' => 'collections', 'posts_per_page' => 10 ) ); ?>
 
     <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 

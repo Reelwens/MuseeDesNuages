@@ -16,12 +16,12 @@
     <header id="header">
         <h1>Le musée des nuages</h1>
 
-        <nav>
-            <a href="<?= home_url() ?>">Home</a>
-            <a href="<?= home_url() ?>/news">Actualités</a>
-            <a href="<?= home_url() ?>/services">Prestations</a>
-            <a href="<?= home_url() ?>/collections">Collections</a>
-            <a href="<?= home_url() ?>/contact">Contact</a>
-            <a href="<?= home_url() ?>/shop">Boutique</a>
-        </nav>
+		<?php // SYNTAXE : wp_nav_menu( array $args = array() )
+		$args=array(
+		    'theme_location' => 'header', // nom du slug
+		    'menu' => 'header_fr', // nom à donner cette occurence du menu
+		    'menu_class' => 'menuHeader', // class à attribuer au menu
+		);
+		wp_nav_menu($args);
+		?>
     </header>

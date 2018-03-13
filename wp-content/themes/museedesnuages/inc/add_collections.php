@@ -1,6 +1,6 @@
 <?php
 
-function ajout_custom_type_init() {
+function add_collection() {
 
 	$post_type = "collections";
 	$labels = array(
@@ -39,4 +39,4 @@ function ajout_custom_type_init() {
 
 	register_post_type($post_type, $args );
 }
-add_action( 'init', 'ajout_custom_type_init' );
+add_action( 'init', 'add_collection' );

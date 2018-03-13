@@ -40,6 +40,7 @@ add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
 // Remove useless menus
 function bbx_admin_remove_menus()
 {
+	/*
     remove_menu_page('edit.php');
     remove_menu_page('upload.php');
     remove_menu_page('admin.php?page=wpcf7');
@@ -49,5 +50,13 @@ function bbx_admin_remove_menus()
     remove_menu_page('tools.php');
     remove_menu_page('edit.php?post_type=acf-field-group');
     remove_menu_page('admin.php?page=mb_email_configuration');
+	*/
 }
 add_action( 'admin_menu', 'bbx_admin_remove_menus' );
+
+
+//SYNTAXE register_nav_menu( 'slug', 'Titre à afficher dans le BO' )
+add_action( 'after_setup_theme', 'menus_du_themes' );
+function menus_du_themes() {
+  register_nav_menu( 'header', 'Menu entête' );
+}
