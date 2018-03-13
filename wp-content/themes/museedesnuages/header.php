@@ -20,7 +20,7 @@
             <a href="<?= home_url() ?>">Home</a>
             <a href="<?= home_url() ?>/news">Actualités</a>
             <a href="<?= home_url() ?>/services">Prestations</a>
-            <a href="<?= home_url() ?>/visit">Réalisations / Visiter</a>
+            <a href="<?= home_url() ?>/collections">Collections</a>
             <a href="<?= home_url() ?>/contact">Contact</a>
             <a href="<?= home_url() ?>/shop">Boutique</a>
         </nav>
