@@ -1,13 +1,12 @@
 <?php get_header();  ?>
 
-    <p>Ma collection</p>
+    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-    <?php
-    if(have_posts()) {
-        while(have_posts()) {
-            the_post();
-        }
-    }
-    ?>
+    <h1><?php the_title(); ?></h1>
+    <p><?php the_content(); ?></p>
+
+    <?php endwhile; else: ?>
+    <p>Aucun contenu n'a été trouvé.</p>
+    <?php endif; ?>
 
 <?php get_footer(); ?>
