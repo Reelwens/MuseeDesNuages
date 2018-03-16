@@ -17,11 +17,13 @@ foreach ( glob( THEME_PATH . "/inc/*.php" ) as $file ) {
 
 function ajout_scripts() {
 
-	// Script
+	// Script (first for dev env)
+	//wp_register_script('main_script', 'http://sitedetest.com/wp-content/themes/museedesnuages/assets/js/app.min.js', '', false, true);
 	wp_register_script('main_script', get_template_directory_uri() . '/assets/js/app.min.js', '', false, true);
 	wp_enqueue_script('main_script');
 
-	// Style
+	// Style (first for dev env)
+	//wp_register_style( 'main_style', 'http://sitedetest.com/wp-content/themes/museedesnuages/assets/css/app.min.css' );
 	wp_register_style( 'main_style', get_template_directory_uri() . '/assets/css/app.min.css' );
 	wp_enqueue_style( 'main_style' );
 

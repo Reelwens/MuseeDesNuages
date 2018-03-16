@@ -1,0 +1,10 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+// Prohibit the drag of images
+img, svg {
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+}

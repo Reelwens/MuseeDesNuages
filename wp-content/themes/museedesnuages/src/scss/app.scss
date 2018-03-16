@@ -1,5 +1,19 @@
 @charset "UTF-8";
 
-body {
-  background-color: white;
-}
+
+
+/*
+ * Bases
+ */
+
+@import 'base/reset';
+@import 'base/variables';
+@import 'base/base';
+
+
+
+/*
+ * Layouts
+ */
+
+@import 'layouts/temporary';
