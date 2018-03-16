@@ -8,7 +8,7 @@
             </div>
 
             <div class="parallax">
-                <div class="mountain layer" data-type="parallax" data-depth="0.15"></div>
+                <div class="mountain layer" data-type="parallax" data-depth="0.1"></div>
                 <div class="cloud layer" data-type="parallax" data-depth="0.00"></div>
             </div>
         </div>
