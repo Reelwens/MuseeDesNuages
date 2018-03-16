@@ -18,17 +18,17 @@ foreach ( glob( THEME_PATH . "/inc/*.php" ) as $file ) {
 function ajout_scripts() {
 
 	// Script (first for dev env)
-	//wp_register_script('main_script', 'http://sitedetest.com/wp-content/themes/museedesnuages/assets/js/app.min.js', '', false, true);
-	wp_register_script('main_script', get_template_directory_uri() . '/assets/js/app.min.js', '', false, true);
+	wp_register_script('main_script', 'http://sitedetest.com/wp-content/themes/museedesnuages/assets/js/app.min.js', '', false, true);
+	//wp_register_script('main_script', get_template_directory_uri() . '/assets/js/app.min.js', '', false, true);
 	wp_enqueue_script('main_script');
 
 	// Style (first for dev env)
-	//wp_register_style( 'main_style', 'http://sitedetest.com/wp-content/themes/museedesnuages/assets/css/app.min.css' );
-	wp_register_style( 'main_style', get_template_directory_uri() . '/assets/css/app.min.css' );
+	wp_register_style( 'main_style', 'http://sitedetest.com/wp-content/themes/museedesnuages/assets/css/app.min.css' );
+	//wp_register_style( 'main_style', get_template_directory_uri() . '/assets/css/app.min.css' );
 	wp_enqueue_style( 'main_style' );
 
 	// Typos
-	wp_register_style( 'style-font', 'https://fonts.googleapis.com/css?family=Roboto:400,400i,700' );
+	wp_register_style( 'style-font', 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,600,700' );
 	wp_enqueue_style('style-font');
 }
 

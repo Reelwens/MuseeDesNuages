@@ -13,8 +13,8 @@
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+	<div class="toggleHeader"></div>
     <header id="header">
-        <h1 class="title">Le musée des nuages</h1>
 
 		<?php // SYNTAXE : wp_nav_menu( array $args = array() )
 		$args=array(
