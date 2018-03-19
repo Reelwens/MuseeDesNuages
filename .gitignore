@@ -16,3 +16,4 @@ wp-settings.php
 wp-trackback.php
 xmlrpc.php
 *.log
+node_modules/

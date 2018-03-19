@@ -1,6 +1,10 @@
-document.querySelector('.toggleHeader').onclick = function() {
-    document.querySelector("#header").classList.toggle("active");
+function toggleClass(clickEl, animateEl) {
+    document.querySelector('.' + clickEl).onclick = function() {
+        document.querySelector("#" + animateEl).classList.toggle("active");
+    };
 };
+
+toggleClass('toggleHeader', 'header');
 
 window.addEventListener('scroll', function(event) {
   const topDistance = this.pageYOffset;
@@ -8,7 +12,7 @@ window.addEventListener('scroll', function(event) {
 
   for (let layer of Array.from(layers)) {
     const depth = layer.getAttribute('data-depth');
-    const movement = -(topDistance * depth);
+    const movement = (topDistance * depth);
     const translate3d = `translate3d(0, ${movement}px, 0)`;
     layer.style['-webkit-transform'] = translate3d;
     layer.style['-moz-transform'] = translate3d;

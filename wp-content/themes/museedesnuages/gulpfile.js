@@ -64,14 +64,14 @@ gulp.task( 'js', function()
 // Img task
 gulp.task( 'img', function()
 {
-    return gulp.src('src/img/*.{jpg,png,gif}')
+    return gulp.src('./src/img/*.{jpg,png,gif}')
         .pipe( imagemin() )
-        .pipe( srcset([{
-            width:  [1, 1920, 1280, 720, 560, 320],
-        }]) )
+        // .pipe( srcset([{
+        //     match:  '(min-width: 100px)',
+        //     width:  [1, 1920, 1280, 720, 560, 320],
+        // }]) )
         .pipe( gulp.dest( './assets/img' ) );
 } );
-
 
 
 
