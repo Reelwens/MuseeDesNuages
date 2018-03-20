@@ -38,5 +38,14 @@ function add_new() {
 	);
 
 	register_post_type($post_type, $args );
+
+	$taxonomy="theme";
+	$object_type = array("news");
+	$args = array(
+		'label' => __( 'Thème' ),
+		'rewrite' => array( 'slug' => 'news' ),
+		'hierarchical' => true,
+	);
+	register_taxonomy( $taxonomy, $object_type, $args );
 }
 add_action( 'init', 'add_new' );
