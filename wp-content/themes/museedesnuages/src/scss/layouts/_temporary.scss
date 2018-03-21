@@ -1,38 +1,3 @@
-#header {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    transform: translate(0, -100%);
-    background-color: #e1e8f6;
-    transition: all .3s cubic-bezier(0.215, 0.61, 0.355, 1);
-    z-index: 12;
-
-    &.active {
-        transform: translate(0, 0);
-    }
-}
-
-.toggleHeader {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 25px;
-    height: 25px;
-    background-color: blue;
-    cursor: pointer;
-    z-index: 15;
-}
-
-ul {
-    margin-top: 60px;
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 10px 0;
-}
-
 #front-page {
     height: 200vh;
 
@@ -50,30 +15,47 @@ ul {
             text-align: center;
             color: white;
 
+            @media (max-width: 800px) {
+                width: 90%;
+                padding: 0;
+            }
+
             .title {
                 display: flex;
                 flex-direction: column;
 
                 .second {
-                    font-size: 68px;
+                    font-size: 55px;
                     letter-spacing: -.1px;
                     text-transform: uppercase;
+
+                    @media (max-width: 800px) {
+                        font-size: 30px;
+                    }
                 }
 
                 .main {
-                    font-size: 130px;
+                    font-size: 105px;
                     letter-spacing: -.1px;
                     text-transform: uppercase;
                     font-weight: 700;
+
+                    @media (max-width: 800px) {
+                        font-size: 38px;
+                    }
                 }
             }
 
             p {
                 margin-top: 30px;
-                font-size: 18px;
+                font-size: 14px;
                 opacity: .75;
                 letter-spacing: 2px;
                 line-height: 1.5;
+
+                @media (max-width: 800px) {
+                    font-size: 10px;
+                }
             }
         }
 
@@ -83,6 +65,7 @@ ul {
             width: 100%;
             height: 100%;
             overflow: hidden;
+            pointer-events: none;
 
             .layer {
                 background-position: bottom center;

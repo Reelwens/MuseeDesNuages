@@ -74,6 +74,14 @@ gulp.task( 'img', function()
 } );
 
 
+// Svg task
+gulp.task( 'svg', function()
+{
+    return gulp.src('./src/img/*.svg')
+        .pipe( gulp.dest( './assets/img' ) );
+} );
+
+
 
 
 // Watch task
@@ -81,8 +89,8 @@ gulp.task( 'watch', function()
 {
     gulp.watch( './src/scss/**/**', [ 'sass' ] );
     gulp.watch( './src/js/**/**', [ 'js' ] );
-    gulp.watch( './src/img/**/**', [ 'img' ] );
+    gulp.watch( './src/img/**/**', [ 'img', 'svg' ] );
 } );
 
-gulp.task( 'default', [ 'sass', 'js', 'img', 'watch' ] );
-gulp.task( 'noimg', [ 'sass', 'js', 'watch' ] );
+gulp.task( 'default', [ 'sass', 'js', 'img', 'svg', 'watch' ] );
+gulp.task( 'noimg', [ 'sass', 'js', 'svg', 'watch' ] );

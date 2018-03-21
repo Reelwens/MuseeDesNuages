@@ -1,22 +1,22 @@
 <?php
 
-function add_collection() {
+function add_services() {
 
-	$post_type = "collections";
+	$post_type = "services";
 	$labels = array(
-		'name'               => 'Collections',
-		'singular_name'      => 'Collection',
-		'all_items'          => 'Toutes les collections',
-		'add_new'            => 'Ajouter une collection',
-		'add_new_item'       => 'Ajouter une collection',
-		'edit_item'          => "Modifier la collection",
-		'new_item'           => 'Nouvelle collection',
-		'view_item'          => "Voir la collection",
-		'search_items'       => 'Chercher une collection',
+		'name'               => 'Prestations',
+		'singular_name'      => 'Prestation',
+		'all_items'          => 'Toutes les prestations',
+		'add_new'            => 'Ajouter une prestation',
+		'add_new_item'       => 'Ajouter une prestation',
+		'edit_item'          => "Modifier la prestation",
+		'new_item'           => 'Nouvelle prestation',
+		'view_item'          => "Voir la prestation",
+		'search_items'       => 'Chercher une prestation',
 		'not_found'          => 'Aucun résultat',
 		'not_found_in_trash' => 'Aucun résultat',
-		'parent_item_colon'  => 'Collections parents :',
-		'menu_name'          => 'Collections',
+		'parent_item_colon'  => 'Prestations parents :',
+		'menu_name'          => 'Prestations',
 	);
 
 	$args = array(
@@ -39,4 +39,4 @@ function add_collection() {
 
 	register_post_type($post_type, $args );
 }
-add_action( 'init', 'add_collection' );
+add_action( 'init', 'add_services' );

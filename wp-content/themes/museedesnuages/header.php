@@ -13,15 +13,61 @@
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-	<div class="toggleHeader"></div>
-    <header id="header">
+	<div class="toggleMenu">
+		<?php include 'assets/img/menuToggle.svg' ?>
+	</div>
 
-		<?php // SYNTAXE : wp_nav_menu( array $args = array() )
-		$args=array(
-		    'theme_location' => 'header', // nom du slug
-		    'menu' => 'header_fr', // nom à donner cette occurence du menu
-		    'menu_class' => 'menuHeader', // class à attribuer au menu
-		);
-		wp_nav_menu($args);
-		?>
+    <header class="menu">
+		<nav>
+			<div class="mobileTop"></div>
+            <a href="<?= home_url() ?>" class="home menu_0">
+				<img src="<?= THEME_URL ?>/assets/img/bg-home.png" alt="Background" class="background">
+				<div class="mask"></div>
+				<div class="text">
+					<p class="number">01</p>
+					<p class="name">Accueil</p>
+					<p class="description">Découvrez nos valeurs à travers différentes interactions mettant en avant nos créations.</p>
+				</div>
+            </a>
+
+            <a href="<?= home_url() ?>/visit" class="visit menu_1">
+				<img src="<?= THEME_URL ?>/assets/img/bg-home.png" alt="Background" class="background">
+				<div class="mask"></div>
+				<div class="text">
+					<p class="number">02</p>
+					<p class="name">Visite</p>
+					<p class="description">Plongez dans l’expérience de notre musée virtuel. Découvrez nos différentes collections.</p>
+				</div>
+            </a>
+
+            <a href="<?= home_url() ?>/news" class="news menu_2">
+				<img src="<?= THEME_URL ?>/assets/img/bg-home.png" alt="Background" class="background">
+				<div class="mask"></div>
+				<div class="text">
+					<p class="number">03</p>
+					<p class="name">Actualités</p>
+					<p class="description">Articles sur l’eau, l’air et la lumière ainsi que notre flux Twitter des remarques de nos artistes.</p>
+				</div>
+            </a>
+
+            <a href="<?= home_url() ?>/services" class="services menu_3">
+				<img src="<?= THEME_URL ?>/assets/img/bg-home.png" alt="Background" class="background">
+				<div class="mask"></div>
+				<div class="text">
+					<p class="number">04</p>
+					<p class="name">Prestations</p>
+					<p class="description">Découvrez ici toutes nos prestations mise en place pour les entreprises et les collectivités territoriales.</p>
+				</div>
+            </a>
+
+            <a href="<?= home_url() ?>/contact" class="contact menu_4">
+				<img src="<?= THEME_URL ?>/assets/img/bg-home.png" alt="Background" class="background">
+				<div class="mask"></div>
+				<div class="text">
+					<p class="number">05</p>
+					<p class="name">Contact</p>
+					<p class="description">Toutes nos informations pratiques ainsi qu’un formulaire de contact pour nous joindre.</p>
+				</div>
+            </a>
+        </nav>
     </header>
