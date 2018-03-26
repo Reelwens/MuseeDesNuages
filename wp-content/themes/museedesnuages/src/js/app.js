@@ -1,3 +1,4 @@
+// Menu
 document.querySelector(".toggleMenu").onclick = function() {
     document.querySelector(".menu").classList.toggle("click");
     document.querySelector(".toggleMenu").classList.toggle("click");
@@ -26,3 +27,8 @@ items.forEach(item => {
         items[0].classList.add("active");
     }
 })
+
+// Sound
+document.querySelector(".toggleSound").onclick = function() {
+    document.querySelector(".toggleSound").classList.toggle("pause");
+}
