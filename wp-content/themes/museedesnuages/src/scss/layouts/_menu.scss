@@ -100,7 +100,7 @@
                     }
                 }
 
-                &:hover {
+                &:hover, &.active {
                     .mask {
                         transform: translateY(-100%);
                     }
@@ -184,7 +184,7 @@
                 height: calc((100% - 80px) / 5); // 5 is the number of items
                 width: 100%;
 
-                &:hover .mask {
+                &:hover .mask, &.active .mask {
                     transform: translateX(-100%);
                 }
 

@@ -20,7 +20,7 @@
     <header class="menu">
 		<nav>
 			<div class="mobileTop"></div>
-            <a href="<?= home_url() ?>" class="home menu_0">
+            <a href="<?= home_url() ?>" class="home menuItem menu_0">
 				<img src="<?= THEME_URL ?>/assets/img/bg-home.png" alt="Background" class="background">
 				<div class="mask"></div>
 				<div class="text">
@@ -30,7 +30,7 @@
 				</div>
             </a>
 
-            <a href="<?= home_url() ?>/visit" class="visit menu_1">
+            <a href="<?= home_url() ?>/visit" class="visit menuItem menu_1">
 				<img src="<?= THEME_URL ?>/assets/img/bg-home.png" alt="Background" class="background">
 				<div class="mask"></div>
 				<div class="text">
@@ -40,7 +40,7 @@
 				</div>
             </a>
 
-            <a href="<?= home_url() ?>/news" class="news menu_2">
+            <a href="<?= home_url() ?>/news" class="news menuItem menu_2">
 				<img src="<?= THEME_URL ?>/assets/img/bg-home.png" alt="Background" class="background">
 				<div class="mask"></div>
 				<div class="text">
@@ -50,7 +50,7 @@
 				</div>
             </a>
 
-            <a href="<?= home_url() ?>/services" class="services menu_3">
+            <a href="<?= home_url() ?>/services" class="services menuItem menu_3">
 				<img src="<?= THEME_URL ?>/assets/img/bg-home.png" alt="Background" class="background">
 				<div class="mask"></div>
 				<div class="text">
@@ -60,7 +60,7 @@
 				</div>
             </a>
 
-            <a href="<?= home_url() ?>/contact" class="contact menu_4">
+            <a href="<?= home_url() ?>/contact" class="contact menuItem menu_4">
 				<img src="<?= THEME_URL ?>/assets/img/bg-home.png" alt="Background" class="background">
 				<div class="mask"></div>
 				<div class="text">
