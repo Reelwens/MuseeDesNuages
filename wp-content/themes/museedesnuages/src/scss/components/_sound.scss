@@ -16,6 +16,12 @@
         animation: none;
     }
 
+    &.click {
+        .bar {
+            background-color: #000;
+        }
+    }
+
     .bar {
         width: 3px;
         height: 100%;
