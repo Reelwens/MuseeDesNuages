@@ -23,6 +23,7 @@ else if (location.pathname.substr(1, 7) == "contact") {
 document.querySelector(".toggleMenu").onclick = function() {
     document.querySelector(".menu").classList.toggle("click");
     document.querySelector(".toggleMenu").classList.toggle("click");
+    document.querySelector(".toggleMenu").classList.toggle("bgVisible");
     document.querySelector(".toggleSound").classList.toggle("click");
     document.querySelector("body").classList.toggle("noOverflow");
 

@@ -1,5 +1,5 @@
 .toggleMenu {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     padding: 30px;
@@ -7,18 +7,20 @@
     cursor: pointer;
     z-index: 15;
 
-    svg .st0 {
+    svg .menuLines {
         fill: #FFF;
         transition: all .3s cubic-bezier(0.215, 0.61, 0.355, 1);
     }
 
     &:hover, &.click {
+        svg .menuLines {
+            fill: #000;
+        }
+    }
+
+    &:hover, &.bgVisible {
         ~ .menu {
             transform: translateY(0%);
-        }
-
-        svg .st0 {
-            fill: #000;
         }
     }
 
@@ -42,7 +44,7 @@
 }
 
 .menu {
-    position: absolute;
+    position: fixed;
     width: 104px;
     height: 106px;
     background-color: white;
