@@ -12,6 +12,13 @@
                 <div class="cloud layer" data-type="parallax" data-depth="0.01"></div>
             </div>
         </div>
+
+        <div class="path">
+            <img src="<?= THEME_URL ?>/assets/img/path.svg" alt="Tracé" class="pathImg">
+            <div class="gradient" id="gradient"></div>
+
+            <div id="triggerGradient"></div>
+        </div>
     </div>
 
 <?php get_footer(); ?>
