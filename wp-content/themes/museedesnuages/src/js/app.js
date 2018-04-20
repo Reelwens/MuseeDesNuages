@@ -51,12 +51,11 @@ items.forEach(item => { // Remove active menu layout on hover
 
 
 
-
 /*
  * Sound play/stop
  */
 
-document.querySelector(".toggleSound").onclick = function() {
+document.querySelector(".toggleSound").onclick = e => {
     document.querySelector(".toggleSound").classList.toggle("pause");
 }
 
@@ -83,6 +82,32 @@ window.addEventListener('scroll', function(event) {
   }
 });
 
+
+//-webkit-mask-image: linear-gradient(to bottom, black 95%, transparent 99%, transparent 100%);
+
+const path = document.querySelector('.pathImg');
+const doc = document.documentElement;
+
+let offset;
+
+let onScroll = () => {
+    let percent = (doc.scrollTop + doc.clientHeight - offset) * 100 / (doc.scrollHeight - offset);
+
+    path.style['-webkit-mask-image'] = `linear-gradient(to bottom, black ${percent - 3 + (percent*2/100)}%, transparent ${percent - 2 + (percent*2/100)}%, transparent 100%)`;
+}
+
+let setOffset = () => {
+    let docRect = doc.getBoundingClientRect();
+    let pathRect = path.getBoundingClientRect();
+
+    offset = pathRect.top - docRect.top;
+    onScroll();
+}
+
+setOffset();
+
+window.onresize = setOffset;
+document.body.onscroll = onScroll;
 
 
 

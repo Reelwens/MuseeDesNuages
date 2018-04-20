@@ -20,7 +20,6 @@
 
         <div class="path">
             <img src="<?= THEME_URL ?>/assets/img/skeleton.svg" alt="Tracé" class="pathImg">
-            <div class="gradient" id="gradient"></div>
 
             <div id="triggerGradient"></div>
         </div>
