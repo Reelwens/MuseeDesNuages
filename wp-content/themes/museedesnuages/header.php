@@ -23,7 +23,6 @@
 		<div class="bar bar_3"></div>
 		<div class="bar bar_4"></div>
 		<div class="bar bar_5"></div>
-		<div class="bar bar_6"></div>
 	</div>
 
     <header class="menu">

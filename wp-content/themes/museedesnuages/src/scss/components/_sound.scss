@@ -3,10 +3,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    top: 107px;
+    top: 96px;
     right: 0;
     padding: 15px 30px;
-    width: 104px;
+    width: 93px;
     height: 70px;
     cursor: pointer;
     z-index: 15;
@@ -32,17 +32,17 @@
         animation-direction: alternate-reverse;
     }
 
-    .bar_0, .bar_6 {
+    .bar_0, .bar_5 {
         animation-name: music_0;
         animation-duration: 1s;
     }
 
-    .bar_1, .bar_5 {
+    .bar_1, .bar_4 {
         animation-name: music_1;
         animation-duration: .8s;
     }
 
-    .bar_2, .bar_4 {
+    .bar_2 {
         animation-name: music_2;
         animation-duration: .6s;
     }
