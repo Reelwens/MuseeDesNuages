@@ -28,7 +28,7 @@ function ajout_scripts() {
 	wp_enqueue_style( 'main_style' );
 
 	// Typos
-	wp_register_style( 'style-font', 'https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,600,700' );
+	wp_register_style( 'style-font', 'https://fonts.googleapis.com/css?family=Nunito:400,700|Source+Sans+Pro:200,300,400,600' );
 	wp_enqueue_style('style-font');
 }
 

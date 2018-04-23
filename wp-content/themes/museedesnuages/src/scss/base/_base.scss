@@ -1,5 +1,10 @@
+@font-face {
+  font-family: 'Bauhaus';
+  src: url('../font/Bauhaus.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
 
     &.noOverflow {
         overflow: hidden;

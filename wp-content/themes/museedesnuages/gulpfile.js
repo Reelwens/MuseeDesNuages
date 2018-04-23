@@ -60,6 +60,15 @@ gulp.task( 'js', function()
 
 
 
+// FOnt task
+gulp.task( 'font', function()
+{
+    return gulp.src( ['./src/font/**'] )
+        .pipe( gulp.dest( './assets/font/' ) );
+} );
+
+
+
 
 // Img task
 gulp.task( 'img', function()
@@ -90,7 +99,8 @@ gulp.task( 'watch', function()
     gulp.watch( './src/scss/**/**', [ 'sass' ] );
     gulp.watch( './src/js/**/**', [ 'js' ] );
     gulp.watch( './src/img/**/**', [ 'img', 'svg' ] );
+    gulp.watch( './src/font/**', [ 'font' ] );
 } );
 
-gulp.task( 'default', [ 'sass', 'js', 'img', 'svg', 'watch' ] );
-gulp.task( 'noimg', [ 'sass', 'js', 'svg', 'watch' ] );
+gulp.task( 'default', [ 'sass', 'js', 'font', 'img', 'svg', 'watch' ] );
+gulp.task( 'noimg', [ 'sass', 'js', 'font', 'svg', 'watch' ] );

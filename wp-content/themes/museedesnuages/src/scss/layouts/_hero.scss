@@ -24,7 +24,7 @@
             .second {
                 font-size: 55px;
                 letter-spacing: -.1px;
-                text-transform: uppercase;
+                font-family: $second-font;
 
                 @media (max-width: 800px) {
                     font-size: 30px;
@@ -34,8 +34,6 @@
             .main {
                 font-size: 105px;
                 letter-spacing: -.1px;
-                text-transform: uppercase;
-                font-weight: 700;
                 font-family: $second-font;
 
                 @media (max-width: 800px) {
