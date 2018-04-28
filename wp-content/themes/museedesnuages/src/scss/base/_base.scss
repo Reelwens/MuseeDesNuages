@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: $first-font, sans-serif;
 
     &.noOverflow {
         overflow: hidden;

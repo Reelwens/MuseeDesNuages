@@ -4,9 +4,9 @@
     height: 100vh;
     background: linear-gradient(to bottom, rgba(1,23,71,1) 0%, rgba(37,122,197,1) 100%);
 
-    .texts {
+    .catchingText {
         width: 70%;
-        max-width: 750px;
+        max-width: 550px;
         padding-bottom: 25vh;
         margin: auto;
         text-align: center;
@@ -17,14 +17,15 @@
             padding: 0;
         }
 
-        .title {
+        .websiteTitle {
             display: flex;
             flex-direction: column;
 
             .second {
-                font-size: 55px;
-                letter-spacing: -.1px;
-                font-family: $second-font;
+                font-size: 73px;
+                letter-spacing: 1.5px;
+                font-family: $third-font;
+                text-shadow: 0 25px 34px rgba(9, 9, 9, 0.3);
 
                 @media (max-width: 800px) {
                     font-size: 30px;
@@ -32,9 +33,11 @@
             }
 
             .main {
-                font-size: 105px;
-                letter-spacing: -.1px;
-                font-family: $second-font;
+                margin-top: -10px;
+                font-size: 96px;
+                letter-spacing: 1.5px;
+                font-family: $third-font;
+                text-shadow: 0 25px 34px rgba(9, 9, 9, 0.3);
 
                 @media (max-width: 800px) {
                     font-size: 38px;
@@ -42,12 +45,12 @@
             }
         }
 
-        p {
-            margin-top: 30px;
-            font-size: 14px;
-            opacity: .75;
+        .resume {
+            margin-top: 60px;
+            font-size: 18px;
+            font-family: $second-font;
             letter-spacing: 2px;
-            line-height: 1.5;
+            line-height: 1.67;
 
             @media (max-width: 800px) {
                 font-size: 10px;
@@ -77,8 +80,20 @@
             background-image: url('../img/mountain.png');
         }
 
-        .cloud {
-            background-image: url('../img/cloud.png');
+        .cloud_1 {
+            background-image: url('../img/cloud_parallax_1.png');
+        }
+
+        .cloud_2 {
+            background-image: url('../img/cloud_parallax_2.png');
+        }
+
+        .cloud_3 {
+            background-image: url('../img/cloud_parallax_3.png');
+        }
+
+        .cloud_4 {
+            background-image: url('../img/cloud_parallax_4.png');
         }
     }
 }
