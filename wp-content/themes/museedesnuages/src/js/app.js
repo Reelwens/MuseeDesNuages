@@ -83,7 +83,10 @@ window.addEventListener('scroll', function(event) {
 });
 
 
-//-webkit-mask-image: linear-gradient(to bottom, black 95%, transparent 99%, transparent 100%);
+
+/*
+ * Dynamic fade out pathImg
+ */
 
 const path = document.querySelector('.pathImg');
 const doc = document.documentElement;

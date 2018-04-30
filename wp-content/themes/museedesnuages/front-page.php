@@ -8,6 +8,11 @@
                 <p class="resume">Un musée de notre siècle<br />où l'art inspire notre sensibilité environnementale</p>
             </div>
 
+            <div class="scrollInvitation" data-type="parallax" data-depth="0.6">
+                <p>défiler vers le bas<span class="hiddenMobile"> pour plonger dans les nuages</span></p>
+                <div class="lineScroll"><img src="<?= THEME_URL ?>/assets/img/line_scroll.svg" alt="Line scroll"></div>
+            </div>
+
             <div class="parallax">
                 <div class="cloud_4 layer" data-type="parallax" data-depth="0.5"></div>
                 <div class="cloud_3 layer" data-type="parallax" data-depth="0.4"></div>

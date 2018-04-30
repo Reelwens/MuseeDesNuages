@@ -69,6 +69,39 @@
         }
     }
 
+    .scrollInvitation {
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+
+        @media (max-height: 720px) {
+            bottom: -50px;
+        }
+
+        @media (max-height: 600px) {
+            bottom: -25vh;
+
+            .hiddenMobile {
+                display: none;
+            }
+        }
+
+        p {
+            text-align: center;
+            color: white;
+            font-size: 12px;
+            letter-spacing: 2.4px;
+            opacity: 0.8;
+            line-height: 1.5;
+            margin-bottom: 24px;
+        }
+
+        .lineScroll {
+            width: 1px;
+            margin: 0 auto;
+        }
+    }
+
     .parallax {
         position: absolute;
         bottom: 0;
