@@ -20,19 +20,19 @@ else if (location.pathname.substr(1, 7) == "contact") {
 }
 
 // Toggle classes necessary for animations
-document.querySelector(".toggleMenu").onclick = function() {
+document.querySelector(".toggleMenu").onclick = e => {
     document.querySelector(".menu").classList.toggle("click");
     document.querySelector(".toggleMenu").classList.toggle("click");
     document.querySelector(".toggleMenu").classList.toggle("bgVisible");
     document.querySelector(".toggleSound").classList.toggle("click");
     document.querySelector("body").classList.toggle("noOverflow");
 
-    setTimeout(function() {
+    setTimeout( e => {
         document.querySelector(".menu").classList.toggle("open");
         document.querySelector(".toggleMenu").classList.toggle("open");
     }, 300);
 
-    setTimeout(function() { // After all is loaded + 50ms
+    setTimeout( e => { // After all is loaded + 50ms
         document.querySelector(".menu_" + activePage).classList.toggle("active");
     }, 650);
 };
@@ -67,19 +67,19 @@ document.querySelector(".toggleSound").onclick = e => {
  */
 
 window.addEventListener('scroll', function(event) {
-  const topDistance = this.pageYOffset;
-  const layers = document.querySelectorAll("[data-type='parallax']");
+    const topDistance = this.pageYOffset;
+    const layers = document.querySelectorAll("[data-type='parallax']");
 
-  for (let layer of Array.from(layers)) {
-    const depth = layer.getAttribute('data-depth');
-    const movement = (topDistance * depth);
-    const translate3d = `translate3d(0, ${movement}px, 0)`;
-    layer.style['-webkit-transform'] = translate3d;
-    layer.style['-moz-transform'] = translate3d;
-    layer.style['-ms-transform'] = translate3d;
-    layer.style['-o-transform'] = translate3d;
-    layer.style.transform = translate3d;
-  }
+    for (let layer of Array.from(layers)) {
+        const depth = layer.getAttribute('data-depth');
+        const movement = (topDistance * depth);
+        const translate3d = `translate3d(0, ${movement}px, 0)`;
+        layer.style['-webkit-transform'] = translate3d;
+        layer.style['-moz-transform'] = translate3d;
+        layer.style['-ms-transform'] = translate3d;
+        layer.style['-o-transform'] = translate3d;
+        layer.style.transform = translate3d;
+    }
 });
 
 
