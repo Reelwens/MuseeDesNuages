@@ -78,8 +78,8 @@
             bottom: -50px;
         }
 
-        @media (max-height: 600px) {
-            bottom: -25vh;
+        @media (max-width: $phone) {
+            bottom: -140px;
 
             .hiddenMobile {
                 display: none;
