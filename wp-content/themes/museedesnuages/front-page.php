@@ -21,7 +21,9 @@
             </div>
         </div>
 
-        <div class="clouds"></div>
+        <div class="clouds">
+            <img class="underParallax" src="<?= THEME_URL ?>/assets/img/under_parallax.png" alt="cloud">
+        </div>
 
         <div class="path">
             <img src="<?= THEME_URL ?>/assets/img/skeleton.svg" alt="Tracé" class="pathImg">
