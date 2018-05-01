@@ -96,7 +96,7 @@ let offset;
 let onScroll = () => {
     let percent = (doc.scrollTop + doc.clientHeight - offset) * 100 / (doc.scrollHeight - offset);
 
-    path.style['-webkit-mask-image'] = `linear-gradient(to bottom, black ${percent - 3 + (percent*2/100)}%, transparent ${percent - 2 + (percent*2/100)}%, transparent 100%)`;
+    path.style['-webkit-mask-image'] = `linear-gradient(to bottom, black ${percent - 3}%, transparent ${percent - 2}%, transparent 100%)`;
 }
 
 let setOffset = () => {

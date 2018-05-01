@@ -17,12 +17,68 @@
                 <div class="cloud_4 layer" data-type="parallax" data-depth="0.5"></div>
                 <div class="cloud_3 layer" data-type="parallax" data-depth="0.4"></div>
                 <div class="cloud_2 layer" data-type="parallax" data-depth="0.3"></div>
-                <div class="cloud_1 layer" data-type="parallax" data-depth="0.01"></div>
+                <div class="cloud_1 layer" data-type="parallax" data-depth="0.005"></div>
             </div>
         </div>
 
         <div class="clouds">
             <img class="underParallax" src="<?= THEME_URL ?>/assets/img/under_parallax.png" alt="cloud">
+
+            <div class="pattern one">
+                <img class="cloudElement one" src="<?= THEME_URL ?>/assets/img/cloudElement_1.png" alt="cloud" data-type="parallax" data-depth="-0.1">
+                <img class="cloudElement two" src="<?= THEME_URL ?>/assets/img/cloudElement_2.png" alt="cloud" data-type="parallax" data-depth="-0.3">
+                <img class="cloudElement three" src="<?= THEME_URL ?>/assets/img/cloudElement_3.png" alt="cloud" data-type="parallax" data-depth="-0.4">
+                <img class="cloudElement four" src="<?= THEME_URL ?>/assets/img/cloudElement_4.png" alt="cloud" data-type="parallax" data-depth="-0.2">
+            </div>
+
+            <div class="pattern two">
+                <img class="cloudElement one" src="<?= THEME_URL ?>/assets/img/cloudElement_1.png" alt="cloud" data-type="parallax" data-depth="-0.1">
+                <img class="cloudElement two" src="<?= THEME_URL ?>/assets/img/cloudElement_2.png" alt="cloud" data-type="parallax" data-depth="-0.3">
+                <img class="cloudElement three" src="<?= THEME_URL ?>/assets/img/cloudElement_3.png" alt="cloud" data-type="parallax" data-depth="-0.4">
+                <img class="cloudElement four" src="<?= THEME_URL ?>/assets/img/cloudElement_4.png" alt="cloud" data-type="parallax" data-depth="-0.2">
+            </div>
+
+            <div class="pattern three">
+                <img class="cloudElement one" src="<?= THEME_URL ?>/assets/img/cloudElement_1.png" alt="cloud" data-type="parallax" data-depth="-0.1">
+                <img class="cloudElement two" src="<?= THEME_URL ?>/assets/img/cloudElement_2.png" alt="cloud" data-type="parallax" data-depth="-0.3">
+                <img class="cloudElement three" src="<?= THEME_URL ?>/assets/img/cloudElement_3.png" alt="cloud" data-type="parallax" data-depth="-0.4">
+                <img class="cloudElement four" src="<?= THEME_URL ?>/assets/img/cloudElement_4.png" alt="cloud" data-type="parallax" data-depth="-0.2">
+            </div>
+
+            <div class="pattern four">
+                <img class="cloudElement one" src="<?= THEME_URL ?>/assets/img/cloudElement_1.png" alt="cloud" data-type="parallax" data-depth="-0.1">
+                <img class="cloudElement two" src="<?= THEME_URL ?>/assets/img/cloudElement_2.png" alt="cloud" data-type="parallax" data-depth="-0.3">
+                <img class="cloudElement three" src="<?= THEME_URL ?>/assets/img/cloudElement_3.png" alt="cloud" data-type="parallax" data-depth="-0.4">
+                <img class="cloudElement four" src="<?= THEME_URL ?>/assets/img/cloudElement_4.png" alt="cloud" data-type="parallax" data-depth="-0.2">
+            </div>
+
+            <div class="pattern five">
+                <img class="cloudElement one" src="<?= THEME_URL ?>/assets/img/cloudElement_1.png" alt="cloud" data-type="parallax" data-depth="-0.1">
+                <img class="cloudElement two" src="<?= THEME_URL ?>/assets/img/cloudElement_2.png" alt="cloud" data-type="parallax" data-depth="-0.3">
+                <img class="cloudElement three" src="<?= THEME_URL ?>/assets/img/cloudElement_3.png" alt="cloud" data-type="parallax" data-depth="-0.4">
+                <img class="cloudElement four" src="<?= THEME_URL ?>/assets/img/cloudElement_4.png" alt="cloud" data-type="parallax" data-depth="-0.2">
+            </div>
+
+            <div class="pattern six">
+                <img class="cloudElement one" src="<?= THEME_URL ?>/assets/img/cloudElement_1.png" alt="cloud" data-type="parallax" data-depth="-0.1">
+                <img class="cloudElement two" src="<?= THEME_URL ?>/assets/img/cloudElement_2.png" alt="cloud" data-type="parallax" data-depth="-0.3">
+                <img class="cloudElement three" src="<?= THEME_URL ?>/assets/img/cloudElement_3.png" alt="cloud" data-type="parallax" data-depth="-0.4">
+                <img class="cloudElement four" src="<?= THEME_URL ?>/assets/img/cloudElement_4.png" alt="cloud" data-type="parallax" data-depth="-0.2">
+            </div>
+
+            <div class="pattern seven">
+                <img class="cloudElement one" src="<?= THEME_URL ?>/assets/img/cloudElement_1.png" alt="cloud" data-type="parallax" data-depth="-0.1">
+                <img class="cloudElement two" src="<?= THEME_URL ?>/assets/img/cloudElement_2.png" alt="cloud" data-type="parallax" data-depth="-0.3">
+                <img class="cloudElement three" src="<?= THEME_URL ?>/assets/img/cloudElement_3.png" alt="cloud" data-type="parallax" data-depth="-0.4">
+                <img class="cloudElement four" src="<?= THEME_URL ?>/assets/img/cloudElement_4.png" alt="cloud" data-type="parallax" data-depth="-0.2">
+            </div>
+
+            <div class="pattern eight">
+                <img class="cloudElement one" src="<?= THEME_URL ?>/assets/img/cloudElement_1.png" alt="cloud" data-type="parallax" data-depth="-0.1">
+                <img class="cloudElement two" src="<?= THEME_URL ?>/assets/img/cloudElement_2.png" alt="cloud" data-type="parallax" data-depth="-0.3">
+                <img class="cloudElement three" src="<?= THEME_URL ?>/assets/img/cloudElement_3.png" alt="cloud" data-type="parallax" data-depth="-0.4">
+                <img class="cloudElement four" src="<?= THEME_URL ?>/assets/img/cloudElement_4.png" alt="cloud" data-type="parallax" data-depth="-0.2">
+            </div>
         </div>
 
         <div class="path">

@@ -1,11 +1,81 @@
 .clouds {
     position: absolute;
+    overflow: hidden;
     top: 100vh;
     background: linear-gradient(to bottom, #ffffff 0%, #014c98 5%, #def0ff 100%);
     width: 100%;
     height: calc(10024px + 500px);
 
     .underParallax {
-        width: 100vw;
+        width: 100%;
+    }
+
+    .pattern {
+        position: relative;
+        width: 100%;
+
+        &.one {
+            top: -500px;
+        }
+
+        &.two {
+            top: 1000px;
+        }
+
+        &.three {
+            top: calc(1000px + (1500px));
+        }
+
+        &.four {
+            top: calc(1000px + (1500px * 2));
+        }
+
+        &.five {
+            top: calc(1000px + (1500px * 3));
+        }
+
+        &.six {
+            top: calc(1000px + (1500px * 4));
+        }
+
+        &.seven {
+            top: calc(1000px + (1500px * 5));
+        }
+
+        &.eight {
+            top: calc(1000px + (1500px * 6));
+        }
+
+        .cloudElement {
+            position: absolute;
+
+
+            &.one {
+                min-width: 50%;
+                width: 700px;
+            }
+
+            &.two {
+                min-width: 100%;
+                width: 1400px;
+                margin-top: 80px;
+
+                @media (min-width: 1930px) {
+                    top: -280px;
+                }
+            }
+
+            &.three {
+                min-width: 100%;
+                width: 1400px;
+                margin-top: 700px;
+            }
+
+            &.four {
+                min-width: 100%;
+                width: 1400px;
+                margin-top: 700px;
+            }
+        }
     }
 }
