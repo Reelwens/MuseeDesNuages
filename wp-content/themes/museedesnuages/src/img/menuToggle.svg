@@ -1,9 +1,9 @@
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 39 39" style="enable-background:new 0 0 39 39;" xml:space="preserve">
-	<path id="Rectangle-path" class="menuLines first" id="menuLines" d="M13.5,6.5h22C36.3,6.5,37,7.2,37,8l0,0c0,0.8-0.7,1.5-1.5,1.5h-22C12.7,9.5,12,8.8,12,8
-		l0,0C12,7.2,12.7,6.5,13.5,6.5z"/>
-	<path id="Rectangle-path_1_" class="menuLines third" d="M5.5,29.5h22c0.8,0,1.5,0.7,1.5,1.5l0,0c0,0.8-0.7,1.5-1.5,1.5h-22
-		C4.7,32.5,4,31.8,4,31l0,0C4,30.2,4.7,29.5,5.5,29.5z"/>
-	<path id="Rectangle-path_2_" class="menuLines second" d="M1.5,17.5h36c0.8,0,1.5,0.7,1.5,1.5l0,0c0,0.8-0.7,1.5-1.5,1.5h-36
-	C0.7,20.5,0,19.8,0,19l0,0C0,18.2,0.7,17.5,1.5,17.5z"/>
+     viewBox="0 0 39 39" style="enable-background:new 0 0 39 39;" xml:space="preserve">
+    <path id="Rectangle-path" class="menuLines first" id="menuLines" d="M13.5,6.5h22C36.3,6.5,37,7.2,37,8l0,0c0,0.8-0.7,1.5-1.5,1.5h-22C12.7,9.5,12,8.8,12,8
+        l0,0C12,7.2,12.7,6.5,13.5,6.5z"/>
+    <path id="Rectangle-path_1_" class="menuLines third" d="M5.5,29.5h22c0.8,0,1.5,0.7,1.5,1.5l0,0c0,0.8-0.7,1.5-1.5,1.5h-22
+        C4.7,32.5,4,31.8,4,31l0,0C4,30.2,4.7,29.5,5.5,29.5z"/>
+    <path id="Rectangle-path_2_" class="menuLines second" d="M1.5,17.5h36c0.8,0,1.5,0.7,1.5,1.5l0,0c0,0.8-0.7,1.5-1.5,1.5h-36
+    C0.7,20.5,0,19.8,0,19l0,0C0,18.2,0.7,17.5,1.5,17.5z"/>
 </svg>
