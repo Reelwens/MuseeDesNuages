@@ -1,4 +1,27 @@
 /*
+ * Split JS
+ */
+
+let here = window.location.pathname.split('/');
+
+function on(path, cb) {
+    let routes = path.split('/');
+
+    let block = routes.find((route, i) => route !== here[i] && route[0] !== '*' && route[0] !== ':');
+
+    if (block === undefined && routes.length === here.length) {
+        let data = {};
+        routes.forEach((route, i) => {
+            if (route[0] === ':') {
+                data[route.substring(1)] = here[i];
+            }
+        });
+        cb(data);
+    }
+}
+
+
+/*
  * Menu class animation
  */
 
@@ -66,11 +89,11 @@ document.querySelector(".toggleSound").onclick = e => {
  * Parallax
  */
 
-window.addEventListener('scroll', function(event) {
-    const topDistance = this.pageYOffset;
+window.addEventListener('scroll', event => {
     const layers = document.querySelectorAll("[data-type='parallax']");
 
-    for (let layer of Array.from(layers)) {
+    layers.forEach(layer => {
+        const topDistance = window.pageYOffset - layer.parentElement.offsetTop;
         const depth = layer.getAttribute('data-depth');
         const movement = (topDistance * depth);
         const translate3d = `translate3d(0, ${movement}px, 0)`;
@@ -79,7 +102,7 @@ window.addEventListener('scroll', function(event) {
         layer.style['-ms-transform'] = translate3d;
         layer.style['-o-transform'] = translate3d;
         layer.style.transform = translate3d;
-    }
+    });
 });
 
 
@@ -88,29 +111,31 @@ window.addEventListener('scroll', function(event) {
  * Dynamic fade out pathImg
  */
 
-const path = document.querySelector('.pathImg');
-const doc = document.documentElement;
+on('/', () => {
+    const path = document.querySelector('.pathImg');
+    const doc = document.documentElement;
 
-let offset;
+    let offset;
 
-let onScroll = () => {
-    let percent = (doc.scrollTop + doc.clientHeight - offset) * 100 / (doc.scrollHeight - offset);
+    let onScroll = () => {
+        let percent = (doc.scrollTop + doc.clientHeight - offset) * 100 / (doc.scrollHeight - offset);
 
-    path.style['-webkit-mask-image'] = `linear-gradient(to bottom, black ${percent - 3}%, transparent ${percent - 2}%, transparent 100%)`;
-}
+        path.style['-webkit-mask-image'] = `linear-gradient(to bottom, black ${percent - 3}%, transparent ${percent - 2}%, transparent 100%)`;
+    }
 
-let setOffset = () => {
-    let docRect = doc.getBoundingClientRect();
-    let pathRect = path.getBoundingClientRect();
+    let setOffset = () => {
+        let docRect = doc.getBoundingClientRect();
+        let pathRect = path.getBoundingClientRect();
 
-    offset = pathRect.top - docRect.top;
-    onScroll();
-}
+        offset = pathRect.top - docRect.top;
+        onScroll();
+    }
 
-setOffset();
+    setOffset();
 
-window.onresize = setOffset;
-document.body.onscroll = onScroll;
+    window.onresize = setOffset;
+    document.body.onscroll = onScroll;
+});
 
 
 
