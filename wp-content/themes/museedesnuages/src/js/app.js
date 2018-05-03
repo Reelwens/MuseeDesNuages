@@ -21,6 +21,8 @@ function on(path, cb) {
 }
 
 
+
+
 /*
  * Menu class animation
  */
@@ -41,6 +43,7 @@ else if (location.pathname.substr(1, 8) == "services") {
 else if (location.pathname.substr(1, 7) == "contact") {
     activePage = 4;
 }
+
 
 // Toggle classes necessary for animations
 document.querySelector(".toggleMenu").onclick = e => {
@@ -74,16 +77,6 @@ items.forEach(item => { // Remove active menu layout on hover
 
 
 
-/*
- * Sound play/stop
- */
-
-document.querySelector(".toggleSound").onclick = e => {
-    document.querySelector(".toggleSound").classList.toggle("pause");
-}
-
-
-
 
 /*
  * Parallax
@@ -107,35 +100,14 @@ window.addEventListener('scroll', event => {
 
 
 
+
 /*
- * Dynamic fade out pathImg
+ * Sound play/stop
  */
 
-on('/', () => {
-    const path = document.querySelector('.pathImg');
-    const doc = document.documentElement;
-
-    let offset;
-
-    let onScroll = () => {
-        let percent = (doc.scrollTop + doc.clientHeight - offset) * 100 / (doc.scrollHeight - offset);
-
-        path.style['-webkit-mask-image'] = `linear-gradient(to bottom, black ${percent - 3}%, transparent ${percent - 2}%, transparent 100%)`;
-    }
-
-    let setOffset = () => {
-        let docRect = doc.getBoundingClientRect();
-        let pathRect = path.getBoundingClientRect();
-
-        offset = pathRect.top - docRect.top;
-        onScroll();
-    }
-
-    setOffset();
-
-    window.onresize = setOffset;
-    document.body.onscroll = onScroll;
-});
+document.querySelector(".toggleSound").onclick = e => {
+    document.querySelector(".toggleSound").classList.toggle("pause");
+}
 
 
 

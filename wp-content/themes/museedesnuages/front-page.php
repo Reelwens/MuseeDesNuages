@@ -79,6 +79,11 @@
                 <img class="cloudElement three" src="<?= THEME_URL ?>/assets/img/cloudElement_3.png" alt="cloud" data-type="parallax" data-depth="-0.4">
                 <img class="cloudElement four" src="<?= THEME_URL ?>/assets/img/cloudElement_4.png" alt="cloud" data-type="parallax" data-depth="-0.2">
             </div>
+
+            <div class="pattern nine">
+                <img class="cloudElement one" src="<?= THEME_URL ?>/assets/img/cloudElement_1.png" alt="cloud" data-type="parallax" data-depth="-0.1">
+                <img class="cloudElement two" src="<?= THEME_URL ?>/assets/img/cloudElement_2.png" alt="cloud" data-type="parallax" data-depth="-0.3">
+            </div>
         </div>
 
         <div class="path">
