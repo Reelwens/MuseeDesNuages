@@ -90,6 +90,13 @@
             <img src="<?= THEME_URL ?>/assets/img/skeleton.svg" alt="Tracé" class="pathImg">
 
             <div id="triggerGradient"></div>
+
+            <div class="heading">
+                <p class="second">Un musée sans cimaise, sans mur et sans frontières.</p>
+                <p class="first">Suivez les nuages, respirez l’air du temps, nous vous accompagnons.</p>
+            </div>
+
+            <div class="point point-1"></div>
         </div>
     </div>
 

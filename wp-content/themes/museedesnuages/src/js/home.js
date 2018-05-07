@@ -53,4 +53,12 @@ on('/', () => {
     new ScrollMagic.Scene({triggerElement: "#triggerGradient"})
     				.setClassToggle(".toggleSound", "click") // add class toggle
     				.addTo(controller);
+
+    new ScrollMagic.Scene({triggerElement: ".heading", triggerHook: 'onEnter', offset: 200})
+                    .setClassToggle(".heading", "visible") // add class toggle
+                    .addTo(controller);
+
+    new ScrollMagic.Scene({triggerElement: ".point-1", triggerHook: 'onEnter', offset: 250})
+                    .setClassToggle(".point-1", "visible") // add class toggle
+                    .addTo(controller);
 });

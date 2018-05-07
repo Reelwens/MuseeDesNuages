@@ -2,13 +2,13 @@
     position: absolute;
     top: 100vh;
     overflow: hidden;
-    height: calc(12457px + 500px);
+    height: calc(12457px + 250px);
     width: 100%;
     z-index: 5;
 
     .pathImg {
         position: absolute;
-        margin-top: 500px;
+        margin-top: 250px;
         left: 50%;
         transform: translateX(-50%);
         z-index: 2;
