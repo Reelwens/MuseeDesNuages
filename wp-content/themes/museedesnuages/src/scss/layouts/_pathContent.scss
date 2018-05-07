@@ -56,5 +56,23 @@
             left: calc(50% + 58px);
             background: #697995;
         }
+
+        &.point-2 {
+            top: 670px;
+            left: calc(50% + -93px);
+            background: #697995;
+        }
+
+        &.point-3 {
+            top: 1000px;
+            left: calc(50% + 144px);
+            background: #697995;
+        }
+
+        &.point-4 {
+            top: 1570px;
+            left: calc(50% + -57px);
+            background: #697995;
+        }
     }
 }

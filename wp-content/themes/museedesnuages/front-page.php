@@ -97,6 +97,9 @@
             </div>
 
             <div class="point point-1"></div>
+            <div class="point point-2"></div>
+            <div class="point point-3"></div>
+            <div class="point point-4"></div>
         </div>
     </div>
 
