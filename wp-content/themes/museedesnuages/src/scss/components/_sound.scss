@@ -17,6 +17,10 @@
     }
 
     &.click {
+        @media (max-width: $phone) {
+            display: none;
+        }
+        
         .bar {
             background-color: #000;
         }

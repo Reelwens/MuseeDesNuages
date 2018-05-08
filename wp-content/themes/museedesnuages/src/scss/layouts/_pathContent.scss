@@ -8,6 +8,7 @@
         top: 35px;
         opacity: 0;
         transition: all .5s;
+        padding: 0 20px;
 
         text-align: center;
         font-size: 25px;
@@ -62,6 +63,11 @@
             left: calc(50% + -93px);
             background: #697995;
             border: 5px solid white;
+
+            @media (max-width: $phone) {
+                top: 806px;
+                left: calc(50% - 40px);
+            }
         }
 
         &.point-3 {
@@ -69,6 +75,10 @@
             left: calc(50% + 144px);
             background: #697995;
             border: 5px solid white;
+
+            @media (max-width: $phone) {
+                top: 1292px;
+            }
         }
 
         &.point-4 {
@@ -107,6 +117,11 @@
             left: calc(50% - 7px);
             background: $yellow;
             border: 5px solid white;
+
+            @media (max-width: $phone) {
+                top: 2400px;
+                left: calc(50% + 168px);
+            }
         }
 
         &.point-8 {
@@ -114,6 +129,11 @@
             left: calc(50% + 295px);
             background: $yellow;
             border: 5px solid white;
+
+            @media (max-width: $phone) {
+                top: 3110px;
+                left: calc(50% + 118px);
+            }
         }
 
         &.point-9 {
@@ -240,6 +260,19 @@
         font-weight: 300;
         color: $argile-dark;
 
+        @media (max-width: $phone) {
+            left: 50%!important;
+            width: 100%;
+            padding: 0 15px;
+            font-size: 16px;
+            letter-spacing: 1px;
+        }
+
+        @media (max-width: 360px) { // Thin phones
+            font-size: 15px;
+            letter-spacing: 0px;
+        }
+
         .important {
             font-weight: 400;
         }
@@ -255,21 +288,43 @@
         &.paragraph-1 {
             top: 280px;
             left: calc(50% + 270px);
+
+            @media (max-width: $phone) {
+                top: 340px;
+                padding-left: 47%;
+                text-align: right;
+            }
         }
 
         &.paragraph-2 {
             top: 570px;
             left: calc(50% - 330px);
+
+            @media (max-width: $phone) {
+                top: 900px;
+                padding-right: 48%;
+            }
         }
 
         &.paragraph-3 {
             top: 790px;
             left: calc(50% + 370px);
+
+            @media (max-width: $phone) {
+                top: 1210px;
+                padding-right: 47%;
+            }
         }
 
         &.paragraph-4 {
             top: 1500px;
             left: calc(50% - 370px);
+
+            @media (max-width: $phone) {
+                top: 1530px;
+                padding-left: 47%;
+                text-align: right;
+            }
         }
 
         &.paragraph-5 {
@@ -280,21 +335,45 @@
             font-weight: 700;
             letter-spacing: 3.5px;
             color: $yellow;
+
+            @media (max-width: $phone) {
+                top: 1850px;
+                text-align: right;
+            }
+
+            @media (max-width: 360px) { // Thin phones
+                font-size: 120px;
+            }
         }
 
         &.paragraph-6 {
             top: 1920px;
             left: calc(50% + 321px);
+
+            @media (max-width: $phone) {
+                top: 2205px;
+                padding-right: 15%;
+            }
         }
 
         &.paragraph-7 {
             top: 3820px;
             left: calc(50% + 281px);
+
+            @media (max-width: $phone) {
+                top: 2450px;
+                padding-right: 28%;
+            }
         }
 
         &.paragraph-8 {
             top: 5210px;
             left: calc(50% + 11px);
+
+            @media (max-width: $phone) {
+                top: 3200px;
+                padding-right: 10%;
+            }
         }
 
         &.paragraph-9 {
@@ -421,6 +500,10 @@
         position: absolute;
         opacity: 1;
         transition: all .3s;
+
+        @media (max-width: $phone) {
+            display: none;
+        }
 
         .cloud-1 {
             position: absolute;

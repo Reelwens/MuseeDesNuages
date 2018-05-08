@@ -6,10 +6,19 @@ footer {
     color: #666666;
     background-color: #111111;
 
+    @media (max-width: $phone) {
+        padding: 110px 30px 120px 30px;
+    }
+
     .footer_left {
         display: flex;
         flex-direction: column;
         width: 50%;
+
+        @media (max-width: $tablet) {
+            width: 100%;
+            margin-bottom: 150px;
+        }
 
         img {
             width: 85px;
@@ -69,6 +78,15 @@ footer {
         align-items: center;
         justify-content: space-between;
 
+        @media (max-width: $tablet) {
+            width: 100%;
+            height: 350px;
+        }
+
+        @media (max-width: $phone) {
+            height: 550px;
+        }
+
         .navLink {
             width: calc(50% - 40px);
             font-size: 16px;
@@ -79,6 +97,10 @@ footer {
             border-bottom: 1px solid white;
             transition: all .3s;
             padding-bottom: 24px;
+
+            @media (max-width: $phone) {
+                width: 100%;
+            }
 
             &:hover {
                 opacity: 1;
@@ -92,8 +114,19 @@ footer {
             display: flex;
             justify-content: flex-end;
 
+            @media (max-width: $phone) {
+                bottom: -50px;
+                right: auto;
+                left: 0;
+            }
+
             a {
                 margin-left: 14px;
+
+                @media (max-width: $phone) {
+                    margin-left: 0;
+                    margin-right: 14px;
+                }
 
                 img {
                     height: 16px;
