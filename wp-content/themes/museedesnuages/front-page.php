@@ -245,8 +245,8 @@
 
             <div class="picture picture-9">
                 <img src="<?= THEME_URL ?>/assets/img/partage_2_barbe.png" alt="Barbe" class="mainPicture" />
-                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1_.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
-                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2_.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
             </div>
         </div>
     </div>
