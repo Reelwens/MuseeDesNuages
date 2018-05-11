@@ -419,12 +419,8 @@
 
     .picture {
         position: absolute;
-        opacity: 0;
+        opacity: 1;
         transition: all .3s;
-
-        &.visible {
-            opacity: 1;
-        }
 
         .cloud-1 {
             position: absolute;

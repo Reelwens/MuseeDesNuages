@@ -227,40 +227,4 @@ on('/', () => {
     new ScrollMagic.Scene({triggerElement: ".point-21", triggerHook: 'onEnter', offset: 250})
         .setClassToggle(".paragraph-21", "visible") // add class toggle
         .addTo(controller);
-
-    new ScrollMagic.Scene({triggerElement: ".picture-1", triggerHook: 'onEnter', offset: 400})
-        .setClassToggle(".picture-1", "visible") // add class toggle
-        .addTo(controller);
-
-    new ScrollMagic.Scene({triggerElement: ".picture-2", triggerHook: 'onEnter', offset: 400})
-        .setClassToggle(".picture-2", "visible") // add class toggle
-        .addTo(controller);
-
-    new ScrollMagic.Scene({triggerElement: ".picture-3", triggerHook: 'onEnter', offset: 400})
-        .setClassToggle(".picture-3", "visible") // add class toggle
-        .addTo(controller);
-
-    new ScrollMagic.Scene({triggerElement: ".picture-4", triggerHook: 'onEnter', offset: 400})
-        .setClassToggle(".picture-4", "visible") // add class toggle
-        .addTo(controller);
-
-    new ScrollMagic.Scene({triggerElement: ".picture-5", triggerHook: 'onEnter', offset: 400})
-        .setClassToggle(".picture-5", "visible") // add class toggle
-        .addTo(controller);
-
-    new ScrollMagic.Scene({triggerElement: ".picture-6", triggerHook: 'onEnter', offset: 400})
-        .setClassToggle(".picture-6", "visible") // add class toggle
-        .addTo(controller);
-
-    new ScrollMagic.Scene({triggerElement: ".picture-7", triggerHook: 'onEnter', offset: 400})
-        .setClassToggle(".picture-7", "visible") // add class toggle
-        .addTo(controller);
-
-    new ScrollMagic.Scene({triggerElement: ".picture-8", triggerHook: 'onEnter', offset: 400})
-        .setClassToggle(".picture-8", "visible") // add class toggle
-        .addTo(controller);
-
-    new ScrollMagic.Scene({triggerElement: ".picture-9", triggerHook: 'onEnter', offset: 400})
-        .setClassToggle(".picture-9", "visible") // add class toggle
-        .addTo(controller);
 });
