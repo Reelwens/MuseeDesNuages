@@ -195,39 +195,56 @@
 
             <div class="picture picture-1">
                 <img src="<?= THEME_URL ?>/assets/img/histoire_1_sylvain.png" alt="Sylvain" class="mainPicture" />
-                <img src="<?= THEME_URL ?>/assets/img/on_image_cloud.png" alt="Cloud" class="cloud"  />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1_left.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2_left.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
             </div>
 
             <div class="picture picture-2">
                 <img src="<?= THEME_URL ?>/assets/img/histoire_2_sylvain.png" alt="Sylvain" class="mainPicture" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
             </div>
 
             <div class="picture picture-3">
                 <img src="<?= THEME_URL ?>/assets/img/art_1_vitre.png" alt="Vitre" class="mainPicture" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1_left.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2_left.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
             </div>
 
             <div class="picture picture-4">
                 <img src="<?= THEME_URL ?>/assets/img/art_2_chaise.png" alt="Chaise" class="mainPicture" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
             </div>
 
             <div class="picture picture-5">
                 <img src="<?= THEME_URL ?>/assets/img/art_3_chateau.png" alt="Chateau" class="mainPicture" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1_left.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2_left.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
             </div>
 
             <div class="picture picture-6">
                 <img src="<?= THEME_URL ?>/assets/img/art_4_turell.png" alt="Turell" class="mainPicture" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1_left.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2_left.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
             </div>
 
             <div class="picture picture-7">
                 <img src="<?= THEME_URL ?>/assets/img/art_5_nakaya.png" alt="Nakaya" class="mainPicture" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
             </div>
 
             <div class="picture picture-8">
                 <img src="<?= THEME_URL ?>/assets/img/partage_1_sylvain.png" alt="Sylvain" class="mainPicture" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1_left.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2_left.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
             </div>
 
             <div class="picture picture-9">
                 <img src="<?= THEME_URL ?>/assets/img/partage_2_barbe.png" alt="Barbe" class="mainPicture" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
             </div>
 
             <a href="#" class="button seeRealizations">

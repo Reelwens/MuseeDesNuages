@@ -228,10 +228,6 @@ on('/', () => {
         .setClassToggle(".paragraph-21", "visible") // add class toggle
         .addTo(controller);
 
-    new ScrollMagic.Scene({triggerElement: ".picture-1", triggerHook: 'onEnter', offset: 300})
-        .setClassToggle(".picture-1", "active") // add class toggle
-        .addTo(controller);
-
     new ScrollMagic.Scene({triggerElement: ".seeRealizations", triggerHook: 'onEnter', offset: 200})
         .setClassToggle(".seeRealizations", "visible") // add class toggle
         .addTo(controller);
