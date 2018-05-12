@@ -422,21 +422,25 @@
         opacity: 1;
         transition: all .3s;
 
-        .cloud-1 {
+        .cloud {
             position: absolute;
-            top: 0;
-        }
-
-        .cloud-2 {
-            position: absolute;
+            transform: translateX(0);
+            opacity: 1;
+            transition: transform 1s, opacity .8s;
         }
 
         &.picture-1 {
             top: 830px;
             left: 0;
 
-            .cloud-1, .cloud-2 {
-                left: 0;
+            .cloud {
+                left: -650px;
+                top: -170px;
+            }
+
+            &.active .cloud {
+                transform: translateX(-50%) translateY(100px) rotate(30deg);
+                opacity: 0;
             }
         }
 
@@ -444,7 +448,7 @@
             top: 1230px;
             right: 0;
 
-            .cloud-1, .cloud-2 {
+            .cloud {
                 right: 0;
             }
         }
@@ -456,7 +460,7 @@
                 margin-left: 8vw;
             }
 
-            .cloud-1, .cloud-2 {
+            .cloud {
                 left: 0;
             }
         }
@@ -465,7 +469,7 @@
             top: 2390px;
             right: 0;
 
-            .cloud-1, .cloud-2 {
+            .cloud {
                 right: 0;
             }
         }
@@ -474,7 +478,7 @@
             top: 3080px;
             left: 0;
 
-            .cloud-1, .cloud-2 {
+            .cloud {
                 left: 0;
             }
         }
@@ -483,7 +487,7 @@
             top: 4130px;
             left: 0;
 
-            .cloud-1, .cloud-2 {
+            .cloud {
                 left: 0;
             }
         }
@@ -492,7 +496,7 @@
             top: 4490px;
             right: 0;
 
-            .cloud-1, .cloud-2 {
+            .cloud {
                 right: 0;
             }
         }
@@ -501,7 +505,7 @@
             top: 8970px;
             left: 0;
 
-            .cloud-1, .cloud-2 {
+            .cloud {
                 left: 0;
             }
         }
@@ -510,7 +514,7 @@
             top: 10580px;
             right: 0;
 
-            .cloud-1, .cloud-2 {
+            .cloud {
                 right: 0;
             }
         }
