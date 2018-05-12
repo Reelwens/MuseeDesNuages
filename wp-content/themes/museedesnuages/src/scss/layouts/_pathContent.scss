@@ -434,13 +434,17 @@
         &.picture-1 {
             top: 830px;
             left: 0;
+
+            .cloud-1, .cloud-2 {
+                left: 0;
+            }
         }
 
         &.picture-2 {
             top: 1230px;
             right: 0;
 
-            .cloud-2 {
+            .cloud-1, .cloud-2 {
                 right: 0;
             }
         }
@@ -451,13 +455,17 @@
             .mainPicture {
                 margin-left: 8vw;
             }
+
+            .cloud-1, .cloud-2 {
+                left: 0;
+            }
         }
 
         &.picture-4 {
             top: 2390px;
             right: 0;
 
-            .cloud-2 {
+            .cloud-1, .cloud-2 {
                 right: 0;
             }
         }
@@ -465,18 +473,26 @@
         &.picture-5 {
             top: 3080px;
             left: 0;
+
+            .cloud-1, .cloud-2 {
+                left: 0;
+            }
         }
 
         &.picture-6 {
             top: 4130px;
             left: 0;
+
+            .cloud-1, .cloud-2 {
+                left: 0;
+            }
         }
 
         &.picture-7 {
             top: 4490px;
             right: 0;
 
-            .cloud-2 {
+            .cloud-1, .cloud-2 {
                 right: 0;
             }
         }
@@ -484,13 +500,17 @@
         &.picture-8 {
             top: 8970px;
             left: 0;
+
+            .cloud-1, .cloud-2 {
+                left: 0;
+            }
         }
 
         &.picture-9 {
             top: 10580px;
             right: 0;
 
-            .cloud-2 {
+            .cloud-1, .cloud-2 {
                 right: 0;
             }
         }
