@@ -246,6 +246,22 @@
                 <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
                 <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
             </div>
+
+            <a href="#" class="button seeRealizations">
+                <span>Voir les réalisations</span>
+                <img src="<?= THEME_URL ?>/assets/img/arrow_right.svg" alt="Flèche" />
+            </a>
+
+            <div class="conclusion">
+                <p class="conclusion-1">Le musée des nuages propose des interventions auprès des entreprises, aux acteurs territoriaux et aux particuliers à travers la RSE, des expositions et ateliers.</p>
+                <p class="conclusion-2">Découvrez ce que le Musée des Nuages peut faire pour vous.</p>
+
+                <a href="#" class="button takeContact">
+                    <span>Prendre contact</span>
+                    <img src="<?= THEME_URL ?>/assets/img/arrow_right.svg" alt="Flèche" />
+                </a>
+            </div>
+
         </div>
     </div>
 

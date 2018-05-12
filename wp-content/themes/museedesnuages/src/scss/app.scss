@@ -16,8 +16,10 @@
  * Layouts
  */
 
-@import 'layouts/loader';
 @import 'layouts/menu';
+@import 'layouts/footer';
+
+@import 'layouts/loader';
 @import 'layouts/hero';
 @import 'layouts/path';
 @import 'layouts/pathContent';
@@ -30,3 +32,4 @@
  */
 
 @import 'components/sound';
+@import 'components/buttons';

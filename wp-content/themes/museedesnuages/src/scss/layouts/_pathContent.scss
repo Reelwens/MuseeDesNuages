@@ -515,4 +515,35 @@
             }
         }
     }
+
+    .seeRealizations {
+        position: absolute;
+        top: 12707px;
+        left: 50%;
+    }
+
+    .conclusion {
+        position: absolute;
+        top: 12900px;
+        left: calc(50%);
+        transform: translateX(-50%);
+        width: 80%;
+        font-size: 18px;
+        line-height: 1.5;
+        letter-spacing: 2.7px;
+        text-align: center;
+        color: $argile-dark;
+
+        .conclusion-2 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-top: 50px;
+        }
+    }
+
+    .takeContact {
+        position: absolute;
+        margin-top: 80px;
+        left: 50%;
+    }
 }

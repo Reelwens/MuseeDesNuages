@@ -227,4 +227,12 @@ on('/', () => {
     new ScrollMagic.Scene({triggerElement: ".point-21", triggerHook: 'onEnter', offset: 250})
         .setClassToggle(".paragraph-21", "visible") // add class toggle
         .addTo(controller);
+
+    new ScrollMagic.Scene({triggerElement: ".seeRealizations", triggerHook: 'onEnter', offset: 200})
+        .setClassToggle(".seeRealizations", "visible") // add class toggle
+        .addTo(controller);
+
+    new ScrollMagic.Scene({triggerElement: ".takeContact", triggerHook: 'onEnter', offset: 200})
+        .setClassToggle(".takeContact", "visible") // add class toggle
+        .addTo(controller);
 });
