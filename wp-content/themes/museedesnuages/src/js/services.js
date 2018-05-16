@@ -18,7 +18,6 @@ on('/services', arg => {
         }
         else{
             anchorsList.classList.remove('headerAnchorsFixed');
-            console.log('else'+headerOffset);
         }
     }
 
