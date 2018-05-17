@@ -243,7 +243,8 @@
             border: 5px solid white;
 
             @media (max-width: $phone) {
-                top: 7990px;
+                top: 7920px;
+                left: calc(50% + 109px);
             }
         }
 
@@ -259,6 +260,10 @@
             left: calc(50% + 21px);
             background: $green;
             border: 5px solid white;
+
+            @media (max-width: $phone) {
+                top: 8794px;
+            }
         }
 
         &.point-19 {
@@ -266,6 +271,11 @@
             left: calc(50% + 90px);
             background: $green;
             border: 5px solid white;
+
+            @media (max-width: $phone) {
+                top: 9660px;
+                left: calc(50% - 104px);
+            }
         }
 
         &.point-20 {
@@ -273,6 +283,11 @@
             left: calc(50% + 45px);
             background: $green;
             border: 5px solid white;
+
+            @media (max-width: $phone) {
+                top: 10660px;
+                left: calc(50% - 71px);
+            }
         }
 
         &.point-21 {
@@ -522,16 +537,30 @@
         &.paragraph-18 {
             top: 9660px;
             left: calc(50% + 300px);
+
+            @media (max-width: $phone) {
+                top: 8856px;
+                padding-right: 10%;
+            }
         }
 
         &.paragraph-19 {
             top: 10300px;
             left: calc(50% - 250px);
+
+            @media (max-width: $phone) {
+                top: 9760px;
+            }
         }
 
         &.paragraph-20 {
             top: 11260px;
             left: calc(50% - 170px);
+
+            @media (max-width: $phone) {
+                top: 10740px;
+                padding-left: 25%;
+            }
         }
 
         &.paragraph-21 {
@@ -543,12 +572,25 @@
             width: 600px;
             height: 320px;
 
+            @media (max-width: $phone) {
+                top: 11600px;
+                flex-wrap: nowrap;
+                flex-direction: column;
+                width: 100%;
+                height: auto;
+                align-items: center;
+            }
+
             .partner {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
                 width: 200px;
+
+                @media (max-width: $phone) {
+                    margin-bottom: 30px;
+                }
 
                 p {
                     font-size: 18px;
@@ -700,6 +742,10 @@
         letter-spacing: 2.7px;
         text-align: center;
         color: $argile-dark;
+
+        @media (max-width: $phone) {
+            top: 12840px;
+        }
 
         .conclusion-2 {
             font-size: 22px;
