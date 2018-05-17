@@ -151,6 +151,11 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
             }
+
+            @media (max-width: $phone) {
+                top: 3500px;
+                left: calc(50% + 118px);
+            }
         }
 
         &.point-10 {
@@ -158,6 +163,11 @@
             left: calc(50% - 50px);
             background: $blue;
             border: 5px solid white;
+
+            @media (max-width: $phone) {
+                top: 4200px;
+                left: calc(50% + 53px);
+            }
         }
 
         &.point-11 {
@@ -165,6 +175,10 @@
             left: calc(50% + 237px);
             background: $blue;
             border: 5px solid white;
+
+            @media (max-width: $phone) {
+                top: 5180px;
+            }
         }
 
         &.point-12 {
@@ -172,6 +186,11 @@
             left: calc(50% - 170px);
             background: $blue;
             border: 5px solid white;
+
+            @media (max-width: $phone) {
+                top: 5400px;
+                left: calc(50% - 270px);
+            }
         }
 
         &.point-13 {
@@ -179,6 +198,11 @@
             left: calc(50% - 183px);
             background: $blue;
             border: 5px solid white;
+
+            @media (max-width: $phone) {
+                top: 6130px;
+                left: calc(50% + 81px);
+            }
         }
 
         &.point-14 {
@@ -186,6 +210,10 @@
             left: calc(50% + 41px);
             background: $blue;
             border: 5px solid white;
+
+            @media (max-width: $phone) {
+                top: 6668px;
+            }
         }
 
         &.point-15 {
@@ -202,6 +230,10 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
             }
+
+            @media (max-width: $phone) {
+                top: 7180px;
+            }
         }
 
         &.point-16 {
@@ -209,6 +241,10 @@
             left: calc(50% + 278px);
             background: $green;
             border: 5px solid white;
+
+            @media (max-width: $phone) {
+                top: 7990px;
+            }
         }
 
         &.point-17 {
@@ -279,6 +315,10 @@
 
         .big {
             font-size: 36px;
+
+            @media (max-width: $phone) {
+                font-size: 24px;
+            }
         }
 
         &.visible {
@@ -339,10 +379,7 @@
             @media (max-width: $phone) {
                 top: 1850px;
                 text-align: right;
-            }
-
-            @media (max-width: 360px) { // Thin phones
-                font-size: 120px;
+                font-size: 100px;
             }
         }
 
@@ -384,35 +421,67 @@
             font-weight: 700;
             letter-spacing: 3.5px;
             color: $blue;
+
+            @media (max-width: $phone) {
+                top: 3460px;
+                padding-right: 10%;
+                font-size: 100px;
+            }
         }
 
         &.paragraph-10 {
             top: 5920px;
             left: calc(50% + 220px);
+
+            @media (max-width: $phone) {
+                top: 4230px;
+                padding-right: 40%;
+            }
         }
 
         &.paragraph-11 {
             top: 6280px;
             left: calc(50% - 75px);
             width: 700px;
+
+            @media (max-width: $phone) {
+                top: 5180px;
+                width: 100%;
+            }
         }
 
         &.paragraph-12 {
             top: 6840px;
             left: calc(50% + 215px);
             width: 750px;
+
+            @media (max-width: $phone) {
+                top: 5400px;
+                width: 100%;
+            }
         }
 
         &.paragraph-13 {
             top: 7110px;
             left: calc(50% - 400px);
             width: 312px;
+
+            @media (max-width: $phone) {
+                top: 6210px;
+                width: 100%;
+            }
         }
 
         &.paragraph-14 {
             top: 7340px;
             left: calc(50% + 270px);
             width: 300px;
+
+            @media (max-width: $phone) {
+                top: 6780px;
+                width: 100%;
+                padding-left: 25%;
+            }
         }
 
         &.paragraph-15 {
@@ -423,16 +492,31 @@
             font-weight: 700;
             letter-spacing: 3.5px;
             color: $green;
+
+            @media (max-width: $phone) {
+                top: 7034px;
+                font-size: 75px;
+                text-align: right;
+            }
         }
 
         &.paragraph-16 {
             top: 8100px;
             left: calc(50% + 30px);
+
+            @media (max-width: $phone) {
+                top: 7990px;
+            }
         }
 
         &.paragraph-17 {
             top: 8520px;
             left: calc(50% + 300px);
+
+            @media (max-width: $phone) {
+                top: 8180px;
+                padding-right: 5%;
+            }
         }
 
         &.paragraph-18 {
