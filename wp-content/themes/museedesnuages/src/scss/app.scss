@@ -18,12 +18,18 @@
 
 @import 'layouts/menu';
 @import 'layouts/footer';
-
 @import 'layouts/loader';
-@import 'layouts/hero';
-@import 'layouts/path';
-@import 'layouts/pathContent';
-@import 'layouts/clouds';
+
+@import 'layouts/home/hero';
+@import 'layouts/home/path';
+@import 'layouts/home/pathContent';
+@import 'layouts/home/clouds';
+
+@import 'layouts/visit/background';
+@import 'layouts/visit/framesHandle';
+@import 'layouts/visit/frame';
+@import 'layouts/visit/frame-1';
+@import 'layouts/visit/frame-2';
 
 
 

@@ -1,0 +1,74 @@
+/*
+ * Ignore this
+ */
+
+footer {
+    display: none;
+}
+
+.visit .logoMDN {
+    transition: all .3s;
+}
+
+
+
+
+/*
+ * Scroll CSS system
+ */
+
+body[data-scroll-state] { // There is a scroll state
+    .visit .background {
+        opacity: 1;
+    }
+
+    .visit .logoMDN {
+        opacity: 0;
+    }
+
+    .frame-1 {
+        transform: translateY(-150%);
+    }
+}
+
+body[data-scroll-state="0"] {
+    .visit .background {
+        opacity: 0;
+    }
+
+    .visit .logoMDN {
+        opacity: 1;
+    }
+
+    .frame-1 {
+        transform: translateY(0);
+    }
+
+    .frame-2 {
+        transform: translateY(150%);
+    }
+}
+
+body[data-scroll-state="1"] {
+    .frame-2 {
+        transform: translateY(0%);
+    }
+}
+
+body[data-scroll-state="2"] {
+    .frame-2 {
+        transform: translateY(-150%);
+    }
+}
+
+body[data-scroll-state="3"] {
+    .frame-2 {
+        transform: translateY(-150%);
+    }
+}
+
+body[data-scroll-state="4"] {
+    .frame-2 {
+        transform: translateY(-150%);
+    }
+}

@@ -23,4 +23,12 @@
             }
         }
     });
+
+
+
+    /*
+     * Overflow hide html
+     */
+
+    document.querySelector('html').style.overflow = "hidden";
 //});
