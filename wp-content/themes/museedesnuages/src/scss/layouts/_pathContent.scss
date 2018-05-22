@@ -601,22 +601,42 @@
 
                 &.iesa img {
                     width: 122px;
+
+                    @media (max-width: $phone) {
+                        width: 72px;
+                    }
                 }
 
                 &.studialis img {
                     width: 180px;
+
+                    @media (max-width: $phone) {
+                        width: 48px;
+                    }
                 }
 
                 &.iesa-incub img {
-                    width: 68px;
+                    width: 78px;
+
+                    @media (max-width: $phone) {
+                        width: 48px;
+                    }
                 }
 
                 &.upup img {
                     width: 108px;
+
+                    @media (max-width: $phone) {
+                        width: 78px;
+                    }
                 }
 
                 &.medef img {
                     width: 115px;
+
+                    @media (max-width: $phone) {
+                        width: 75px;
+                    }
                 }
             }
         }
