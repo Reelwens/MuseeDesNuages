@@ -1,12 +1,16 @@
-//on('/visit', () => {
+on('/visit', arg => {
     /*
      * Set data scroll state
      */
-
     let scrollable = 10,
-        count = 0;
+        count = 0,
+        lastScroll = Date.now();
+        
+    document.querySelector('body').addEventListener('mousewheel', e => {
+        if (Date.now() - lastScroll < 600) return;
 
-    document.querySelector('body').addEventListener('mousewheel', (e) => {
+        lastScroll = Date.now();
+
         if (e.wheelDelta / 120 > 0) {
             if (scrollable >= count && count > 0) {
                 count--
@@ -31,4 +35,4 @@
      */
 
     document.querySelector('html').style.overflow = "hidden";
-//});
+});

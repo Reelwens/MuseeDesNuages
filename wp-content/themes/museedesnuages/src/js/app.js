@@ -9,6 +9,10 @@ function on(path, cb) {
 
     let block = routes.find((route, i) => route !== here[i] && route[0] !== '*' && route[0] !== ':');
 
+    if (here[here.length - 1] === '' && routes[here.length - 1] !== '') {
+        here.pop();
+    }
+
     if (block === undefined && routes.length === here.length) {
         let data = {};
         routes.forEach((route, i) => {
