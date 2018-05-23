@@ -7,7 +7,7 @@ on('/visit', arg => {
         lastScroll = Date.now();
 
     document.querySelector('body').addEventListener('mousewheel', e => {
-        if (Date.now() - lastScroll < 600) return;
+        if (Date.now() - lastScroll < 1500) return;
 
         lastScroll = Date.now();
 

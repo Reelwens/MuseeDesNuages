@@ -49,16 +49,16 @@
 
     .scrollInvitation {
         position: absolute;
-        bottom: -10%;
+        bottom: -100px;
         left: 50%;
         transform: translateX(-50%);
 
-        @media (max-height: 720px) {
-            bottom: -50px;
+        @media (max-height: 1440px) {
+            bottom: -150px;
         }
 
         @media (max-width: $phone) {
-            bottom: -140px;
+            bottom: -180px;
         }
 
         p {
