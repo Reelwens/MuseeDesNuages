@@ -1,4 +1,5 @@
 on('/', () => {
+    console.log('cache');
     /*
      * Dynamic fade out pathImg
      */
@@ -10,7 +11,8 @@ on('/', () => {
     let offsetBottom;
 
     let onScroll = () => {
-        let percent = (doc.scrollTop + doc.clientHeight - offsetTop) * 100 / (doc.scrollHeight - offsetTop - offsetBottom);
+        let scrollTop = Math.max(window.pageYOffset, document.documentElement.scrollTop, document.body.scrollTop);
+        let percent = (scrollTop + doc.clientHeight - offsetTop) * 100 / (doc.scrollHeight - offsetTop - offsetBottom);
 
         path.style['-webkit-mask-image'] = `linear-gradient(to bottom, black ${percent - 3}%, transparent ${percent - 2}%, transparent 100%)`;
     }
