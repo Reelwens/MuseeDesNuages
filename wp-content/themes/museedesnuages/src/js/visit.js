@@ -30,5 +30,5 @@
      * Overflow hide html
      */
 
-    document.querySelector('html').style.overflow = "hidden";
+    // document.querySelector('html').style.overflow = "hidden";
 //});

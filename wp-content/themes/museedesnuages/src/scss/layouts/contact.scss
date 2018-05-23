@@ -1,0 +1,230 @@
+.contactInfos{
+    margin-top:3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contactPhone{
+    margin-right: 3rem;
+}
+
+.contactMail{
+    flex: 1;
+    justify-self: flex-end;
+}
+
+.contactSocial{
+    img{
+        height:1rem;
+        width:auto;
+        color:white;
+        margin-right: 1rem;
+    }
+}
+
+.contactLabel, .textContent{
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.textContent{
+    font-weight: 600;
+}
+
+.founders{
+    margin: 8rem auto;
+    width: 80vw;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .founder{
+        flex: 1;
+        height:auto;
+        display:inline-block;
+        margin-bottom: 3rem;
+
+        .founderName{
+            color: $argile-dark;
+            margin-bottom: 0.7rem;
+        }
+
+        .founderStatus{
+            color: $blue;
+            margin-bottom: 2.5rem;
+        }
+
+        .founderPhoto{
+            width:15rem;
+            height:15rem;
+            border-radius: 100%;
+            overflow: hidden;
+            display: inline-block;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+.contactForm{
+    width: 90vw;
+    padding-left: 10%;
+    margin-bottom: 50px;
+
+    input[type="radio"]{
+        display: inline-block;
+        position: absolute;
+        -webkit-appearance: none;
+        border: 1px solid #979797;
+        width: 17px;
+        height: 17px;
+        border-radius: 50%;
+        transition: all 0.25s ease;
+        cursor: pointer;
+        &:hover{
+            border: 1px solid $blue;
+            &:after{
+                content: '';
+                width:10px;
+                height: 10px;
+                border-radius: 50%;
+                position: absolute;
+                top: 51%;
+                left: 51%;
+                transform: translate(-55%, -55%);
+                background-color: $blue;
+            }
+        }
+        &:checked{
+            border: 1px solid $blue;
+            &:after{
+                content: '';
+                width:10px;
+                height: 10px;
+                border-radius: 50%;
+                position: absolute;
+                top: 51%;
+                left: 51%;
+                transform: translate(-55%, -55%);
+                background-color: $blue;
+            }
+        }
+    }
+    .radio-field{
+        margin: 40px 0;
+
+        p{
+            margin-bottom: 10px;
+        }
+
+        .wpcf7-list-item{
+            display: inline;
+            margin: 0 50px 0 0;
+            transition: all 0.25s ease;
+            &:hover{
+                color: $blue;
+            }
+        }
+        .wpcf7-list-item-label{
+            margin-left: 30px;
+            cursor: pointer;
+        }
+    }
+
+    .field{
+        position: relative;
+        margin-bottom: 40px;
+
+        input[type="text"] {
+            height:auto;
+            width:100%;
+            padding-bottom:10px;
+            border-bottom:1px solid #9F9F9F;
+            transition:all 0.5s ease-in-out;
+            outline:0;
+            margin-top:20px;
+
+            &:focus{
+                border-bottom-color: $blue;
+            }
+            &::placeholder{
+                color: $grey;
+            }
+        }
+    }
+
+    label{
+        color: $grey;
+    }
+
+    textarea{
+        height: auto;
+        width:100%;
+        padding-bottom:10px;
+        border-bottom:1px solid #9F9F9F;
+        transition:all 0.5s ease-in-out;
+        outline:0;
+
+        &:focus{
+            border-bottom-color: $blue;
+        }
+    }
+
+    input[type="submit"]{
+        color: white;
+        font-weight:600;
+        text-transform: uppercase;
+        letter-spacing: 0.4px;
+    }
+
+    div.contactButton{
+        margin: 50px auto;
+        text-align: center;
+        position:relative;
+        width:200px;
+        padding: 16px;
+        height:auto;
+        border-radius: 4px;
+        background-color: $blue;
+        &:after{
+            content:url("../img/arrow_right.svg");
+            width: 10px;
+            position: absolute;
+            display:block;
+            top: 35%;
+            left: 75%;
+        }
+    }
+}
+
+.formHeader{
+    p{
+        font-weight: lighter;
+    }
+
+    h2{
+        font-family: $second-font;
+        color: #4B4B4B;
+        font-size: 1.75rem;
+        position: relative;
+        width:200px;
+        margin-bottom: 10px;
+        font-weight: 600;
+        &:after{
+            content:'';
+            position: absolute;
+            width:7px;
+            height:7px;
+            border-radius: 50%;
+            background-color: $blue;
+            top: 60%;
+            left: 100%;
+        }
+    }
+}
