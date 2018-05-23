@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="314px" height="521px" viewBox="0 0 314 521" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>water-shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.170000002">
+        <g id="Eau" transform="translate(-565.000000, -1616.000000)" fill="#7EA8F8">
+            <g id="water1" transform="translate(0.000000, 1476.000000)">
+                <g id="water_content">
+                    <path d="M718.394495,140 L581.216284,431.611551 C543.522437,511.740611 577.922973,607.25495 658.052033,644.948797 C676.990725,653.857827 697.490447,658.972798 718.394495,660.005097 C718.394495,660.005097 718.394495,660.005097 718.394495,660.005097 C718.394495,660.005097 718.394495,660.005097 718.394495,660.005097 L718.394495,660.005097 C802.379763,664.152517 873.825423,599.431155 877.972844,515.445887 C879.221554,490.159501 874.145007,464.960849 863.202645,442.130489 L718.394495,140 Z" id="water-shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

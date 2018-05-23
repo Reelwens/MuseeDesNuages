@@ -2,29 +2,20 @@ on('/visit', arg => {
     /*
      * Set data scroll state
      */
+    var lethargy = new Lethargy();
     let scrollable = 10,
-        count = 0,
-        lastScroll = Date.now();
+        count = 0;
 
-    document.querySelector('body').addEventListener('mousewheel', e => {
-        if (Date.now() - lastScroll < 1500) return;
-
-        lastScroll = Date.now();
-
-        if (e.wheelDelta / 120 > 0) {
-            if (scrollable >= count && count > 0) {
-                count--
-                document.querySelector('body').dataset.scrollState = count;
-            } else {
-                return false;
-            }
-        } else {
-            if (scrollable > count) {
-                count++
-                document.querySelector('body').dataset.scrollState = count;
-            } else {
-                return false;
-            }
+    $(window).bind('mousewheel DOMMouseScroll wheel MozMousePixelScroll', function(e){
+        e.preventDefault()
+        e.stopPropagation();
+        if(lethargy.check(e) == 1 && count > 0) {
+            count--
+            document.querySelector('body').dataset.scrollState = count;
+        }
+        else if (lethargy.check(e) == -1 && scrollable > count) {
+            count++
+            document.querySelector('body').dataset.scrollState = count;
         }
     });
 
@@ -34,5 +25,5 @@ on('/visit', arg => {
      * Overflow hide html
      */
 
-    // document.querySelector('html').style.overflow = "hidden";
+    document.querySelector('html').style.overflow = "hidden";
 });

@@ -1,13 +1,23 @@
 .visit .frame-2 {
-    transition: all .6s cubic-bezier(0.645, 0.045, 0.355, 1);
     transform: translateY(150%);
-    overflow: hidden;
 
     .frameName {
         color: #0a366c;
     }
 
+    .subFrameName {
+        color: #7ea8f8;
+    }
+
     .description {
         color: #0a366c;
+    }
+
+    .buttonDetail {
+        background-color: #7ea8f8;
+
+        &:hover {
+            background-color: #6f9bee;
+        }
     }
 }

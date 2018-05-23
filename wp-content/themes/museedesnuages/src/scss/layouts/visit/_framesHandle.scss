@@ -52,18 +52,54 @@ body[data-scroll-state="0"] {
 body[data-scroll-state="1"] {
     .frame-2 {
         transform: translateY(0%);
+
+        .subFrame-1 {
+            transform: translateY(0%);
+        }
+
+        .subFrame-2 {
+            transform: translateY(150%);
+        }
+
+        .subFrame-3 {
+            transform: translateY(150%);
+        }
     }
 }
 
 body[data-scroll-state="2"] {
     .frame-2 {
-        transform: translateY(-150%);
+        transform: translateY(0%);
+
+        .subFrame-1 {
+            transform: translateY(-150%);
+        }
+
+        .subFrame-2 {
+            transform: translateY(0%);
+        }
+
+        .subFrame-3 {
+            transform: translateY(150%);
+        }
     }
 }
 
 body[data-scroll-state="3"] {
     .frame-2 {
-        transform: translateY(-150%);
+        transform: translateY(0%);
+
+        .subFrame-1 {
+            transform: translateY(-150%);
+        }
+
+        .subFrame-2 {
+            transform: translateY(-150%);
+        }
+
+        .subFrame-3 {
+            transform: translateY(0%);
+        }
     }
 }
 
