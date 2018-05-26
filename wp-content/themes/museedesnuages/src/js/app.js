@@ -84,27 +84,4 @@ items.forEach(item => { // Remove active menu layout on hover
     item.onmouseleave = e => {
         items[activePage].classList.add("active");
     }
-})
-
-
-
-
-/*
- * Parallax
- */
-
-window.addEventListener('scroll', event => {
-    const layers = document.querySelectorAll("[data-type='parallax']");
-
-    layers.forEach(layer => {
-        const topDistance = window.pageYOffset - layer.parentElement.offsetTop;
-        const depth = layer.getAttribute('data-depth');
-        const movement = (topDistance * depth);
-        const translateY = `translateY(${movement}px)`;
-        layer.style['-webkit-transform'] = translateY;
-        layer.style['-moz-transform'] = translateY;
-        layer.style['-ms-transform'] = translateY;
-        layer.style['-o-transform'] = translateY;
-        layer.style.transform = translateY;
-    });
 });

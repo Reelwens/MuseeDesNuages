@@ -2,6 +2,7 @@ on('/', arg => {
     /*
      * Dynamic fade out pathImg
      */
+
     const path = document.querySelector('.pathImg');
     const doc = document.documentElement;
 
@@ -55,6 +56,32 @@ on('/', arg => {
             sound = true;
         }
     }
+
+
+
+
+
+
+    /*
+     * Parallax
+     */
+
+    window.addEventListener('scroll', event => {
+        const layers = document.querySelectorAll("[data-type='parallax']");
+
+        layers.forEach(layer => {
+            const topDistance = window.pageYOffset - layer.parentElement.offsetTop;
+            const depth = layer.getAttribute('data-depth');
+            const movement = (topDistance * depth);
+            const translateY = `translateY(${movement}px)`;
+            layer.style['-webkit-transform'] = translateY;
+            layer.style['-moz-transform'] = translateY;
+            layer.style['-ms-transform'] = translateY;
+            layer.style['-o-transform'] = translateY;
+            layer.style.transform = translateY;
+        });
+    });
+
 
 
 
