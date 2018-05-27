@@ -21,7 +21,7 @@
 		<nav>
 			<div class="mobileTop"></div>
             <a href="<?= home_url() ?>" class="home menuItem menu_0">
-				<img src="<?= THEME_URL ?>/assets/img/bg-home.png" alt="Background" class="background">
+				<img src="<?= THEME_URL ?>/assets/img/menu_1.png" alt="Background" class="background">
 				<div class="mask"></div>
 				<div class="text">
 					<p class="number">01</p>
@@ -31,7 +31,7 @@
             </a>
 
             <a href="<?= home_url() ?>/visit" class="visit menuItem menu_1">
-				<img src="<?= THEME_URL ?>/assets/img/bg-home.png" alt="Background" class="background">
+				<img src="<?= THEME_URL ?>/assets/img/menu_2.png" alt="Background" class="background">
 				<div class="mask"></div>
 				<div class="text">
 					<p class="number">02</p>
@@ -41,7 +41,7 @@
             </a>
 
             <a href="<?= home_url() ?>/news" class="news menuItem menu_2">
-				<img src="<?= THEME_URL ?>/assets/img/bg-home.png" alt="Background" class="background">
+				<img src="<?= THEME_URL ?>/assets/img/menu_3.png" alt="Background" class="background">
 				<div class="mask"></div>
 				<div class="text">
 					<p class="number">03</p>
@@ -51,7 +51,7 @@
             </a>
 
             <a href="<?= home_url() ?>/services" class="services menuItem menu_3">
-				<img src="<?= THEME_URL ?>/assets/img/bg-home.png" alt="Background" class="background">
+				<img src="<?= THEME_URL ?>/assets/img/menu_4.png" alt="Background" class="background">
 				<div class="mask"></div>
 				<div class="text">
 					<p class="number">04</p>
@@ -61,7 +61,7 @@
             </a>
 
             <a href="<?= home_url() ?>/contact" class="contact menuItem menu_4">
-				<img src="<?= THEME_URL ?>/assets/img/bg-home.png" alt="Background" class="background">
+				<img src="<?= THEME_URL ?>/assets/img/menu_5.png" alt="Background" class="background">
 				<div class="mask"></div>
 				<div class="text">
 					<p class="number">05</p>
