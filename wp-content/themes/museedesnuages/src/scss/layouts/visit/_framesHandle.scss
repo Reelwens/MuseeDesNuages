@@ -57,11 +57,7 @@ body[data-scroll-state="1"] {
             transform: translateY(0%);
         }
 
-        .subFrame-2 {
-            transform: translateY(150%);
-        }
-
-        .subFrame-3 {
+        .subFrame-2, .subFrame-3, .subFrame-4, .subFrame-5, .subFrame-6 {
             transform: translateY(150%);
         }
     }
@@ -79,7 +75,7 @@ body[data-scroll-state="2"] {
             transform: translateY(0%);
         }
 
-        .subFrame-3 {
+        .subFrame-3, .subFrame-4, .subFrame-5, .subFrame-6 {
             transform: translateY(150%);
         }
     }
@@ -89,21 +85,71 @@ body[data-scroll-state="3"] {
     .frame-2 {
         transform: translateY(0%);
 
-        .subFrame-1 {
-            transform: translateY(-150%);
-        }
-
-        .subFrame-2 {
+        .subFrame-1, .subFrame-2 {
             transform: translateY(-150%);
         }
 
         .subFrame-3 {
             transform: translateY(0%);
         }
+
+        .subFrame-4, .subFrame-5, .subFrame-6 {
+            transform: translateY(150%);
+        }
     }
 }
 
 body[data-scroll-state="4"] {
+    .frame-2 {
+        transform: translateY(0%);
+
+        .subFrame-1, .subFrame-2, .subFrame-3 {
+            transform: translateY(-150%);
+        }
+
+        .subFrame-4 {
+            transform: translateY(0%);
+        }
+
+        .subFrame-5, .subFrame-6 {
+            transform: translateY(150%);
+        }
+    }
+}
+
+body[data-scroll-state="5"] {
+    .frame-2 {
+        transform: translateY(0%);
+
+        .subFrame-1, .subFrame-2, .subFrame-3, .subFrame-4 {
+            transform: translateY(-150%);
+        }
+
+        .subFrame-5 {
+            transform: translateY(0%);
+        }
+
+        .subFrame-6 {
+            transform: translateY(150%);
+        }
+    }
+}
+
+body[data-scroll-state="6"] {
+    .frame-2 {
+        transform: translateY(0%);
+
+        .subFrame-1, .subFrame-2, .subFrame-3, .subFrame-4, .subFrame-5 {
+            transform: translateY(-150%);
+        }
+
+        .subFrame-6 {
+            transform: translateY(0%);
+        }
+    }
+}
+
+body[data-scroll-state="7"] {
     .frame-2 {
         transform: translateY(-150%);
     }

@@ -47,6 +47,32 @@
                 <a href="#" class="buttonDetail">Voir le détail du projet</a>
             </div>
 
+            <div class="subFrame subFrame-4">
+                <h2 class="subFrameName">Fontaines</h2>
+                <p class="description">Autour des puits, des fontaines, des lavoirs ou d’un verre en terrasse, l’eau est un facteur de convivialité. Du monumental ouvrage d’art conçu pour l’irrigation, au robinet de confort qui pénétra dans l’intimité des habitats, cet élément vital fut de tout temps un vecteur de culture.</p>
+                <img src="<?= THEME_URL ?>/assets/img/fountain-1.png" alt="Fontaine" class="card card-1" />
+                <img src="<?= THEME_URL ?>/assets/img/fountain-2.png" alt="Fontaine" class="card card-2" />
+                <img src="<?= THEME_URL ?>/assets/img/fountain-3.png" alt="Fontaine" class="card card-3" />
+                <a href="#" class="buttonDetail">Voir le détail du projet</a>
+            </div>
+
+            <div class="subFrame subFrame-5">
+                <h2 class="subFrameName">Cocktail 5 sources</h2>
+                <p class="description">Le cocktail 5 sources est un assemblage de quatre eaux de source, plus une : l’eau de robinet ! </p>
+                <img src="<?= THEME_URL ?>/assets/img/cocktail1.png" alt="Cocktail" class="card card-1" />
+                <img src="<?= THEME_URL ?>/assets/img/cocktail2.png" alt="Cocktail" class="card card-2" />
+                <img src="<?= THEME_URL ?>/assets/img/cocktail3.png" alt="Cocktail" class="card card-3" />
+                <a href="#" class="buttonDetail">Voir le détail du projet</a>
+            </div>
+
+            <div class="subFrame subFrame-6">
+                <h2 class="subFrameName">Piscine des sources</h2>
+                <p class="description">Une piscine dans laquelleon peut se servir à boire en plongeant les mains dans le bassin, pour saisir des bouteilles d’eau à consommer sur place ou plus tard.</p>
+                <img src="<?= THEME_URL ?>/assets/img/pool1.png" alt="Piscine" class="card card-1" />
+                <img src="<?= THEME_URL ?>/assets/img/pool2.png" alt="Piscine" class="card card-2" />
+                <a href="#" class="buttonDetail">Voir le détail du projet</a>
+            </div>
+
 
         </section>
     </div>

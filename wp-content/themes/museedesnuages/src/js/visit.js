@@ -32,11 +32,11 @@ on('/visit', arg => {
     function checkKey(e) {
         e = e || window.event;
 
-        if (e.keyCode == '38') {
+        if (e.keyCode == '38' && count > 0) {
             count--
             document.querySelector('body').dataset.scrollState = count;
         }
-        else if (e.keyCode == '40') {
+        else if (e.keyCode == '40' && scrollable > count) {
             count++
             document.querySelector('body').dataset.scrollState = count;
         }
