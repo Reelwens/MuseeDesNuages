@@ -177,7 +177,8 @@
             border: 5px solid white;
 
             @media (max-width: $phone) {
-                top: 5180px;
+                top: 5120px;
+                left: calc(50% + 190px);
             }
         }
 
@@ -188,8 +189,8 @@
             border: 5px solid white;
 
             @media (max-width: $phone) {
-                top: 5400px;
-                left: calc(50% - 270px);
+                top: 5370px;
+                left: calc(50% + 340px);
             }
         }
 
@@ -253,6 +254,11 @@
             left: calc(50% + 21px);
             background: $green;
             border: 5px solid white;
+
+            @media (max-width: $phone) {
+                top: 8160px;
+                left: calc(50% + 315px)
+            }
         }
 
         &.point-18 {
@@ -395,6 +401,7 @@
                 top: 1850px;
                 text-align: right;
                 font-size: 100px;
+                padding-right: 10%;
             }
         }
 
@@ -404,7 +411,7 @@
 
             @media (max-width: $phone) {
                 top: 2205px;
-                padding-right: 15%;
+                padding-right: 25%;
             }
         }
 
@@ -414,7 +421,7 @@
 
             @media (max-width: $phone) {
                 top: 2450px;
-                padding-right: 28%;
+                padding-right: 33%;
             }
         }
 
@@ -424,7 +431,7 @@
 
             @media (max-width: $phone) {
                 top: 3200px;
-                padding-right: 10%;
+                padding-right: 20%;
             }
         }
 
@@ -450,7 +457,7 @@
 
             @media (max-width: $phone) {
                 top: 4230px;
-                padding-right: 40%;
+                padding-right: 45%;
             }
         }
 
@@ -484,6 +491,7 @@
             @media (max-width: $phone) {
                 top: 6210px;
                 width: 100%;
+                padding-right: 25%;
             }
         }
 
@@ -495,7 +503,7 @@
             @media (max-width: $phone) {
                 top: 6780px;
                 width: 100%;
-                padding-left: 25%;
+                padding-left: 35%;
             }
         }
 
@@ -512,6 +520,7 @@
                 top: 7034px;
                 font-size: 75px;
                 text-align: right;
+                padding-right: 10%;
             }
         }
 
@@ -521,6 +530,7 @@
 
             @media (max-width: $phone) {
                 top: 7990px;
+                padding-right: 30%;
             }
         }
 
@@ -530,7 +540,7 @@
 
             @media (max-width: $phone) {
                 top: 8180px;
-                padding-right: 5%;
+                padding-right: 15%;
             }
         }
 
@@ -540,7 +550,7 @@
 
             @media (max-width: $phone) {
                 top: 8856px;
-                padding-right: 10%;
+                padding-right: 30%;
             }
         }
 
@@ -550,6 +560,7 @@
 
             @media (max-width: $phone) {
                 top: 9760px;
+                padding-left: 25%;
             }
         }
 
