@@ -57,4 +57,12 @@ on('/news', arg => {
             }
             socialLinks[0].className += " activeTerm";
         });
+
+
+
+    var controller = new ScrollMagic.Controller();
+
+    var scene = new ScrollMagic.Scene({triggerElement: ".subMenu", triggerHook: 'onLeave', offset: -75})
+    	.setClassToggle(".toggleMenu", "black") // add class toggle
+    	.addTo(controller);
 });
