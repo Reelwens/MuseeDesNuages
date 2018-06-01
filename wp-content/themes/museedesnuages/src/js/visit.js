@@ -5,7 +5,7 @@ on('/visit', arg => {
 
     // Scroll
     var lethargy = new Lethargy();
-    let scrollable = 10,
+    let scrollable = 11,
         count = 0,
         lastScroll = Date.now();
 

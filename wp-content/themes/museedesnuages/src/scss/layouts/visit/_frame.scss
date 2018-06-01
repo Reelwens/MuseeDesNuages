@@ -33,12 +33,20 @@
         transform: translateY(150%);
     }
 
+    &.horizontalFrame .subFrame {
+        transform: translateX(150%);
+    }
+
     .subFrameImg {
         position: absolute;
         width: 100vw;
         height: 100vh;
         transition: all 1.2s cubic-bezier(0.43, 0, 0, 1);
         transform: translateY(150%);
+        pointer-events: none;
+    }
+    &.horizontalFrame .subFrameImg {
+        transform: translateX(150%);
     }
 
     .subFrameName {
@@ -83,7 +91,7 @@
 
     .card {
         position: absolute;
-        width: 15vw;
+        width: 17vw;
     }
 
     .card-1 {
@@ -99,9 +107,9 @@
     }
 
     .card-3 {
-        top: -18%;
+        top: 12%;
         right: 20%;
-        transform: rotate(10deg);
+        transform: translateY(-100%) rotate(10deg);
     }
 
 

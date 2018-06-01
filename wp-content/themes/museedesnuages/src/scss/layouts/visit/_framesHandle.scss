@@ -47,6 +47,10 @@ body[data-scroll-state="0"] {
     .frame-2 {
         transform: translateY(150%);
     }
+
+    .frame-3 {
+        transform: translateX(150%);
+    }
 }
 
 body[data-scroll-state="1"] {
@@ -61,6 +65,10 @@ body[data-scroll-state="1"] {
         .subFrame-2, .subFrame-3, .subFrame-4, .subFrame-5, .subFrame-6 {
             transform: translateY(150%);
         }
+    }
+
+    .frame-3 {
+        transform: translateX(150%);
     }
 }
 
@@ -81,6 +89,10 @@ body[data-scroll-state="2"] {
             transform: translateY(150%);
         }
     }
+
+    .frame-3 {
+        transform: translateX(150%);
+    }
 }
 
 body[data-scroll-state="3"] {
@@ -99,6 +111,10 @@ body[data-scroll-state="3"] {
         .subFrame-4, .subFrame-5, .subFrame-6 {
             transform: translateY(150%);
         }
+    }
+
+    .frame-3 {
+        transform: translateX(150%);
     }
 }
 
@@ -119,6 +135,10 @@ body[data-scroll-state="4"] {
             transform: translateY(150%);
         }
     }
+
+    .frame-3 {
+        transform: translateX(150%);
+    }
 }
 
 body[data-scroll-state="5"] {
@@ -138,6 +158,10 @@ body[data-scroll-state="5"] {
             transform: translateY(150%);
         }
     }
+
+    .frame-3 {
+        transform: translateX(150%);
+    }
 }
 
 body[data-scroll-state="6"] {
@@ -153,6 +177,10 @@ body[data-scroll-state="6"] {
             opacity: 1;
         }
     }
+
+    .frame-3 {
+        transform: translateX(150%);
+    }
 }
 
 body[data-scroll-state="7"] {
@@ -164,6 +192,107 @@ body[data-scroll-state="7"] {
         }
 
         .subFrame-6 {
+            transform: translateY(0%);
+            opacity: 1;
+        }
+    }
+
+    .frame-3 {
+        transform: translateX(0%);
+
+        .subFrame-1 {
+            transform: translateX(0%);
+            opacity: 1;
+        }
+
+        .subFrame-2, .subFrame-3, .subFrame-4, .subFrame-5 {
+            transform: translateX(150%);
+        }
+    }
+}
+
+body[data-scroll-state="8"] {
+    .frame-2 {
+        transform: translateX(-150%);
+    }
+
+    .frame-3 {
+        transform: translateX(0%);
+
+        .subFrame-1 {
+            transform: translateX(-150%);
+        }
+
+        .subFrame-2 {
+            transform: translateX(0%);
+            opacity: 1;
+        }
+
+        .subFrame-3, .subFrame-4, .subFrame-5 {
+            transform: translateX(150%);
+        }
+    }
+}
+
+body[data-scroll-state="9"] {
+    .frame-2 {
+        transform: translateX(-150%);
+    }
+
+    .frame-3 {
+        transform: translateX(0%);
+
+        .subFrame-1, .subFrame-2 {
+            transform: translateX(-150%);
+        }
+
+        .subFrame-3 {
+            transform: translateY(0%);
+            opacity: 1;
+        }
+
+        .subFrame-4, .subFrame-5 {
+            transform: translateX(150%);
+        }
+    }
+}
+
+body[data-scroll-state="10"] {
+    .frame-2 {
+        transform: translateX(-150%);
+    }
+
+    .frame-3 {
+        transform: translateX(0%);
+
+        .subFrame-1, .subFrame-2, .subFrame-3 {
+            transform: translateX(-150%);
+        }
+
+        .subFrame-4 {
+            transform: translateY(0%);
+            opacity: 1;
+        }
+
+        .subFrame-5 {
+            transform: translateX(150%);
+        }
+    }
+}
+
+body[data-scroll-state="11"] {
+    .frame-2 {
+        transform: translateX(-150%);
+    }
+
+    .frame-3 {
+        transform: translateX(0%);
+
+        .subFrame-1, .subFrame-2, .subFrame-3, .subFrame-4 {
+            transform: translateX(-150%);
+        }
+
+        .subFrame-5 {
             transform: translateY(0%);
             opacity: 1;
         }

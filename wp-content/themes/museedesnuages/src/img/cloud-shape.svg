@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="650px" height="450px" viewBox="0 0 650 450" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>cloud-shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.0800000057">
+        <g id="Air" transform="translate(-395.000000, -175.000000)" fill="#3D3D3D" fill-rule="nonzero">
+            <g id="air1">
+                <g id="air_content">
+                    <path d="M956.796974,339.695692 C944.936482,280.168033 892.577665,235.278323 829.559418,235.24079 C814.471071,235.24079 799.983254,237.905647 786.433768,242.672364 C754.793279,201.573507 704.986719,175 649.062247,175 C557.631366,175 482.940293,245.599954 476.371983,335.229241 C428.104285,361.127151 395,412.172306 395,470.874235 C395,555.849405 463.948493,624.835431 549.073796,624.835431 L895.80552,624.835431 C978.1909,624.835431 1045,558.063864 1045,475.678485 C1044.96247,415.02483 1008.51773,363.041344 956.796974,339.695692 Z" id="cloud-shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

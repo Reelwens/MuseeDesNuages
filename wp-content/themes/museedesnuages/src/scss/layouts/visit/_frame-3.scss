@@ -1,4 +1,4 @@
-.visit .frame-2 {
+.visit .frame-3 {
     transform: translateY(150%);
 
     .frameName {
@@ -6,7 +6,7 @@
     }
 
     .subFrameName {
-        color: #7ea8f8;
+        color: #8396ab;
     }
 
     .description {
@@ -14,14 +14,10 @@
     }
 
     .buttonDetail {
-        background-color: #7ea8f8;
+        background-color: #8396ab;
 
         &:hover {
-            background-color: #6f9bee;
+            background-color: #8b9fb4;
         }
-    }
-
-    .subFrame-4 .card-3 {
-        width: 25vw;
     }
 }

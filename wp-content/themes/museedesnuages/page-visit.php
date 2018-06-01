@@ -82,8 +82,58 @@
                 <img src="<?= THEME_URL ?>/assets/img/pool1.png" alt="Piscine" class="card card-1" />
                 <img src="<?= THEME_URL ?>/assets/img/pool2.png" alt="Piscine" class="card card-2" />
             </div>
+        </section>
+        <section class="frame frame-3 horizontalFrame">
+            <img class="frameForm" src="<?= THEME_URL ?>/assets/img/cloud-shape.svg" alt="Cloud shape" />
+            <div class="frameName">L'air</div>
 
+            <div class="subFrame subFrame-1">
+                <p class="description">Nous sommes attentifs aux signes du temps, à leur mutation permanente et nous les inscrivons avec vous sur des objets et dans le temps, pour préserver une atmosphère et une ambiance propice aux belles apparitions. Saisir l’air du temps, lancer des idées en l’air, être libres comme l’air, mais détecter les mouvement fugaces annonciateurs du beau ou du mauvais temps. Ressentir pour nous adapter à l’instant et aux transformations de notre ère.<br /><br />Rien ne se montre de l’air, sinon les objets qu’il nous laisse voir. Ainsi, le monde est-il à nous par le retrait de l’air. ». Le philosophe Alain Cugno, exprime ainsi la transparence de l’air, sa capacité à nous offrir la totalité du monde. Sans air, pas de vie. Un nuage est une forme mouvante suspendue par des forces invisibles mais puissantes.</p>
+            </div>
 
+            <div class="subFrame subFrame-2">
+                <h2 class="subFrameName">Eventail radioactif</h2>
+                <p class="description">La toxicité des combustibles irradiés ne s’éteint pas en soufflant dessus. Chassons les nuages nucléaires avec une bonne ventilation manuelle !</p>
+                <a href="#" class="buttonDetail">Voir le détail du projet</a>
+            </div>
+            <div class="subFrameImg subFrame-2">
+                <img src="<?= THEME_URL ?>/assets/img/eventail1.jpg" alt="Eventail" class="card card-1" />
+                <img src="<?= THEME_URL ?>/assets/img/eventail2.jpg" alt="Eventail" class="card card-2" />
+                <img src="<?= THEME_URL ?>/assets/img/eventail3.jpg" alt="Eventail" class="card card-3" />
+            </div>
+
+            <div class="subFrame subFrame-3">
+                <h2 class="subFrameName">L’art dans le vent</h2>
+                <p class="description">Exposition L'Art dans le vent, au domaine de Chamarande (91) en 2000. Pendant la période 1995-2000, le musée des nuages a bénéficié du mécénat d’un fournisseur des musées.</p>
+                <a href="#" class="buttonDetail">Voir le détail du projet</a>
+            </div>
+            <div class="subFrameImg subFrame-3">
+                <img src="<?= THEME_URL ?>/assets/img/book.png" alt="Book" class="card card-1" />
+                <img src="<?= THEME_URL ?>/assets/img/flag.jpg" alt="Flag" class="card card-2" />
+                <img src="<?= THEME_URL ?>/assets/img/masque.png" alt="Masque" class="card card-3" />
+            </div>
+
+            <div class="subFrame subFrame-4">
+                <h2 class="subFrameName">Vue de Paris</h2>
+                <p class="description">Cet aménagement de la verrière d’une galerie parisienne a été réalisé dans l’espace commun des galeries Sous-sol, Casini, Anton-Weller, au 57 rue de Bretagne, Paris. Une fontaine à eau et des verres estampillés musée des nuages ont été édités pour l’usage dans les locaux (mai 2003).</p>
+                <a href="#" class="buttonDetail">Voir le détail du projet</a>
+            </div>
+            <div class="subFrameImg subFrame-4">
+                <img src="<?= THEME_URL ?>/assets/img/verriere.jpg" alt="Verrière" class="card card-1" />
+                <img src="<?= THEME_URL ?>/assets/img/verriere.jpg" alt="Verrière" class="card card-2" />
+                <img src="<?= THEME_URL ?>/assets/img/verriere.jpg" alt="Verrière" class="card card-3" />
+            </div>
+
+            <div class="subFrame subFrame-5">
+                <h2 class="subFrameName">Etats du ciel</h2>
+                <p class="description">L’inconstance du ciel représente un défi pour le peintre autant que pour le scientifique. « États du ciel » est une exposition de plein air décrivant les variations de nos représentations du temps, dans le temps.</p>
+                <a href="#" class="buttonDetail">Voir le détail du projet</a>
+            </div>
+            <div class="subFrameImg subFrame-5">
+                <img src="<?= THEME_URL ?>/assets/img/ciel1.jpg" alt="Ciel" class="card card-1" />
+                <img src="<?= THEME_URL ?>/assets/img/ciel2.jpg" alt="Ciel" class="card card-2" />
+                <img src="<?= THEME_URL ?>/assets/img/ciel3.jpg" alt="Ciel" class="card card-3" />
+            </div>
         </section>
     </div>
 
