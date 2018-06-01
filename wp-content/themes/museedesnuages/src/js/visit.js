@@ -36,7 +36,7 @@ on('/visit', arg => {
         if (e.keyCode == '38' && count > 0) {
             count--
             document.querySelector('body').dataset.scrollState = count;
-        } else if (e.keyCode == '40' && scrollable > count) {
+        } else if (e.keyCode == '40' && scrollLimit > count) {
             count++
             document.querySelector('body').dataset.scrollState = count;
         }
