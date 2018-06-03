@@ -48,6 +48,24 @@ gulp.task( 'sass', function()
 
 
 
+// Sass mobile
+gulp.task( 'sassMobile', function()
+{
+    return gulp.src( './src/mobileScss/*.scss' )
+        .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+        .pipe(autoprefixer({
+            browsers: ['last 2 versions'],
+            cascade: false
+        }))
+        .pipe(rename(function (path) {
+            path.basename += '.min';
+        }))
+        .pipe(gulp.dest('./assets/css'))
+} );
+
+
+
+
 // JS task
 gulp.task( 'js', function()
 {
@@ -96,11 +114,12 @@ gulp.task( 'svg', function()
 // Watch task
 gulp.task( 'watch', function()
 {
-    gulp.watch( './src/scss/**/**', [ 'sass' ] );
+    gulp.watch( './src/scss/**/**', [ 'sass', 'sassMobile' ] );
+    gulp.watch( './src/mobileScss/**/**', [ 'sassMobile' ] );
     gulp.watch( './src/js/**/**', [ 'js' ] );
     gulp.watch( './src/img/**/**', [ 'img', 'svg' ] );
     gulp.watch( './src/font/**', [ 'font' ] );
 } );
 
-gulp.task( 'default', [ 'sass', 'js', 'font', 'img', 'svg', 'watch' ] );
-gulp.task( 'noimg', [ 'sass', 'js', 'font', 'svg', 'watch' ] );
+gulp.task( 'default', [ 'sass', 'sassMobile', 'js', 'font', 'img', 'svg', 'watch' ] );
+gulp.task( 'noimg', [ 'sass', 'sassMobile', 'js', 'font', 'svg', 'watch' ] );

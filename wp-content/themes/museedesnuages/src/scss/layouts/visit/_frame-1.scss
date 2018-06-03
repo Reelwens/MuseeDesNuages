@@ -3,6 +3,15 @@
     padding: 18% 3%;
     overflow: hidden;
 
+    @media (max-width: $desktop) {
+        flex-direction: column;
+        padding: 13% 3%;
+    }
+
+    @media (max-width: $phone) {
+        padding: 38% 3%;
+    }
+
     .texts {
         display: flex;
         flex-direction: column;
@@ -10,11 +19,21 @@
         margin-left: 10%;
         color: white;
 
+        @media (max-width: $desktop) {
+            justify-content: center;
+            width: 80%;
+            height: 45%;
+        }
+
         .title {
             font-family: $second-font;
             font-size: 36px;
             letter-spacing: 1.4px;
             font-weight: bold;
+
+            @media (max-width: $phone) {
+                font-size: 26px;
+            }
         }
 
         .bio {
@@ -24,6 +43,10 @@
             font-weight: 300;
             letter-spacing: 1.3px;
             line-height: 1.5;
+
+            @media (max-width: $phone) {
+                font-size: 15px;
+            }
         }
     }
 
@@ -32,16 +55,33 @@
         justify-content: center;
         width: 50%;
 
+        @media (max-width: $desktop) {
+            width: 100%;
+        }
+
         img {
             width: 275px;
             align-self: center;
 
+            @media (max-width: $desktop) {
+                max-width: 200px;
+                width: 40%;
+            }
+
             &:first-child {
-                transform: translateY(20%);
+                transform: translateY(-20%);
+
+                @media (max-width: $desktop) {
+                    transform: none;
+                }
             }
 
             &:last-child {
-                transform: translateY(-20%);
+                transform: translateY(20%);
+
+                @media (max-width: $desktop) {
+                    transform: none;
+                }
             }
         }
     }
