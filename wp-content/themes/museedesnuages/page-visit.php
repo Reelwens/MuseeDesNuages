@@ -186,6 +186,36 @@
                 <img src="<?= THEME_URL ?>/assets/img/mac2.png" alt="Mac" class="card card-3" />
             </div>
         </section>
+        <section class="frame frame-5 horizontalFrame">
+            <img class="frameForm" src="<?= THEME_URL ?>/assets/img/flash-shape.svg" alt="Flash shape" />
+            <div class="frameName">L'énergie</div>
+
+            <div class="subFrame subFrame-1">
+                <p class="description">L’énergie fossile est l’un des facteurs d’accélération de l’effet de serre nuisible au climat. La consommation d’hydrocarbures ne cesse de croître et nous savons qu’il est nécessaire de ralentir, de prendre notre temps.<br />La meilleure énergie serait donc celle que l’on n’utilise pas. Écoutons notre corps et reposons-nous un moment dans une chaise de toile ; profitons de la lumière, laissons le soleil jouer avec l’ombre, fermons les yeux, partons dans les nuages et rêvons. Sans rêve, pas de projet, sans repos et sans méditation, pas d’énergie humaine.<br /><br />Alors, nous aurons le temps de converser de nous entretenir avec notre prochain, de communiquer dans la proximité, de comprendre et d’expliquer nos différences, en découvrant la diversité des points de vue.<br />A travers ses interventions, ses ateliers, le musée des nuages écoute votre voix.</p>
+            </div>
+
+            <div class="subFrame subFrame-2">
+                <h2 class="subFrameName">Nuages d’objets</h2>
+                <p class="description">Un nuage est un phénomène d'accumulation suivi d'un épisode de dissémination. C'est un état transitoire qui rend palpable la circulation des fluides et des énergies. Considérons une exposition comme un nuage d'objets. </p>
+                <a href="#" class="buttonDetail">Voir le détail du projet</a>
+            </div>
+            <div class="subFrameImg subFrame-2">
+                <img src="<?= THEME_URL ?>/assets/img/objet1.png" alt="Objet" class="card card-1" />
+                <img src="<?= THEME_URL ?>/assets/img/objet2.png" alt="Objet" class="card card-2" />
+                <img src="<?= THEME_URL ?>/assets/img/objet3.png" alt="Objet" class="card card-3" />
+            </div>
+
+            <div class="subFrame subFrame-3">
+                <h2 class="subFrameName">Les conférences des nuages</h2>
+                <p class="description">Explorez les différentes conférences passées</p>
+                <a href="#" class="buttonDetail">Les conférences passées</a>
+            </div>
+            <div class="subFrameImg subFrame-3">
+                <img src="<?= THEME_URL ?>/assets/img/conference1.png" alt="Conférence" class="card card-1" />
+                <img src="<?= THEME_URL ?>/assets/img/conference2.png" alt="Conférence" class="card card-2" />
+                <img src="<?= THEME_URL ?>/assets/img/conference3.png" alt="Conférence" class="card card-3" />
+            </div>
+        </section>
     </div>
 
 <?php get_footer(); ?>

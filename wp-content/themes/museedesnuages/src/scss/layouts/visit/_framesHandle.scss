@@ -48,7 +48,7 @@ body[data-scroll-state="0"] {
         transform: translateY(150%);
     }
 
-    .frame-3 {
+    .frame-3, .frame-5 {
         transform: translateX(150%);
     }
 }
@@ -67,7 +67,7 @@ body[data-scroll-state="1"] {
         }
     }
 
-    .frame-3 {
+    .frame-3, .frame-5 {
         transform: translateX(150%);
     }
 
@@ -94,7 +94,7 @@ body[data-scroll-state="2"] {
         }
     }
 
-    .frame-3 {
+    .frame-3, .frame-5 {
         transform: translateX(150%);
     }
 
@@ -121,7 +121,7 @@ body[data-scroll-state="3"] {
         }
     }
 
-    .frame-3 {
+    .frame-3, .frame-5 {
         transform: translateX(150%);
     }
 
@@ -148,7 +148,7 @@ body[data-scroll-state="4"] {
         }
     }
 
-    .frame-3 {
+    .frame-3, .frame-5 {
         transform: translateX(150%);
     }
 
@@ -175,7 +175,7 @@ body[data-scroll-state="5"] {
         }
     }
 
-    .frame-3 {
+    .frame-3, .frame-5 {
         transform: translateX(150%);
     }
 
@@ -198,7 +198,7 @@ body[data-scroll-state="6"] {
         }
     }
 
-    .frame-3 {
+    .frame-3, .frame-5 {
         transform: translateX(150%);
     }
 
@@ -237,6 +237,10 @@ body[data-scroll-state="7"] {
     .frame-4 {
         transform: translateY(150%);
     }
+
+    .frame-5 {
+        transform: translateX(150%);
+    }
 }
 
 body[data-scroll-state="8"] {
@@ -263,6 +267,10 @@ body[data-scroll-state="8"] {
 
     .frame-4 {
         transform: translateY(150%);
+    }
+
+    .frame-5 {
+        transform: translateX(150%);
     }
 }
 
@@ -291,6 +299,10 @@ body[data-scroll-state="9"] {
     .frame-4 {
         transform: translateY(150%);
     }
+
+    .frame-5 {
+        transform: translateX(150%);
+    }
 }
 
 body[data-scroll-state="10"] {
@@ -318,6 +330,10 @@ body[data-scroll-state="10"] {
     .frame-4 {
         transform: translateY(150%);
     }
+
+    .frame-5 {
+        transform: translateX(150%);
+    }
 }
 
 body[data-scroll-state="11"] {
@@ -340,6 +356,10 @@ body[data-scroll-state="11"] {
 
     .frame-4 {
         transform: translateY(150%);
+    }
+
+    .frame-5 {
+        transform: translateX(150%);
     }
 }
 
@@ -373,6 +393,10 @@ body[data-scroll-state="12"] {
             transform: translateY(150%);
         }
     }
+
+    .frame-5 {
+        transform: translateX(150%);
+    }
 }
 
 body[data-scroll-state="13"] {
@@ -399,6 +423,10 @@ body[data-scroll-state="13"] {
         .subFrame-3, .subFrame-4, .subFrame-5 {
             transform: translateY(150%);
         }
+    }
+
+    .frame-5 {
+        transform: translateX(150%);
     }
 }
 
@@ -427,6 +455,10 @@ body[data-scroll-state="14"] {
             transform: translateY(150%);
         }
     }
+
+    .frame-5 {
+        transform: translateX(150%);
+    }
 }
 
 body[data-scroll-state="15"] {
@@ -454,6 +486,10 @@ body[data-scroll-state="15"] {
             transform: translateY(150%);
         }
     }
+
+    .frame-5 {
+        transform: translateX(150%);
+    }
 }
 
 body[data-scroll-state="16"] {
@@ -474,6 +510,96 @@ body[data-scroll-state="16"] {
 
         .subFrame-5 {
             transform: translateY(0%);
+            opacity: 1;
+        }
+    }
+
+    .frame-5 {
+        transform: translateX(150%);
+    }
+}
+
+body[data-scroll-state="17"] {
+    .frame-2 {
+        transform: translateX(-150%);
+    }
+
+    .frame-3 {
+        transform: translateY(-150%);
+    }
+
+    .frame-4 {
+        transform: translateX(-150%);
+
+        .subFrame-1, .subFrame-2, .subFrame-3, .subFrame-4 {
+            transform: translateY(-150%);
+        }
+
+        .subFrame-5 {
+            transform: translateY(0%);
+            opacity: 1;
+        }
+    }
+
+    .frame-5 {
+        transform: translateX(0%);
+
+        .subFrame-1 {
+            transform: translateX(0%);
+            opacity: 1;
+        }
+
+        .subFrame-2, .subFrame-3 {
+            transform: translateX(150%);
+        }
+    }
+}
+
+body[data-scroll-state="18"] {
+    .frame-2, .frame-4 {
+        transform: translateX(-150%);
+    }
+
+    .frame-3 {
+        transform: translateY(-150%);
+    }
+
+    .frame-5 {
+        transform: translateX(0%);
+
+        .subFrame-1 {
+            transform: translateX(-150%);
+        }
+
+        .subFrame-2 {
+            transform: translateX(0%);
+            opacity: 1;
+        }
+
+        .subFrame-3 {
+            transform: translateX(150%);
+        }
+    }
+}
+
+body[data-scroll-state="19"] {
+    .frame-2,  .frame-4 {
+        transform: translateX(-150%);
+    }
+
+    .frame-3 {
+        transform: translateY(-150%);
+    }
+
+    .frame-5 {
+        transform: translateX(0%);
+
+        .subFrame-1, .subFrame-2 {
+            transform: translateX(-150%);
+        }
+
+        .subFrame-3 {
+            transform: translateX(0%);
             opacity: 1;
         }
     }

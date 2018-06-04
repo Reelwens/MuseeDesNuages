@@ -1,0 +1,23 @@
+.visit .frame-5 {
+    transform: translateY(150%);
+
+    .frameName {
+        color: #0a366c;
+    }
+
+    .subFrameName {
+        color: #8396ab;
+    }
+
+    .description {
+        color: #0a366c;
+    }
+
+    .buttonDetail {
+        background-color: #8396ab;
+
+        &:hover {
+            background-color: #93a3b4;
+        }
+    }
+}
