@@ -6,42 +6,7 @@
  * Bases
  */
 
-@import '../scss/base/reset';
-@import '../scss/base/variables';
-@import '../scss/base/base';
-
-
-
-/*
- * Layouts
- */
-
-@import '../scss/layouts/menu';
-@import '../scss/layouts/footer';
-@import '../scss/layouts/loader';
-@import '../scss/layouts/contact';
-
-@import '../scss/layouts/home/hero';
-@import '../scss/layouts/home/path';
-@import '../scss/layouts/home/pathContent';
-@import '../scss/layouts/home/clouds';
-
-@import '../scss/layouts/visit/background';
-@import '../scss/layouts/visit/framesHandle';
-@import '../scss/layouts/visit/frame';
-@import '../scss/layouts/visit/frame-1';
-@import '../scss/layouts/visit/frame-2';
-@import '../scss/layouts/visit/frame-3';
-
-
-
-/*
- * Components
- */
-
-@import '../scss/components/sound';
-@import '../scss/components/buttons';
-@import '../scss/components/header';
+@import '../scss/app';
 
 
 .visit {

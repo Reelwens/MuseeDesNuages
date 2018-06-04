@@ -135,6 +135,57 @@
                 <img src="<?= THEME_URL ?>/assets/img/ciel3.jpg" alt="Ciel" class="card card-3" />
             </div>
         </section>
+        <section class="frame frame-4">
+            <img class="frameForm" src="<?= THEME_URL ?>/assets/img/light-shape.svg" alt="Light shape" />
+            <div class="frameName">La lumière</div>
+
+            <div class="subFrame subFrame-1">
+                <p class="description">La meilleure façon de ne pas allumer la lumière dans une salle, c’est de proposer une exposition en plein air. On peut la visiter en plein jour ou par les nuits de forte Lune. Ainsi, les interventions du musée des nuages ont souvent lieu en plein air et tentent de ne pas utiliser d’éclairage artificiel.<br /><br />Si il est vrai que nous travaillons parfois dans l’ombre et que nous avons tous naturellement besoin de nous confiner, c’est souvent près d’une fenêtre que le contact s’établit avec le ciel, à la recherche d’un point lumineux, d’une étoile, d’une éclaircie. Sans lumière, fermez les yeux écoutez, comme au festival des radiophonies en langue française quand l’auditorium s’équipait de chaises de toiles du musée des nuages pour accueillir les auditeurs dans la pénombre, pendant quatre saisons consécutives.</p>
+            </div>
+
+            <div class="subFrame subFrame-2">
+                <h2 class="subFrameName">Invitation à la promenade</h2>
+                <p class="description">S’asseoir dans une chaise longue, c’est s’inviter à une exposition que l’on découvre la tête en l’air. C’est profiter d’un laissez-passer permanent pour s’embarquer dans le paysage mouvant d’un ciel toujours redessiné, toujours contemporain.</p>
+                <a href="#" class="buttonDetail">Voir le détail du projet</a>
+            </div>
+            <div class="subFrameImg subFrame-2">
+                <img src="<?= THEME_URL ?>/assets/img/promenade1.png" alt="Promenade" class="card card-1" />
+                <img src="<?= THEME_URL ?>/assets/img/promenade2.png" alt="Promenade" class="card card-2" />
+                <img src="<?= THEME_URL ?>/assets/img/promenade3.png" alt="Promenade" class="card card-3" />
+            </div>
+
+            <div class="subFrame subFrame-3">
+                <h2 class="subFrameName">Zone d’ombres</h2>
+                <p class="description">Attention aux fonds de ciel uni ! Ne vous exposez pas longtemps à la morsure du soleil. Ce genre d’exposition n’est pas sans conséquence.</p>
+                <a href="#" class="buttonDetail">Voir le détail du projet</a>
+            </div>
+            <div class="subFrameImg subFrame-3">
+                <img src="<?= THEME_URL ?>/assets/img/ombre1.png" alt="Ombre" class="card card-1" />
+                <img src="<?= THEME_URL ?>/assets/img/ombre2.png" alt="Ombre" class="card card-2" />
+                <img src="<?= THEME_URL ?>/assets/img/ombre3.png" alt="Ombre" class="card card-3" />
+            </div>
+
+            <div class="subFrame subFrame-4">
+                <h2 class="subFrameName">Effets de serres</h2>
+                <p class="description">Le musée des nuages vous invitait à contempler le ciel d’Île-de-France à travers l’une des plus belles vitrines que Paris ait conçues pour la nature. Alors que dans un musée on navigue entre les vitrines, ici notre regard traverse l’espace et derrière les parois de verre, nous observons quelque chose de plus grand que la vitrine elle-même.</p>
+                <a href="#" class="buttonDetail">Voir le détail du projet</a>
+            </div>
+            <div class="subFrameImg subFrame-4">
+                <img src="<?= THEME_URL ?>/assets/img/serre1.png" alt="Serre" class="card card-1" />
+                <img src="<?= THEME_URL ?>/assets/img/serre2.png" alt="Serre" class="card card-2" />
+                <img src="<?= THEME_URL ?>/assets/img/serre3.png" alt="Serre" class="card card-3" />
+            </div>
+
+            <div class="subFrame subFrame-5">
+                <h2 class="subFrameName">Mav / Val</h2>
+                <p class="description">Le musée des nuages intervient ici pendant ces moments au cours desquels le visiteur retrouve la lumière naturelle lors de son périple dans le musée.<br />Les chaises de toiles du musée des nuages sont orientées vers les baies vitrées comme une invitation à attarder son regard vers l'extérieur.</p>
+                <a href="#" class="buttonDetail">Voir le détail du projet</a>
+            </div>
+            <div class="subFrameImg subFrame-5">
+                <img src="<?= THEME_URL ?>/assets/img/mac1.png" alt="Mac" class="card card-1" />
+                <img src="<?= THEME_URL ?>/assets/img/mac2.png" alt="Mac" class="card card-3" />
+            </div>
+        </section>
     </div>
 
 <?php get_footer(); ?>

@@ -9,7 +9,7 @@ on('/visit', arg => {
 
         // Scroll
         var lethargy = new Lethargy();
-        let scrollLimit = 11,
+        let scrollLimit = 16,
             count = 0,
             lastScroll = Date.now();
 
