@@ -6,6 +6,10 @@
     padding: 15rem 10rem;
     transition: all 1s;
 
+    @media (max-width: $phone) {
+        padding: 10rem 2rem;
+    }
+
     .headerTitle{
         width: 20rem;
         font-size:1.75em;

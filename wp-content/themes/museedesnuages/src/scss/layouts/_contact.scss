@@ -15,6 +15,7 @@
 }
 
 .contactSocial{
+    margin-top: 20px;
     img{
         height:1rem;
         width:auto;
@@ -42,6 +43,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    @media (max-width: $phone) {
+        margin: 4rem auto;
+    }
 
     .founder{
         flex: 1;
@@ -95,8 +100,8 @@
                 height: 10px;
                 border-radius: 50%;
                 position: absolute;
-                top: 51%;
-                left: 51%;
+                top: 55%;
+                left: 55%;
                 transform: translate(-55%, -55%);
                 background-color: $blue;
             }
@@ -109,8 +114,8 @@
                 height: 10px;
                 border-radius: 50%;
                 position: absolute;
-                top: 51%;
-                left: 51%;
+                top: 55%;
+                left: 55%;
                 transform: translate(-55%, -55%);
                 background-color: $blue;
             }
@@ -130,10 +135,18 @@
             &:hover{
                 color: $blue;
             }
+            @media (max-width: $phone) {
+                display: block;
+                margin: 30px 0 0 0;
+            }
         }
         .wpcf7-list-item-label{
             margin-left: 30px;
             cursor: pointer;
+
+            @media (max-width: $phone) {
+                margin-left: 30px;
+            }
         }
     }
 
