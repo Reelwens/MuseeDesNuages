@@ -1,0 +1,15 @@
+.error__page{
+    .headerPage{
+        height: 100vh;
+    }
+
+    .button{
+        padding: 15px;
+        width: 280px;
+        position: absolute;
+        top:60%;
+        left:50%;
+        transform: translateX(-50%);
+        opacity: 1;
+    }
+}

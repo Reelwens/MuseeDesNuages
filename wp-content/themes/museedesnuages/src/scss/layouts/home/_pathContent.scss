@@ -41,6 +41,7 @@
         width: 30px;
         height: 30px;
         border-radius: 100px;
+        border: 5px solid white;
         background: black;
         box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.05);
         opacity: 0;
@@ -55,14 +56,12 @@
             top: 240px;
             left: calc(50% + 58px);
             background: #0a366c;
-            border: 5px solid white;
         }
 
         &.point-2 {
             top: 670px;
             left: calc(50% + -93px);
             background: #0a366c;
-            border: 5px solid white;
 
             @media (max-width: $phone) {
                 top: 806px;
@@ -74,7 +73,6 @@
             top: 1000px;
             left: calc(50% + 144px);
             background: #0a366c;
-            border: 5px solid white;
 
             @media (max-width: $phone) {
                 top: 1292px;
@@ -85,7 +83,6 @@
             top: 1570px;
             left: calc(50% + -57px);
             background: #0a366c;
-            border: 5px solid white;
         }
 
         &.point-5 {
@@ -93,7 +90,7 @@
             top: 1860px;
             left: calc(50% + -78px);
             background: $yellow;
-            border: 4px solid #8396AB;
+            border: 4px solid #fff;
             width: 96px;
             height: 96px;
 
@@ -109,14 +106,12 @@
             top: 2105px;
             left: calc(50% + 92px);
             background: $yellow;
-            border: 5px solid white;
         }
 
         &.point-7 {
             top: 3835px;
             left: calc(50% - 7px);
             background: $yellow;
-            border: 5px solid white;
 
             @media (max-width: $phone) {
                 top: 2400px;
@@ -128,7 +123,6 @@
             top: 5230px;
             left: calc(50% + 295px);
             background: $yellow;
-            border: 5px solid white;
 
             @media (max-width: $phone) {
                 top: 3110px;
@@ -141,7 +135,7 @@
             top: 5550px;
             left: calc(50% + 120px);
             background: $blue;
-            border: 4px solid #8396AB;
+            border: 4px solid #fff;
             width: 96px;
             height: 96px;
 
@@ -162,7 +156,6 @@
             top: 6030px;
             left: calc(50% - 50px);
             background: $blue;
-            border: 5px solid white;
 
             @media (max-width: $phone) {
                 top: 4200px;
@@ -174,7 +167,6 @@
             top: 6250px;
             left: calc(50% + 237px);
             background: $blue;
-            border: 5px solid white;
 
             @media (max-width: $phone) {
                 top: 5120px;
@@ -186,7 +178,6 @@
             top: 6780px;
             left: calc(50% - 170px);
             background: $blue;
-            border: 5px solid white;
 
             @media (max-width: $phone) {
                 top: 5370px;
@@ -198,7 +189,6 @@
             top: 7080px;
             left: calc(50% - 183px);
             background: $blue;
-            border: 5px solid white;
 
             @media (max-width: $phone) {
                 top: 6130px;
@@ -210,7 +200,6 @@
             top: 7400px;
             left: calc(50% + 41px);
             background: $blue;
-            border: 5px solid white;
 
             @media (max-width: $phone) {
                 top: 6668px;
@@ -241,7 +230,6 @@
             top: 8080px;
             left: calc(50% + 278px);
             background: $green;
-            border: 5px solid white;
 
             @media (max-width: $phone) {
                 top: 7920px;
@@ -253,7 +241,6 @@
             top: 8490px;
             left: calc(50% + 21px);
             background: $green;
-            border: 5px solid white;
 
             @media (max-width: $phone) {
                 top: 8160px;
@@ -265,7 +252,6 @@
             top: 9570px;
             left: calc(50% + 21px);
             background: $green;
-            border: 5px solid white;
 
             @media (max-width: $phone) {
                 top: 8794px;
@@ -276,7 +262,6 @@
             top: 10210px;
             left: calc(50% + 90px);
             background: $green;
-            border: 5px solid white;
 
             @media (max-width: $phone) {
                 top: 9660px;
@@ -288,7 +273,6 @@
             top: 11210px;
             left: calc(50% + 45px);
             background: $green;
-            border: 5px solid white;
 
             @media (max-width: $phone) {
                 top: 10660px;
@@ -300,7 +284,6 @@
             top: 11780px;
             left: calc(50% - 265px);
             background: $green;
-            border: 5px solid white;
         }
     }
 

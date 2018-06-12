@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-
-
 /*
  * Bases
  */
@@ -10,7 +8,13 @@
 @import 'base/variables';
 @import 'base/base';
 
+/*
+ * Components
+ */
 
+@import 'components/sound';
+@import 'components/buttons';
+@import 'components/header';
 
 /*
  * Layouts
@@ -35,13 +39,3 @@
 @import 'layouts/visit/frame-3';
 @import 'layouts/visit/frame-4';
 @import 'layouts/visit/frame-5';
-
-
-
-/*
- * Components
- */
-
-@import 'components/sound';
-@import 'components/buttons';
-@import 'components/header';
