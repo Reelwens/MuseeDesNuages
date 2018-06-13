@@ -13,6 +13,7 @@ on('/visit', arg => {
         	.addTo(controller);
 
     } else {
+        console.log('visit');
         /*
          * Set data scroll state
          */

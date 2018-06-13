@@ -2,7 +2,7 @@ on('/', () => {
     /*
      * Dynamic fade out pathImg
      */
-
+    console.log('home');
     const path = document.querySelector('.pathImg');
     const doc = document.documentElement;
 
