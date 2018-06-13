@@ -38,9 +38,9 @@
                 <h2 class="subFrameName">Châteaux d'eau</h2>
                 <p class="description">Un château d’eau est un repère, un signe de prospérité, un témoin de civilisation. Intégrer un château d’eau dans les collections du musée des nuages c’est « restaurer » le regard des habitants sur leurs équipements urbains.</p>
                 <a href="#" class="buttonDetail">Voir le détail du projet</a>
-                <div class="caseStudy caseStudy-2 display visible">
+                <div class="caseStudy caseStudy-1">
                     <div class="container">
-                        <img class="goBack" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
+                        <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
                         <p class="studyTitle">Eau</p>
                         <p class="studySubTitle">Châteaux d’eaux « grands crus classés »</p>
                         <p class="studyParagraph">Un château d’eau est un repère, un signe de prospérité, un témoin de civilisation. Inscrire un château d’eau dans le patrimoine du musée des nuages, c’est célébrer l’intelligence collective au service du bien commun. Intégrer un château d’eau dans les collections du musée des nuages c’est « restaurer » le regard des habitants sur leurs équipements urbains, c’est attirer l’attention sur les éléments qui fondent la qualité de la vie.<br />Le musée des nuages applique son emblème sur plusieurs châteaux d’eau et par cette marque répétitive, il rappelle les liens invisibles que tissent ces équipements interconnectés. Ces tours veillent sur un empire poétique, créent un réseau de consciences, élèvent naturellement le regard.</p>
@@ -51,6 +51,7 @@
                         <div class="picture"></div>
                         <p class="studyParagraph">Inscription « musée des nuages » sur le château d’eau de l’usine de production d’eau potable de Poitiers-Bellejouanne, depuis 2015.</p>
                         <p class="studyParagraph">« J'ai cherché l'entrée du musée des nuages, mais je ne l'ai pas trouvée », expliquait un visiteur aux services culturels de la ville.<br />On venait de poser l'insigne du musée sur l'une des deux tours, mais la station de traitement des eaux n'est pas accessible aux promeneurs. Qu'il soit d'eau ou bien de sable, un château est une citadelle. Le musée des nuages s'empare donc de cette tour et nous arrête au pied de la lettre. Ici, la visite se fait de l'extérieur.<br /><br />Si toutes les usines du monde ressemblaient au centre de production d'eau potable de Bellejouanne, nous travaillerions alors au milieu d'espaces verts, de bassins surplombés par des passerelles où l'air, l'eau et la lumière circulent. Au centre de l'enceinte, les maîtres d'ouvrage ont créé un Pavillon de l'eau. Cet espace pédagogique, que l'on visite sur inscription et par groupe, initie le public et les scolaires aux particularités des ressources aquifères du territoire. On y découvre les systèmes d’épuration et les processus de potabilisation effectués dans la station. Le Pavillon est accessible par des coursives suspendues. Le visiteur enjambe des jardins quadrillés par des bordures maçonnées. Dans chaque enclos, le vert de l'engazonnement a remplacé les bassins miroitants qui tapissaient, hier, un parterre de piscines filtrantes.<br />Au terme de son parcours, le liquide transparent dévalait des cascades de faïence, pour s'oxygéner dans les tourbillons d'un labyrinthe de vasques blanches. Puis, on le propulsait vers la cuve, dernier séjour dans les hauteurs, avant qu'il ne replonge sous terre, pour serpenter vers nos appartements.<br /><br />Aujourd'hui, les alvéoles rectangulaires, disposées en damier au pied des tours, ne servent plus à la filtration. Dans un bassin encore en eau, quelques truitelles agitent la surface. Le comportement de ce poisson servait hier comme témoin de salubrité. Si sa présence demeure un signal rassurant, ce n'est plus par vigilance sanitaire, mais parce que l'on conserve ainsi le contact avec une mémoire vivante, en eau vive.<br /><br />Au centre du parc, des arceaux de pierre montés au XIXe siècle sur le prolongement d'un aqueduc romain longent un bâtiment aux murs lisses. L'eau est maintenant conduite vers une salle des machines, qui la débarrassent de toute scorie, pour la verser enfin dans l'un des deux grands entonnoirs suspendus dans les tours, au-dessus de nos têtes. Ici et comme partout, l'eau ne fait pas que passer. Beaucoup d'eau a coulé sous les ponts depuis la création de la raffinerie de Bellejouanne, qui se transforme, elle aussi, au passage du temps.<br />Le musée des nuages pose donc sa signature sur un établissement en mouvement, dont la mission n'est pas de conserver, mais au contraire de transformer un bien qu'il ne conserve pas.</p>
+                        <div class="goBack button">Retour à la page visite</div>
                     </div>
                 </div>
             </div>
@@ -64,6 +65,16 @@
                 <h2 class="subFrameName">Bouteilles</h2>
                 <p class="description">Bouteilles et verres à eau estampillés musée des nuages sont des petits monuments individuels dédiés à la conscience de l’eau et à son partage.</p>
                 <a href="#" class="buttonDetail">Voir le détail du projet</a>
+                <div class="caseStudy caseStudy-2">
+                    <div class="container">
+                        <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
+                        <p class="studyTitle">Eau</p>
+                        <p class="studySubTitle">« Eau du robinet au Naturel »</p>
+                        <p class="studyParagraph">Eau du robinet « au naturel » est un hommage à la qualité de vie dont jouissent les humains qui peuvent porter sans crainte un goulot à leurs lèvres. Bouteilles et verres à eau estampillés musée des nuages sont des petits monuments individuels dédiés à la conscience de l’eau et à son partage.<br />On n'arrête pas un nuage, parce qu'il faudrait alors arrêter le ciel.<br />On ne retient pas l'eau. Tout au plus, la capte-t-on dans le creux des mains, dans un flacon, une citerne, un réservoir qui nous invite à la consommer sans attendre, ou à la transformer pour ne pas la gâcher ; car l'eau s'altère par excès de conservation.<br />Le musée des nuages ne conserve donc rien, si ce n'est un élan. Tout au plus entretient-il un mouvement, celui de notre attention envers les choses simples.<br />Simples comme l'air que l'on respire ; disponibles comme la lumière qu'il suffit de savoir prendre ; courantes comme l'eau, qui file entre les doigts.<br />Le musée des nuages met en circulation des objets usuels ou recyclés, des multiples, dont la banalité nous offre le luxe de leur accessibilité et la possibilité de leur partage.</p>
+                        <div class="picture"></div>
+                        <div class="goBack button">Retour à la page visite</div>
+                    </div>
+                </div>
             </div>
 
             <div class="subFrameImg subFrame-4">
@@ -75,6 +86,16 @@
                 <h2 class="subFrameName">Fontaines</h2>
                 <p class="description">Autour des puits, des fontaines, des lavoirs ou d’un verre en terrasse, l’eau est un facteur de convivialité. Du monumental ouvrage d’art conçu pour l’irrigation, au robinet de confort qui pénétra dans l’intimité des habitats, cet élément vital fut de tout temps un vecteur de culture.</p>
                 <a href="#" class="buttonDetail">Voir le détail du projet</a>
+                <div class="caseStudy caseStudy-3">
+                    <div class="container">
+                        <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
+                        <p class="studyTitle">Eau</p>
+                        <p class="studySubTitle">Fontaines</p>
+                        <p class="studyParagraph">Autour des puits, des fontaines, des lavoirs ou d’un verre en terrasse, l’eau est un facteur de convivialité. Du monumental ouvrage d’art conçu pour l’irrigation, au robinet de confort qui pénétra dans l’intimité des habitats, cet élément vital fut de tout temps un vecteur de culture. Les fontaines créées par le musée des nuages sont des points d’eau considérés comme des points de rencontre pour explorer tous les points de vue. C’est pour cette raison qu’elles sont mobiles…</p>
+                        <div class="picture"></div>
+                        <div class="goBack button">Retour à la page visite</div>
+                    </div>
+                </div>
             </div>
 
             <div class="subFrameImg subFrame-5">
@@ -86,6 +107,16 @@
                 <h2 class="subFrameName">Cocktail 5 sources</h2>
                 <p class="description">Le cocktail 5 sources est un assemblage de quatre eaux de source, plus une : l’eau de robinet ! </p>
                 <a href="#" class="buttonDetail">Voir le détail du projet</a>
+                <div class="caseStudy caseStudy-4">
+                    <div class="container">
+                        <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
+                        <p class="studyTitle">Eau</p>
+                        <p class="studySubTitle">Cocktail 5 sources</p>
+                        <div class="picture"></div>
+                        <p class="studyParagraph">Le cocktail 5 sources est un assemblage de quatre eaux de source, plus une : l’eau de robinet !<br />Le fond du verre contient toujours une base d'eau du robinet d’1/5.<br />Ce cocktail qui se boit tempéré a été servi au café du Boulevard (Melle), au restaurant du Mac/Val (Vitry-Sur-Seine), il agrémente les vacances au soleil. Choisissez, assemblez, comparez. Faites le cocktail vous-même et envoyez-nous votre recette avec des photos. Vous pouvez également nous demander le Moulin à eau à placer sur votre comptoir avec les sous-verres, l’ardoise et les verres 5 Sources.</p>
+                        <div class="goBack button">Retour à la page visite</div>
+                    </div>
+                </div>
             </div>
 
             <div class="subFrameImg subFrame-6">
@@ -96,6 +127,16 @@
                 <h2 class="subFrameName">Piscine des sources</h2>
                 <p class="description">Une piscine dans laquelleon peut se servir à boire en plongeant les mains dans le bassin, pour saisir des bouteilles d’eau à consommer sur place ou plus tard.</p>
                 <a href="#" class="buttonDetail">Voir le détail du projet</a>
+                <div class="caseStudy caseStudy-5">
+                    <div class="container">
+                        <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
+                        <p class="studyTitle">Eau</p>
+                        <p class="studySubTitle">Piscine des sources</p>
+                        <p class="studyParagraph">Les étudiants de l’École nationale d’aviation civile affluent de tous les pays pour partager quelques années d’études sur le campus toulousain de l’ENAC, avant de s’envoler vers leur vie professionnelle. Nous les avons invités à se rafraîchir autour d’une piscine dans laquelle ils pouvaient se servir à boire en plongeant les mains dans le bassin, pour saisir des bouteilles d’eau à consommer sur place ou plus tard. L’installation a été liquidée proprement, puisqu’elle était réalisée en matériaux recyclables (eau, plastique PET, papier pour les motifs muraux, mobilier trouvé sur place, palettes restituées au transporteur).</p>
+                        <div class="picture"></div>
+                        <div class="goBack button">Retour à la page visite</div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="frame frame-3 horizontalFrame">

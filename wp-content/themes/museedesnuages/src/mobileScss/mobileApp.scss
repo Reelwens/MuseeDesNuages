@@ -93,4 +93,16 @@
     .frame-1, .frame-2, .frame-3, .frame-4, .frame-5 {
         transform: none;
     }
+
+    .caseStudy {
+        position: fixed;
+        top: 0;
+        text-align: left;
+        z-index: 10;
+
+        .goBack.arrow {
+            left: 0;
+            top: -50px;
+        }
+    }
 }

@@ -1,4 +1,4 @@
-on('/', () => {
+on('/', arg => {
     /*
      * Dynamic fade out pathImg
      */

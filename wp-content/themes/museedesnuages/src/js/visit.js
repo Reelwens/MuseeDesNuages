@@ -1,4 +1,7 @@
 on('/visit', arg => {
+
+    let caseOpened = false;
+
     if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         let cssLink = document.querySelector('#main_style-css');
         cssLink.href = cssLink.href.replace('app', 'mobileApp');
@@ -13,7 +16,6 @@ on('/visit', arg => {
         	.addTo(controller);
 
     } else {
-        console.log('visit');
         /*
          * Set data scroll state
          */
@@ -25,6 +27,9 @@ on('/visit', arg => {
             lastScroll = Date.now();
 
         $(window).bind('mousewheel DOMMouseScroll wheel MozMousePixelScroll', e => {
+
+            if (caseOpened) return;
+
             e.preventDefault();
             e.stopPropagation();
 
@@ -63,4 +68,34 @@ on('/visit', arg => {
 
         document.querySelector('html').style.overflow = "hidden";
     }
+
+    /*
+     * Open/close case study
+     */
+
+    document.querySelectorAll('.buttonDetail').forEach((button, i) => {
+        button.onclick = e => {
+            caseOpened = true;
+
+            let caseStudy = document.querySelector('.caseStudy-' + (i + 1));
+
+            caseStudy.classList.add('display');
+            window.requestAnimationFrame(() => {
+                caseStudy.classList.add('visible');
+            });
+        }
+    });
+
+    document.querySelectorAll('.goBack').forEach(goBack => {
+        goBack.onclick = e => {
+            caseOpened = false;
+
+            let caseStudy = goBack.parentElement.parentElement;
+
+            caseStudy.classList.remove('visible');
+            setTimeout(() => {
+                caseStudy.classList.remove('display');
+            }, 350);
+        };
+    })
 });

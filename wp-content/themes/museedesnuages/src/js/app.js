@@ -4,14 +4,18 @@
 
 let here = window.location.pathname.split('/');
 
+if (here[here.length - 1] === '') {
+    here.pop();
+}
+
 function on(path, cb) {
     let routes = path.split('/');
 
-    let block = routes.find((route, i) => route !== here[i] && route[0] !== '*' && route[0] !== ':');
-
-    if (here[here.length - 1] === '' && routes[here.length - 1] !== '') {
-        here.pop();
+    if (routes[routes.length - 1] === '') {
+        routes.pop();
     }
+
+    let block = routes.find((route, i) => route !== here[i] && route[0] !== '*' && route[0] !== ':');
 
     if (block === undefined && routes.length === here.length) {
         let data = {};
