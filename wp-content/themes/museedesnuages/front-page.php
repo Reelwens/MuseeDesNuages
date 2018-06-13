@@ -217,6 +217,7 @@
                 <img src="<?= THEME_URL ?>/assets/img/art_1_vitre.png" alt="Vitre" class="mainPicture" />
                 <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1_left.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
                 <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2_left.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
+                <p class="legend">Effet de serre - Epson</p>
             </div>
 
             <div class="picture picture-4">
@@ -229,6 +230,7 @@
                 <img src="<?= THEME_URL ?>/assets/img/art_3_chateau.png" alt="Chateau" class="mainPicture" />
                 <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1_left.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
                 <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2_left.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
+                <p class="legend">Château d’Eau Poitiers</p>
             </div>
 
             <div class="picture picture-6">
@@ -241,6 +243,7 @@
                 <img src="<?= THEME_URL ?>/assets/img/art_5_nakaya.png" alt="Nakaya" class="mainPicture" />
                 <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
                 <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
+                <p class="legend">Mer de nuages - Fujiko Nakaya</p>
             </div>
 
             <div class="picture picture-8">
