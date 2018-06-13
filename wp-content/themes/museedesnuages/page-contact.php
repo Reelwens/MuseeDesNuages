@@ -57,7 +57,7 @@ get_header();
                 <?php endwhile; ?>
 
             </div>
-            <?php endif; ?>
+        <?php endif; ?>
         <div class="contactForm">
             <div class="formHeader">
                 <h2><?php the_field('form_title'); ?></h2>
