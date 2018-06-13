@@ -16,14 +16,6 @@
 	<div class="toggleMenu">
 		<?php include 'assets/img/menuToggle.svg' ?>
 	</div>
-	<div class="toggleSound">
-		<div class="bar bar_0"></div>
-		<div class="bar bar_1"></div>
-		<div class="bar bar_2"></div>
-		<div class="bar bar_3"></div>
-		<div class="bar bar_4"></div>
-		<div class="bar bar_5"></div>
-	</div>
 
     <header class="menu">
 		<nav>

@@ -54,7 +54,10 @@ document.querySelector(".toggleMenu").onclick = e => {
     document.querySelector(".menu").classList.toggle("click");
     document.querySelector(".toggleMenu").classList.toggle("click");
     document.querySelector(".toggleMenu").classList.toggle("bgVisible");
-    document.querySelector(".toggleSound").classList.toggle("click");
+    on('/', () => {
+        document.querySelector(".toggleSound").classList.toggle("click");
+    });
+
     document.querySelector("body").classList.toggle("noOverflow");
 
     setTimeout( e => {
@@ -102,16 +105,6 @@ window.addEventListener('scroll', event => {
     });
 });
 
-
-
-
-/*
- * Sound play/stop
- */
-
-document.querySelector(".toggleSound").onclick = e => {
-    document.querySelector(".toggleSound").classList.toggle("pause");
-}
 
 
 

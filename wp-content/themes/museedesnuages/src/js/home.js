@@ -1,5 +1,4 @@
 on('/', () => {
-    console.log('cache');
     /*
      * Dynamic fade out pathImg
      */
@@ -35,6 +34,28 @@ on('/', () => {
 
 
     /*
+     * Sound play/stop
+     */
+
+    var sound = true;
+
+    document.querySelector(".toggleSound").onclick = e => {
+        document.querySelector(".toggleSound").classList.toggle("pause");
+        if (sound === true) {
+            document.querySelector("#sound").volume = 0;
+            sound = false;
+        }
+        else {
+            document.querySelector("#sound").volume = 1;
+            sound = true;
+        }
+    }
+
+
+
+
+
+    /*
      * TweenMax home
      */
 
@@ -51,11 +72,11 @@ on('/', () => {
 
 
     new ScrollMagic.Scene({triggerElement: "#triggerGradient", triggerHook: 'onLeave', offset: -150})
-    	.setClassToggle(".toggleMenu", "click") // add class toggle
+    	.setClassToggle(".toggleMenu", "black") // add class toggle
     	.addTo(controller);
 
     new ScrollMagic.Scene({triggerElement: "#triggerGradient", triggerHook: 'onLeave', offset: -150})
-    	.setClassToggle(".toggleSound", "click") // add class toggle
+    	.setClassToggle(".toggleSound", "black") // add class toggle
     	.addTo(controller);
 
     new ScrollMagic.Scene({triggerElement: ".heading", triggerHook: 'onEnter', offset: 200})

@@ -2,6 +2,16 @@ on('/visit', arg => {
     if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         let cssLink = document.querySelector('#main_style-css');
         cssLink.href = cssLink.href.replace('app', 'mobileApp');
+
+        /*
+         * Adapt color menuButton on mobile
+         */
+        var controller = new ScrollMagic.Controller();
+
+        var scene = new ScrollMagic.Scene({triggerElement: ".frame-2", triggerHook: 'onLeave', offset: -100})
+        	.setClassToggle(".toggleMenu", "black") // add class toggle
+        	.addTo(controller);
+
     } else {
         /*
          * Set data scroll state
@@ -45,8 +55,6 @@ on('/visit', arg => {
                 document.querySelector('body').dataset.scrollState = count;
             }
         }
-
-
 
         /*
          * Overflow hide html

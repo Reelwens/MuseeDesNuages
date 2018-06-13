@@ -78,11 +78,20 @@ gulp.task( 'js', function()
 
 
 
-// FOnt task
+// Font task
 gulp.task( 'font', function()
 {
     return gulp.src( ['./src/font/**'] )
         .pipe( gulp.dest( './assets/font/' ) );
+} );
+
+
+
+// Sound task
+gulp.task( 'sound', function()
+{
+    return gulp.src( ['./src/sound/**'] )
+        .pipe( gulp.dest( './assets/sound/' ) );
 } );
 
 
@@ -119,7 +128,8 @@ gulp.task( 'watch', function()
     gulp.watch( './src/js/**/**', [ 'js' ] );
     gulp.watch( './src/img/**/**', [ 'img', 'svg' ] );
     gulp.watch( './src/font/**', [ 'font' ] );
+    gulp.watch( './src/sound/**', [ 'sound' ] );
 } );
 
-gulp.task( 'default', [ 'sass', 'sassMobile', 'js', 'font', 'img', 'svg', 'watch' ] );
-gulp.task( 'noimg', [ 'sass', 'sassMobile', 'js', 'font', 'svg', 'watch' ] );
+gulp.task( 'default', [ 'sass', 'sassMobile', 'js', 'font', 'sound', 'img', 'svg', 'watch' ] );
+gulp.task( 'noimg', [ 'sass', 'sassMobile', 'js', 'font', 'sound', 'svg', 'watch' ] );

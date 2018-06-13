@@ -1,6 +1,14 @@
 <?php get_header();  ?>
     <div id="front-page">
         <a href="/"><img src="<?= THEME_URL ?>/assets/img/logoWhite.png" alt="Logo" class="logoMDN" data-type="parallax" data-depth="0.5" /></a>
+        <div class="toggleSound">
+    		<div class="bar bar_0"></div>
+    		<div class="bar bar_1"></div>
+    		<div class="bar bar_2"></div>
+    		<div class="bar bar_3"></div>
+    		<div class="bar bar_4"></div>
+    		<div class="bar bar_5"></div>
+    	</div>
         <div class="hero">
             <div class="catchingText" data-type="parallax" data-depth="0.6">
                 <div class="websiteTitle"><span class="second">musée</span><span class="main">des nuages</span></div>
@@ -264,5 +272,10 @@
 
         </div>
     </div>
+
+    <!-- Ambiance sound -->
+    <audio id="sound" autoplay loop>
+        <source src="<?= THEME_URL ?>/assets/sound/refuge.mp3" type="audio/mp3" />
+    </audio>
 
 <?php get_footer(); ?>
