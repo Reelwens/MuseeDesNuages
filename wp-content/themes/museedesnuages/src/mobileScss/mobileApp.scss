@@ -23,7 +23,7 @@
 
         .frameName {
             position: relative;
-            margin: 30px auto;
+            margin: 100px auto -140px auto;
             font-size: 44px;
             left: 0;
             text-align: center;
@@ -35,7 +35,7 @@
             transform: none;
             height: auto;
             text-align: center;
-            margin-bottom: 200px;
+            margin-top: 200px;
 
             .description, .subFrameName, .buttonDetail {
                 left: auto;
@@ -73,7 +73,7 @@
                 opacity: .6;
                 height: 140px;
                 width: auto;
-                transform: translate(-50%, -75px) rotate(-5deg);
+                transform: translate(-50%, 195px) rotate(-5deg);
             }
 
             .card-2 {
@@ -83,6 +83,10 @@
             .card-3 {
                 display: none;
             }
+        }
+
+        .subFrame-2 .card-1 { // Exception for first
+            transform: translate(-50%, 125px) rotate(-5deg);
         }
     }
 
