@@ -80,5 +80,9 @@
         height: 444px;
         background-color: #e9e9e9;
         object-fit: cover;
+
+        &.top {
+            object-position: top;
+        }
     }
 }
