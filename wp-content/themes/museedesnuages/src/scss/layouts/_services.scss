@@ -1,4 +1,9 @@
 .services{
+
+    .headerPage{
+        height: 100vh;
+    }
+
     .headerSubtitle{
         @media (max-width: $phone) {
             width: 16rem;
@@ -9,9 +14,17 @@
         width: 100%;
         height: auto;
         padding: 40px 50px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background-color: white;
+        -webkit-box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.1);
+        -moz-box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.1);
+        box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.1);
     }
 
     .anchorsLinks{
+        padding-top:10px;
         text-align: center;
         display: flex;
         flex-direction: row;
@@ -40,26 +53,120 @@
         .anchor:nth-child(2){
             width: 200px;
         }
-
-        .anchor + .anchor{
-            margin-bottom: 30px;
-        }
     }
 
     .servicesIntro{
-        padding: 1rem 10rem;
+        position: relative;
+        padding: 5rem 10rem;
+        font-family: $first-font;
+        color: black;
+        font-size:1em;
+        font-weight: lighter;
+        line-height: 1.25rem;
+        margin-bottom: 100px;
+
+        @media (max-width: $phone) {
+            padding: 5rem 2rem;
+        }
+
+        p + p{
+            margin-bottom: 15px;
+        }
+
+        strong{
+            font-weight: normal;
+        }
+
+        em{
+            font-style: italic;
+        }
+    }
+
+    .button{
+        padding: 18px;
+        width: 280px;
+        position: absolute;
+        bottom: -5%;
+        left:50%;
+        transform: translateX(-50%);
+        opacity: 1;
+    }
+
+    .servicesList .button{
+        bottom: -50px;
+    }
+
+    .servicesList{
+        position: relative;
+        margin-bottom: 11rem;
+    }
+
+    .servicesList .service:nth-child(odd){
+        background: #FBFBFB;
     }
 
     .service{
-        padding: 1rem 10rem;
+        padding: 6rem 10rem;
+
+        @media (max-width: $phone) {
+            padding: 4rem 2rem;
+        }
+
+        .serviceName{
+            font-family: $second-font;
+            color: #4B4B4B;
+            font-size: 1.75rem;
+            position: relative;
+            width:auto;
+            display: inline-block;
+            margin-bottom: 10px;
+            font-weight: 600;
+
+            &:after{
+                content:'';
+                position: absolute;
+                width:7px;
+                height:7px;
+                border-radius: 50%;
+                background-color: $blue;
+                top: 60%;
+                right: -4%;
+
+                @media (max-width: $phone) {
+                    content: none;
+                }
+            }
+        }
+
+        .serviceText, .serviceList{
+            margin: 30px 0;
+            font-family: $first-font;
+            color: black;
+            font-size:1em;
+            font-weight: lighter;
+            line-height: 1.7rem;
+        }
+
+        .serviceListTitle{
+            font-family: $first-font;
+            color: black;
+            font-size:1em;
+            font-weight: bold;
+            letter-spacing: 0.3px;
+        }
 
         .servicePhoto{
+            margin-top: 50px;
             width: 100%;
             height: 25rem;
             max-height: 25rem;
             display: block;
             position: relative;
             overflow: hidden;
+
+            @media (max-width: $phone) {
+                 margin-top: 0px;
+            }
 
             img{
                 position: absolute;

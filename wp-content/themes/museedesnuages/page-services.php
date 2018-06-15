@@ -10,8 +10,7 @@ get_header();
         <div class="headerPage">
             <h1 class="headerTitle">Nos prestations</h1>
             <p class="headerSubtitle">Découvrez ici toutes nos prestations mise en place pour les entreprises et les collectivités territoriales.</p>
-        </div>
-        <!-- ANCHORS -->
+            <!-- ANCHORS -->
         <?php if( have_rows('services_list') ): ?>
             <div class="headerAnchors">
                 <ul class="anchorsLinks">
@@ -27,10 +26,16 @@ get_header();
                 </ul>
             </div>
         <?php endif; ?>
+        </div>
+
         <!-- TEXT INTRO -->
         <?php if( get_field('intro_text') ): ?>
             <div class="servicesIntro">
                 <p><?php the_field('intro_text'); ?></p>
+                <a href="#" class="button">
+                    <span>Nous contacter</span>
+                    <img src="<?= THEME_URL ?>/assets/img/arrow_right.svg" alt="Flèche" />
+                </a>
             </div>
         <?php endif; ?>
         <!-- SERVICES -->
@@ -49,7 +54,7 @@ get_header();
 
                 <div class="service">
 
-                    <p class="serviceName"><?php echo $name; ?></p>
+                    <h2 class="serviceName"><?php echo $name; ?></h2>
                     <p class="serviceText"><?php echo $text; ?></p>
 
                     <?php if( $list_title ): ?>
@@ -57,7 +62,7 @@ get_header();
                     <?php endif; ?>
 
                      <?php if( $list ): ?>
-                        <p class="serviceList"><?php echo $list; ?></p>
+                        <div class="serviceList"><?php echo $list; ?></div>
                     <?php endif; ?>
 
                     <div class="servicePhoto"><img src="<?php echo $photo; ?>"/></div>
@@ -65,6 +70,11 @@ get_header();
                 </div>
 
                 <?php endwhile; ?>
+
+                <a href="#" class="button">
+                    <span>Nous contacter</span>
+                    <img src="<?= THEME_URL ?>/assets/img/arrow_right.svg" alt="Flèche" />
+                </a>
             </div>
         <?php endif; ?>
     </div>
