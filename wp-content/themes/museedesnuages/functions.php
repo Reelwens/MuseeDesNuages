@@ -24,6 +24,7 @@ function ajout_scripts() {
 
 	// Style (first for dev env)
 	wp_register_style( 'main_style', 'http://localhost/wp-content/themes/museedesnuages/assets/css/app.min.css' );
+	wp_register_style( 'main_style', 'http://sitedetest.com/wp-content/themes/museedesnuages/assets/css/app.min.css' );
 	//wp_register_style( 'main_style', get_template_directory_uri() . '/assets/css/app.min.css' );
 	wp_enqueue_style( 'main_style' );
 
@@ -42,17 +43,15 @@ add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
 // Remove useless menus
 function bbx_admin_remove_menus()
 {
-	/*
     remove_menu_page('edit.php');
     remove_menu_page('upload.php');
     remove_menu_page('admin.php?page=wpcf7');
     remove_menu_page('themes.php');
     remove_menu_page('users.php');
-    remove_menu_page('plugins.php');
+    //remove_menu_page('plugins.php');
     remove_menu_page('tools.php');
-    remove_menu_page('edit.php?post_type=acf-field-group');
+    //remove_menu_page('edit.php?post_type=acf-field-group');
     remove_menu_page('admin.php?page=mb_email_configuration');
-	*/
 }
 add_action( 'admin_menu', 'bbx_admin_remove_menus' );
 

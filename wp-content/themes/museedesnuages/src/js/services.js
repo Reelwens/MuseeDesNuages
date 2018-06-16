@@ -18,7 +18,11 @@ on('/services', arg => {
             anchorsMenu.classList.add('headerAnchorsFixed');
         }
         else{
+<<<<<<< HEAD
             anchorsMenu.classList.remove('headerAnchorsFixed');
+=======
+            anchorsList.classList.remove('headerAnchorsFixed');
+>>>>>>> b1af7911f857b1d9e22437b665ca359e47684a27
         }
     };
 
