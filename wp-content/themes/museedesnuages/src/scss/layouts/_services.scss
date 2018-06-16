@@ -13,35 +13,47 @@
     .headerAnchors{
         width: 100%;
         height: auto;
-        padding: 40px 50px;
+        padding: 40px 80px;
         position: absolute;
         left: 0;
         bottom: 0;
         background-color: white;
         transition: all ease 0.25s;
+
+        @media (max-width: $phone) {
+            padding: 20px 30px;
+        }
     }
 
     .headerAnchorsFixed{
+        overflow-x: hidden;
         position: fixed;
         top: 0;
-        height: 80px;
+        height: 95px;
         -webkit-box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.05);
         -moz-box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.05);
         box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.05);
         z-index: 2;
-        padding: 10px 50px;
+        padding: 20px 80px;
         transition: all ease 0.25s;
+
+        @media (max-width: $phone) {
+            padding: 20px 30px;
+        }
     }
 
     .anchorsLinks{
-        padding-top:10px;
         text-align: center;
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        transition: all ease 0.25s;
 
         .anchor{
+            min-width: 240px;
             width: 250px;
             height: auto;
             display: inline-block;
@@ -58,10 +70,24 @@
             &:hover{
                 opacity: 1;
             }
+
+            a{
+               min-width: 250px;
+            }
+
+            @media (max-width: $phone) {
+                text-align: left;
+                margin-right: 60px;
+            }
+        }
+
+        .activeAnchor{
+            transition: all ease 0.25s;
+            opacity: 1;
         }
 
         .anchor:nth-child(2){
-            width: 200px;
+            max-width: 200px;
         }
     }
 

@@ -11,15 +11,18 @@ get_header();
             <h1 class="headerTitle">Nos prestations</h1>
             <p class="headerSubtitle">Découvrez ici toutes nos prestations mise en place pour les entreprises et les collectivités territoriales.</p>
             <!-- ANCHORS -->
-        <?php if( have_rows('services_list') ): ?>
+        <?php if( have_rows('services_list') ):
+            $i = 0;
+        ?>
             <div class="headerAnchors">
                 <ul class="anchorsLinks">
                     <?php while ( have_rows('services_list') ) : the_row();
                         $title = get_sub_field('service_title');
+                        $i++;
                     ?>
 
                     <?php if( $title ): ?>
-                        <li class="anchor"><a href="#"><?php echo $title; ?></a></li>
+                        <li class="anchor"><a href="<?= '#service' . $i ?>"><?php echo $title; ?></a></li>
                     <?php endif; ?>
 
                     <?php endwhile; ?>
@@ -39,7 +42,9 @@ get_header();
             </div>
         <?php endif; ?>
         <!-- SERVICES -->
-        <?php if( have_rows('services_list') ): ?>
+        <?php if( have_rows('services_list') ):
+            $i = 0;
+        ?>
             <div class="servicesList">
 
                 <?php while ( have_rows('services_list') ) : the_row();
@@ -49,10 +54,11 @@ get_header();
                     $list_title = get_sub_field('services_list_title');
                     $list = get_sub_field('services_list');
                     $photo = get_sub_field('service_img');
+                    $i++;
 
                 ?>
 
-                <div class="service">
+                <div class="service" id="<?= 'service' . $i ?>">
 
                     <h2 class="serviceName"><?php echo $name; ?></h2>
                     <p class="serviceText"><?php echo $text; ?></p>
