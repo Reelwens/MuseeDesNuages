@@ -68,6 +68,11 @@
             @media (max-width: 800px) {
                 font-size: 14px;
             }
+
+            @media (max-height: 415px) {
+                margin-top: 80px;
+                opacity: 0;
+            }
         }
     }
 
@@ -87,6 +92,10 @@
             .hiddenMobile {
                 display: none;
             }
+        }
+
+        @media (max-height: 415px) {
+            bottom: -180px;
         }
 
         p {

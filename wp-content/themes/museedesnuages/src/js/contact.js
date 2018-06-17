@@ -1,6 +1,6 @@
 on('/contact', arg => {
     /*
-     * Adapt color menuButton on mobile
+     * Adapt color menuButton
      */
     var controller = new ScrollMagic.Controller();
 
