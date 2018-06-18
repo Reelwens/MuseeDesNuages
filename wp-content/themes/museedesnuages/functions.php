@@ -24,7 +24,6 @@ function ajout_scripts() {
 
 	// Style (first for dev env)
 	wp_register_style( 'main_style', 'http://localhost/wp-content/themes/museedesnuages/assets/css/app.min.css' );
-	wp_register_style( 'main_style', 'http://sitedetest.com/wp-content/themes/museedesnuages/assets/css/app.min.css' );
 	//wp_register_style( 'main_style', get_template_directory_uri() . '/assets/css/app.min.css' );
 	wp_enqueue_style( 'main_style' );
 
