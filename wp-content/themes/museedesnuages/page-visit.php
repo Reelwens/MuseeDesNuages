@@ -6,7 +6,7 @@ get_header();
 ?>
 
     <div class="visit">
-        <a href="/"><img src="<?= THEME_URL ?>/assets/img/logoWhite.png" alt="Logo" class="logoMDN" /></a>
+        <a href="/"><img src="<?= THEME_URL ?>/assets/img/logoWhite.svg" alt="Logo" class="logoMDN" /></a>
         <div class="background"></div>
 
         <section class="frame frame-1">

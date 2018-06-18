@@ -22,11 +22,11 @@
 
 @import 'layouts/menu';
 @import 'layouts/footer';
-@import 'layouts/loader';
 @import 'layouts/contact';
 @import 'layouts/404';
 @import 'layouts/services';
 
+@import 'layouts/home/loading';
 @import 'layouts/home/hero';
 @import 'layouts/home/path';
 @import 'layouts/home/pathContent';

@@ -12,7 +12,7 @@
 
 	<?php wp_head(); ?>
 </head>
-<body <?php body_class( 'loading' ); ?>>
+<body <?php if (is_front_page()) { body_class( 'loading loadingEnding' ); }; ?>>
 	<div class="toggleMenu">
 		<?php include 'assets/img/menuToggle.svg' ?>
 	</div>

@@ -108,21 +108,3 @@ window.addEventListener('scroll', event => {
         layer.style.transform = translateY;
     });
 });
-
-
-
-
-/*
- * Loading handle
- */
-
-window.onload = function() {
-    setTimeout(function() {
-        document.querySelector("body").classList.remove("loading");
-
-        setTimeout(function() {
-            document.querySelector(".loader").classList.remove("display");
-        }, 500);
-
-    }, 500);
-};

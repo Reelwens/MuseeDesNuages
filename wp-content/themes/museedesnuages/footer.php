@@ -1,6 +1,6 @@
     <footer id="footer">
         <div class="footer_left">
-            <img src="<?= THEME_URL ?>/assets/img/logoWhite.png" alt="Logo" class="logoFooter" />
+            <img src="<?= THEME_URL ?>/assets/img/logoWhite.svg" alt="Logo" class="logoFooter" />
             <a href="tel:+33683853390" class="number">+33 (0)6 83 85 33 90</a>
             <a href="mailto:museedesnuages@gmail.com" class="mail">museedesnuages@gmail.com</a>
             <p class="newsletterTitle">Newsletter</p>
@@ -26,10 +26,6 @@
         </div>
         <p class="copyright">©Copyright 2018</p>
     </footer>
-
-    <div class="extra">
-        <div class="loader display">Chargement...</div>
-    </div>
 
     <?php wp_footer();  ?>
 </body>

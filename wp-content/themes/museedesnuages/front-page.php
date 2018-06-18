@@ -1,6 +1,6 @@
 <?php get_header();  ?>
     <div id="front-page">
-        <a href="/"><img src="<?= THEME_URL ?>/assets/img/logoWhite.png" alt="Logo" class="logoMDN" data-type="parallax" data-depth="0.5" /></a>
+        <a href="/"><img src="<?= THEME_URL ?>/assets/img/logoWhite.svg" alt="Logo" class="logoMDN" data-type="parallax" data-depth="0.5" /></a>
         <div class="toggleSound">
     		<div class="bar bar_0"></div>
     		<div class="bar bar_1"></div>
@@ -280,5 +280,12 @@
     <audio id="sound" autoplay loop>
         <source src="<?= THEME_URL ?>/assets/sound/refuge.mp3" type="audio/mp3" />
     </audio>
+
+    <div class="extra">
+        <div class="loader">
+            <img src="<?= THEME_URL ?>/assets/img/logoWhite.svg" alt="Logo" class="logo" />
+        </div>
+    </div>
+
 
 <?php get_footer(); ?>

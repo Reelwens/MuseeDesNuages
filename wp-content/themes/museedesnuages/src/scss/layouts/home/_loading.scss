@@ -1,0 +1,60 @@
+body.loading {
+    overflow: hidden;
+
+    .loader {
+        opacity: 1;
+    }
+
+    .parallax {
+        transform: translateY(100%);
+    }
+
+    .scrollInvitation {
+       transform: translateY(100%);
+    }
+
+    .catchingText {
+        transform: translateY(-100%);
+    }
+}
+
+body.loadingEnding {
+    .loader {
+        display: flex;
+    }
+
+    .catchingText, .scrollInvitation, .parallax {
+        transition: transform 1.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+}
+
+.loader {
+    display: none;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #011747 0%, #257ac5 85%, #a5bed2 100%);
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    opacity: 0;
+    transition: all .5s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    z-index: 9999;
+
+    img {
+        animation-name: loading;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+}
+
+@keyframes loading {
+  0%   {opacity: 1;}
+  50%  {opacity: 0.1;}
+  100% {opacity: 1;}
+}

@@ -5,7 +5,7 @@
 get_header();
 ?>
     <div class="contact">
-        <a href="/"><img src="<?= THEME_URL ?>/assets/img/logoWhite.png" alt="Logo" class="logoMDN" /></a>
+        <a href="/"><img src="<?= THEME_URL ?>/assets/img/logoWhite.svg" alt="Logo" class="logoMDN" /></a>
         <div class="headerPage">
             <h1 class="headerTitle"><?php the_field('header_title'); ?></h1>
             <p class="headerSubtitle"><?php the_field('header_subtitle'); ?></p>

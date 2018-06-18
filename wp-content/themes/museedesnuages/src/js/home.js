@@ -257,4 +257,21 @@ on('/', arg => {
     new ScrollMagic.Scene({triggerElement: ".takeContact", triggerHook: 'onEnter', offset: 200})
         .setClassToggle(".takeContact", "visible") // add class toggle
         .addTo(controller);
+
+
+
+    /*
+     * Loading handle
+     */
+
+    window.onload = function() {
+        setTimeout(function() {
+            document.querySelector("body").classList.remove("loading");
+
+            setTimeout(function() {
+                document.querySelector("body").classList.remove("loadingEnding");
+            }, 850);
+
+        }, 500);
+    };
 });
