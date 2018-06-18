@@ -100,7 +100,7 @@ gulp.task( 'sound', function()
 // Img task
 gulp.task( 'img', function()
 {
-    return gulp.src('./src/img/*.{jpg,png,gif}')
+    return gulp.src('./src/img/*.{jpg,png,gif,jpeg}')
         .pipe( imagemin() )
         // .pipe( srcset([{
         //     match:  '(min-width: 100px)',
