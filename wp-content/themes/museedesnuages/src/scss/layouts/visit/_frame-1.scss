@@ -69,7 +69,7 @@
             }
 
             &:first-child {
-                transform: translateY(-20%);
+                transform: translateY(10%);
 
                 @media (max-width: $desktop) {
                     transform: none;
@@ -77,7 +77,7 @@
             }
 
             &:last-child {
-                transform: translateY(20%);
+                transform: translateY(-20%);
 
                 @media (max-width: $desktop) {
                     transform: none;

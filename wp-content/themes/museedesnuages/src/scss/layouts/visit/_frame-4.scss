@@ -1,12 +1,16 @@
 .visit .frame-4 {
     transform: translateY(150%);
 
+    .frameForm {
+        width: 540px;
+    }
+
     .frameName {
         color: #0a366c;
     }
 
     .subFrameName {
-        color: #ffd476;
+        color: #ffb900;
     }
 
     .description {
@@ -14,10 +18,10 @@
     }
 
     .buttonDetail {
-        background-color: #ffd476;
+        background-color: #ffb900;
 
         &:hover {
-            background-color: #ffdc8f;
+            background-color: #ffc324;
         }
     }
 }

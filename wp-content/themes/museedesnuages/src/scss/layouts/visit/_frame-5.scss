@@ -1,12 +1,16 @@
 .visit .frame-5 {
     transform: translateY(150%);
 
+    .frameForm {
+        height: 500px;
+    }
+
     .frameName {
         color: #0a366c;
     }
 
     .subFrameName {
-        color: #8396ab;
+        color: #FC8E8E;
     }
 
     .description {
@@ -14,10 +18,10 @@
     }
 
     .buttonDetail {
-        background-color: #8396ab;
+        background-color: #FC8E8E;
 
         &:hover {
-            background-color: #93a3b4;
+            background-color: #fba3a3;
         }
     }
 }

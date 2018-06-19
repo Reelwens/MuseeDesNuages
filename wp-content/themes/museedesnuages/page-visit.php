@@ -31,7 +31,7 @@ get_header();
             <div class="frameName">L'eau</div>
 
             <div class="subFrame subFrame-1">
-                <p class="description"><?php the_field('water_description'); ?></p>
+                <p class="description introduction"><?php the_field('water_description'); ?></p>
             </div>
 
             <div class="subFrameImg subFrame-2">
@@ -278,7 +278,7 @@ get_header();
             <div class="frameName">L'air</div>
 
             <div class="subFrame subFrame-1">
-                <p class="description"><?php the_field('air_description'); ?></p>
+                <p class="description introduction"><?php the_field('air_description'); ?></p>
             </div>
 
             <div class="subFrameImg subFrame-2">
@@ -479,7 +479,7 @@ get_header();
             <div class="frameName">La lumière</div>
 
             <div class="subFrame subFrame-1">
-                <p class="description"><?php the_field('light_description'); ?></p>
+                <p class="description introduction"><?php the_field('light_description'); ?></p>
             </div>
 
             <div class="subFrameImg subFrame-2">
@@ -678,7 +678,7 @@ get_header();
             <div class="frameName">L'énergie</div>
 
             <div class="subFrame subFrame-1">
-                <p class="description"><?php the_field('energy_description'); ?></p>
+                <p class="description introduction"><?php the_field('energy_description'); ?></p>
             </div>
 
             <div class="subFrameImg subFrame-2">

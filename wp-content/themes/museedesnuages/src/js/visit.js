@@ -1,5 +1,5 @@
 on('/visit', arg => {
-
+    console.log('cc ie');
     let caseOpened = false;
 
     if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
