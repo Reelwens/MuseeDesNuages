@@ -1,7 +1,63 @@
 .news {
 
     .headerPage{
+        height: 100vh;
+    }
+
+    .headerTerms{
+        width: 100%;
         height: auto;
+        padding: 40px 80px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background-color: white;
+        transition: all ease 0.25s;
+
+        @media (max-width: $phone) {
+            padding: 20px 30px;
+        }
+    }
+
+    .termsLinks{
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        transition: all ease 0.25s;
+
+        .termLink{
+            width: 100%;
+            height: auto;
+            display: inline-block;
+            text-transform: uppercase;
+            color: #697995;
+            font-weight: 600;
+            letter-spacing: 1px;
+            font-size: 1rem;
+            opacity: 0.36;
+            line-height: 23px;
+            font-family: $second-font;
+            transition: all ease 0.25s;
+
+            &:hover{
+                opacity: 1;
+            }
+
+            a{
+               min-width: 250px;
+            }
+
+            @media (max-width: $phone) {
+                text-align: left;
+                margin-right: 120px;
+            }
+        }
     }
 
     .listArticles {
