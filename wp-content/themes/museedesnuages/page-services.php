@@ -34,6 +34,7 @@ get_header();
         <!-- TEXT INTRO -->
         <?php if( get_field('intro_text') ): ?>
             <div class="servicesIntro">
+                <p class="chapeau"><?php the_field('chapeau'); ?></p>
                 <p><?php the_field('intro_text'); ?></p>
                 <a href="#" class="button">
                     <span>Nous contacter</span>

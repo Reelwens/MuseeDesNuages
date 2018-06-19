@@ -28,7 +28,7 @@ on('/services', arg => {
                 sectionSize   = services.item(i).offsetHeight,
                 sectionBottom = rect.bottom;
 
-            let translateX = 95*i;
+            let translateX = 114*i;
 
             if((sectionBottom < sectionSize) && (sectionBottom >= 0 )){
                 anchors.item(i).classList.add('activeAnchor');
@@ -54,7 +54,6 @@ on('/services', arg => {
     if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         $(document).on('click', 'a[href^="#"]', function (event) {
             event.preventDefault();
-            console.log('vieux');
             $('html, body').animate({
                 scrollTop: $($.attr(this, 'href')).offset().top
             }, 500);
@@ -66,7 +65,8 @@ on('/services', arg => {
                 event.preventDefault();
 
                 document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
+                    behavior: 'smooth',
+                    block: 'start',
                 });
             });
         });
