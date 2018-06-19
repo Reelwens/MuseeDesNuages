@@ -7,7 +7,6 @@
     .headerTerms{
         width: 100%;
         height: auto;
-        padding: 40px 80px;
         position: absolute;
         left: 0;
         bottom: 0;
@@ -19,44 +18,66 @@
         }
     }
 
+    .subMenu{
+        text-align: center;
+        padding-bottom: 3rem;
+        border-bottom: 2px solid #cbcbcb30;
+
+        li{
+            display: inline-block;
+        }
+
+        li + li {
+            margin-left: 30px;
+        }
+    }
+
+    .subMenu, .termsLinks{
+        padding: 25px 0;
+    }
+
     .termsLinks{
-        width: 70%;
+        width: 50%;
         margin: auto;
         text-align: center;
         display: flex;
         flex-direction: row;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
         height: 100%;
         transition: all ease 0.25s;
 
-        .termLink{
-            width: 100%;
-            height: auto;
-            display: inline-block;
-            text-transform: uppercase;
-            color: #697995;
-            font-weight: 600;
-            letter-spacing: 1px;
-            font-size: 1rem;
-            opacity: 0.36;
-            line-height: 23px;
-            font-family: $second-font;
-            transition: all ease 0.25s;
+        @media (max-width: $phone) {
+            width: 90%;
+        }
+    }
 
-            &:hover{
-                opacity: 1;
-            }
+    .termLink, .subMenu li {
+        height: auto;
+        display: inline-block;
+        text-transform: uppercase;
+        color: #697995;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-size: 1rem;
+        opacity: 0.36;
+        line-height: 23px;
+        font-family: $second-font;
+        transition: all ease 0.25s;
 
-            a{
-               min-width: 250px;
-            }
+        &:hover{
+            opacity: 1;
+        }
 
-            @media (max-width: $phone) {
-                text-align: left;
-                margin-right: 120px;
-            }
+        a{
+           min-width: 250px;
+        }
+
+        @media (max-width: $phone) {
+            text-align: left;
+            width:auto;
+            font-size: 12px;
         }
     }
 
