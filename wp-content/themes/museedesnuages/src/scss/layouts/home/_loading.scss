@@ -46,6 +46,7 @@ body.loadingEnding {
     z-index: 9999;
 
     img {
+        width: 195px;
         animation-name: loading;
         animation-duration: 2s;
         animation-timing-function: linear;

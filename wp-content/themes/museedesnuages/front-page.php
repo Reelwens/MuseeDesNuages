@@ -184,8 +184,8 @@
                     <p>IESA</p>
                 </div>
                 <div class="partner studialis">
-                    <img src="<?= THEME_URL ?>/assets/img/studialis.png" alt="studialis" />
-                    <p>Studialis</p>
+                    <img src="<?= THEME_URL ?>/assets/img/hetic.png" alt="studialis" />
+                    <p>HETIC</p>
                 </div>
                 <div class="partner iesa-incub">
                     <img src="<?= THEME_URL ?>/assets/img/iesa-incub.png" alt="iesa incub" />
@@ -202,60 +202,66 @@
             </div>
 
             <div class="picture picture-1">
-                <img src="<?= THEME_URL ?>/assets/img/histoire_1_sylvain.png" alt="Sylvain" class="mainPicture" />
+                <img src="<?= get_field('picture_1'); ?>" alt="Sylvain" class="mainPicture" />
                 <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1_left.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
                 <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2_left.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
+                <p class="legend"><?php the_field('legend_picture_1'); ?></p>
             </div>
 
             <div class="picture picture-2">
-                <img src="<?= THEME_URL ?>/assets/img/histoire_2_sylvain.png" alt="Sylvain" class="mainPicture" />
+                <img src="<?= get_field('picture_2'); ?>" alt="Sylvain" class="mainPicture" />
                 <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
                 <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
+                <p class="legend"><?php the_field('legend_picture_2'); ?></p>
             </div>
 
             <div class="picture picture-3">
-                <img src="<?= THEME_URL ?>/assets/img/art_1_vitre.png" alt="Vitre" class="mainPicture" />
+                <img src="<?= get_field('picture_3'); ?>" alt="Vitre" class="mainPicture" />
                 <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1_left.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
                 <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2_left.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
-                <p class="legend">Effet de serre - Epson</p>
+                <p class="legend"><?php the_field('legend_picture_3'); ?></p>
             </div>
 
             <div class="picture picture-4">
-                <img src="<?= THEME_URL ?>/assets/img/art_2_chaise.png" alt="Chaise" class="mainPicture" />
+                <img src="<?= get_field('picture_4'); ?>" alt="Chaise" class="mainPicture" />
                 <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
                 <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
+                <p class="legend"><?php the_field('legend_picture_4'); ?></p>
             </div>
 
             <div class="picture picture-5">
-                <img src="<?= THEME_URL ?>/assets/img/art_3_chateau.png" alt="Chateau" class="mainPicture" />
+                <img src="<?= get_field('picture_5'); ?>" alt="Chateau" class="mainPicture" />
                 <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1_left.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
                 <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2_left.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
-                <p class="legend">Château d’Eau Poitiers</p>
+                <p class="legend"><?php the_field('legend_picture_5'); ?></p>
             </div>
 
             <div class="picture picture-6">
-                <img src="<?= THEME_URL ?>/assets/img/art_4_turell.png" alt="Turell" class="mainPicture" />
+                <img src="<?= get_field('picture_6'); ?>" alt="Turell" class="mainPicture" />
                 <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1_left.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
                 <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2_left.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
+                <p class="legend"><?php the_field('legend_picture_6'); ?></p>
             </div>
 
             <div class="picture picture-7">
-                <img src="<?= THEME_URL ?>/assets/img/art_5_nakaya.png" alt="Nakaya" class="mainPicture" />
+                <img src="<?= get_field('picture_7'); ?>" alt="Nakaya" class="mainPicture" />
                 <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
                 <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
-                <p class="legend">Mer de nuages - Fujiko Nakaya</p>
+                <p class="legend"><?php the_field('legend_picture_7'); ?></p>
             </div>
 
             <div class="picture picture-8">
-                <img src="<?= THEME_URL ?>/assets/img/partage_1_sylvain.png" alt="Sylvain" class="mainPicture" />
+                <img src="<?= get_field('picture_8'); ?>" alt="Sylvain" class="mainPicture" />
                 <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1_left.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
                 <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2_left.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
+                <p class="legend"><?php the_field('legend_picture_8'); ?></p>
             </div>
 
             <div class="picture picture-9">
-                <img src="<?= THEME_URL ?>/assets/img/partage_2_barbe.png" alt="Barbe" class="mainPicture" />
+                <img src="<?= get_field('picture_9'); ?>" alt="Barbe" class="mainPicture" />
                 <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
                 <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
+                <p class="legend"><?php the_field('legend_picture_9'); ?></p>
             </div>
 
             <a href="#" class="button seeRealizations">

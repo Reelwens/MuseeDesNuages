@@ -36,6 +36,7 @@ on('/', arg => {
      * Sound play/stop
      */
 
+
     var sound = true;
 
     document.querySelector(".toggleSound").onclick = e => {
@@ -45,13 +46,13 @@ on('/', arg => {
             sound = false;
         }
         else {
+            // Fix chrome refresh-no-sound bug
+            document.querySelector("#sound").play();
+
             document.querySelector("#sound").volume = 1;
             sound = true;
         }
     }
-
-
-
 
 
     /*

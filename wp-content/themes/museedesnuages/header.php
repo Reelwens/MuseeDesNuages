@@ -21,7 +21,7 @@
 		<nav>
 			<div class="mobileTop"></div>
             <a href="<?= home_url() ?>" class="home menuItem menu_0">
-				<img src="<?= THEME_URL ?>/assets/img/menu_1.jpeg" alt="Background" class="background">
+				<img src="<?= THEME_URL ?>/assets/img/menu_1.jpg" alt="Background" class="background">
 				<div class="mask"></div>
 				<div class="text">
 					<p class="number">01</p>
