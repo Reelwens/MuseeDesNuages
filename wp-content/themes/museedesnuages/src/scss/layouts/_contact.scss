@@ -104,6 +104,10 @@
                 left: 55%;
                 transform: translate(-55%, -55%);
                 background-color: $blue;
+
+                @media (max-width: $phone) {
+                   top: 53%;
+                }
             }
         }
         &:checked{
@@ -118,6 +122,10 @@
                 left: 55%;
                 transform: translate(-55%, -55%);
                 background-color: $blue;
+
+                @media (max-width: $phone) {
+                   top: 53%;
+                }
             }
         }
     }
@@ -181,8 +189,8 @@
         width:100%;
         padding-bottom:10px;
         border-bottom:1px solid #9F9F9F;
-        transition:all 0.5s ease-in-out;
         outline:0;
+        resize: vertical;
 
         &:focus{
             border-bottom-color: $blue;
@@ -197,14 +205,19 @@
     }
 
     div.contactButton{
-        margin: 50px auto;
+        cursor: pointer;
+        margin: 100px auto;
         text-align: center;
         position:relative;
         width:200px;
         padding: 16px;
+        box-shadow: 0 17px 14px 0 rgba(0, 0, 0, 0.09);
         height:auto;
         border-radius: 4px;
-        background-color: $blue;
+        font-weight: 600;
+        letter-spacing: 1.2px;
+        transition: all .3s;
+        background-color: #051a33;
         &:after{
             content:url("../img/arrow_right.svg");
             width: 10px;
@@ -212,6 +225,14 @@
             display:block;
             top: 35%;
             left: 75%;
+            transition: all .2s;
+        }
+        &:hover {
+        background-color: #092950;
+
+            &:after{
+                transform: translateX(5px);
+            }
         }
     }
 }
@@ -219,6 +240,7 @@
 .formHeader{
     p{
         font-weight: lighter;
+        line-height: 22px;
     }
 
     h2{
