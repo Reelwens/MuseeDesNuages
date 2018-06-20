@@ -18,76 +18,16 @@
         }
     }
 
-    .subMenu{
-        text-align: center;
-        padding-bottom: 3rem;
-        border-bottom: 2px solid #cbcbcb30;
-
-        li{
-            display: inline-block;
-        }
-
-        li + li {
-            margin-left: 30px;
-        }
-    }
-
-    .subMenu, .termsLinks{
-        padding: 25px 0;
-    }
-
-    .termsLinks{
-        width: 50%;
-        margin: auto;
-        text-align: center;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-        height: 100%;
-        transition: all ease 0.25s;
-
-        @media (max-width: $phone) {
-            width: 90%;
-        }
-    }
-
-    .termLink, .subMenu li {
-        height: auto;
-        display: inline-block;
-        text-transform: uppercase;
-        color: #697995;
-        font-weight: 600;
-        letter-spacing: 1px;
-        font-size: 1rem;
-        opacity: 0.36;
-        line-height: 23px;
-        font-family: $second-font;
-        transition: all ease 0.25s;
-
-        &:hover{
-            opacity: 1;
-        }
-
-        a{
-           min-width: 250px;
-        }
-
-        @media (max-width: $phone) {
-            text-align: left;
-            width:auto;
-            font-size: 12px;
-        }
-    }
-
     .listArticles {
+        animation: fadeEffect 1.2s;
+        transition: all ease 0.3s;
         display: flex;
         flex-wrap: wrap;
         width: 80vw;
         margin: 0 auto;
         padding-top: 47px;
         padding-bottom: 90px;
+        display: none;
 
         .article {
             position: relative;
@@ -216,6 +156,33 @@
                 letter-spacing: .8px;
                 color: #515B6C;
                 text-transform: uppercase;
+            }
+        }
+    }
+
+    .wp-pagenavi{
+        width: 100%;
+        text-align: center;
+
+        a.page{
+            color: #949494;
+        }
+
+        a.page, .current{
+            border: none;
+        }
+
+        .current{
+            position: relative;
+            font-size: 18px;
+            &:after{
+            content: '';
+            background-color: $blue;
+            width: 100%;
+            height: 2px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
             }
         }
     }
