@@ -288,6 +288,9 @@
     </audio>
 
     <div class="extra">
+        <div class="interaction artInteraction">
+            <div class="title">ART</div>
+        </div>
         <div class="loader">
             <img src="<?= THEME_URL ?>/assets/img/logoWhite.svg" alt="Logo" class="logo" />
         </div>

@@ -123,6 +123,10 @@ on('/', arg => {
         .setClassToggle(".paragraph-5", "visible") // add class toggle
         .addTo(controller);
 
+    new ScrollMagic.Scene({triggerElement: ".point-5", triggerHook: 'onEnter', offset: 450})
+        .setClassToggle(".artInteraction", "visible") // add class toggle
+        .addTo(controller);
+
     new ScrollMagic.Scene({triggerElement: ".point-6", triggerHook: 'onEnter', offset: 250})
         .setClassToggle(".point-6", "visible") // add class toggle
         .addTo(controller);
