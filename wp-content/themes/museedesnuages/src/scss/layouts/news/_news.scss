@@ -1,10 +1,10 @@
 .news {
 
-    .headerPage{
+    .headerPage {
         height: 100vh;
     }
 
-    .headerTerms{
+    .headerTerms {
         width: 100%;
         height: auto;
         position: absolute;
@@ -18,7 +18,7 @@
         }
     }
 
-    .subMenu{
+    .subMenu {
         text-align: center;
         padding-bottom: 3rem;
         border-bottom: 2px solid #cbcbcb30;
@@ -32,11 +32,11 @@
         }
     }
 
-    .subMenu, .termsLinks{
+    .subMenu, .termsLinks {
         padding: 25px 0;
     }
 
-    .termsLinks{
+    .termsLinks {
         width: 50%;
         margin: auto;
         text-align: center;
@@ -66,11 +66,11 @@
         font-family: $second-font;
         transition: all ease 0.25s;
 
-        &:hover{
+        &:hover, &.active {
             opacity: 1;
         }
 
-        a{
+        a {
            min-width: 250px;
         }
 
@@ -97,6 +97,18 @@
             border-radius: 5px;
             margin-bottom: 24px;
             box-shadow: 4px 6px 20px 3px rgba(220, 220, 220, 0.5);
+
+            &:hover {
+                .content .articleResume {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+
+                .readMore {
+                    opacity: 1;
+                    transform: scale(1);
+                }
+            }
 
             &:nth-child(7n + 1) {
                 width: calc(67% - 12px);
@@ -198,6 +210,9 @@
                     line-height: 1.5;
                     letter-spacing: .8px;
                     color: white;
+                    opacity: 0;
+                    transform: translateY(30px);
+                    transition: all .3s ease-out;
                 }
             }
 
@@ -216,6 +231,9 @@
                 letter-spacing: .8px;
                 color: #515B6C;
                 text-transform: uppercase;
+                opacity: 0;
+                transform: scale(0);
+                transition: all .3s ease-out;
             }
         }
     }

@@ -16,11 +16,11 @@ get_header();
         </div>
         <div class="headerTerms">
             <ul class="subMenu">
-                <li><a href="#">articles</a></li>
-                <li><a href="#">réseaux sociaux</a></li>
+                <li class="active"><a href="#" class="articles">Articles</a></li>
+                <li><a href="#" class="social">Réseaux sociaux</a></li>
             </ul>
             <ul class="termsLinks">
-                <li class="termLink"><a href="#">voir tout</a></li>
+                <li class="termLink active"><a href="#">voir tout</a></li>
                 <?php if ($terms = get_terms('theme', 'orderbyname')):
                  foreach ($terms as $term): ?>
                     <li class="termLink"><a href="#"><?php echo $term->name; ?></a></li>
