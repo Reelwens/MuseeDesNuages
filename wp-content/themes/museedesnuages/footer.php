@@ -2,10 +2,10 @@
         <div class="footer_left">
             <img src="<?= THEME_URL ?>/assets/img/logoWhite.svg" alt="Logo" class="logoFooter" />
             <a href="tel:+33683853390" class="number">+33 (0)6 83 85 33 90</a>
-            <a href="mailto:museedesnuages@gmail.com" class="mail">museedesnuages@gmail.com</a>
+            <a href="mailto:museedesnuages@gmail.com" class="mail">accueil@museedesnuages.fr</a>
             <p class="newsletterTitle">Newsletter</p>
             <div class="newsletterInput">
-                <input type="text" placeholder="Email" />
+                <input type="text" placeholder="Email" disabled title="À venir prochainement" />
                 <img src="<?= THEME_URL ?>/assets/img/transfer.svg" alt="Arrow" class="arrow" />
             </div>
         </div>
@@ -24,7 +24,7 @@
                 <a href="https://www.linkedin.com/in/mus%C3%A9e-des-nuages-climat-artistique-0578b3133/"><img src="<?= THEME_URL ?>/assets/img/Linkedin.svg" alt="Linkedin" class="linkedin" /></a>
             </div>
         </div>
-        <p class="copyright">©Copyright 2018</p>
+        <p class="copyright">© Copyright 2018</p>
     </footer>
 
     <?php wp_footer();  ?>

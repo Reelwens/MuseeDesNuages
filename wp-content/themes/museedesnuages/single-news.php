@@ -20,7 +20,11 @@ function display_terms() {
 }
 
 ?>
-
+    <style>
+        .toggleMenu svg .menuLines {
+            fill: #515B6C;
+        }
+    </style>
     <div class="singleNews">
         <a href="/"><img src="<?= THEME_URL ?>/assets/img/logoGrey.svg" alt="Logo" class="logoMDN" /></a>
 
@@ -45,6 +49,7 @@ function display_terms() {
                 <p class="name"><?php the_author(); ?></p>
             </div>
         </div>
+        <div class="back"><a href="../">Retour aux articles</a></div>
 
         <?php endwhile; else: ?>
         <p>Aucun contenu n'a été trouvé.</p>
