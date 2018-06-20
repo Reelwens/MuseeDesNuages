@@ -2,6 +2,10 @@
   font-family: 'Bauhaus';
   src: url('../font/Bauhaus.woff2');
 }
+@font-face {
+  font-family: 'Palatino-Italic';
+  src: url('../font/Palatino-Italic.woff2');
+}
 
 body {
     font-family: $first-font, sans-serif;

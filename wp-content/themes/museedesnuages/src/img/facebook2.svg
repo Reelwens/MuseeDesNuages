@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.333 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #697995;
+      }
+    </style>
+  </defs>
+  <g id="Facebook" transform="translate(0 0)">
+    <g id="Layer_1">
+      <path id="Shape" class="cls-1" d="M2.017,3.873V6.627H0V9.994H2.017V20H6.161V9.994H8.942s.26-1.614.387-3.38H6.177v-2.3a.978.978,0,0,1,.9-.807H9.333V0H6.264C1.915,0,2.017,3.37,2.017,3.873" transform="translate(0 0)"/>
+    </g>
+  </g>
+</svg>

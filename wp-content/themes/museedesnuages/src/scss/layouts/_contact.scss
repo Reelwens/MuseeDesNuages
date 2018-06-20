@@ -190,6 +190,8 @@
         border-bottom:1px solid #9F9F9F;
         outline:0;
         resize: vertical;
+        color: #333333;
+        margin-top: 10px;
 
         &:focus{
             border-bottom-color: $blue;
@@ -201,6 +203,9 @@
         font-weight:600;
         text-transform: uppercase;
         letter-spacing: 0.4px;
+        width: 100%;
+        cursor: pointer;
+        height: 45px;
     }
 
     div.contactButton{
@@ -226,8 +231,13 @@
             left: 75%;
             transition: all .2s;
         }
+
+        .ajax-loader{
+            display: none;
+        }
+
         &:hover {
-        background-color: #092950;
+            background-color: #092950;
 
             &:after{
                 transform: translateX(5px);

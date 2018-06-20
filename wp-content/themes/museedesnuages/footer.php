@@ -18,10 +18,10 @@
             <a href="<?= home_url() ?>/contact" class="navLink">Contact</a>
 
             <div class="social">
-                <a href="#"><img src="<?= THEME_URL ?>/assets/img/Facebook.svg" alt="Facebook" class="facebook" /></a>
-                <a href="#"><img src="<?= THEME_URL ?>/assets/img/Twitter.svg" alt="Twitter" class="twitter" /></a>
-                <a href="#"><img src="<?= THEME_URL ?>/assets/img/Instagram.svg" alt="Instagram" class="instagram" /></a>
-                <a href="#"><img src="<?= THEME_URL ?>/assets/img/Linkedin.svg" alt="Linkedin" class="linkedin" /></a>
+                <a href="https://www.facebook.com/lemuseedesnuages/" target="_blank"><img src="<?= THEME_URL ?>/assets/img/Facebook.svg" alt="Facebook" class="facebook" /></a>
+                <a href="https://twitter.com/museedes_nuages"><img src="<?= THEME_URL ?>/assets/img/Twitter.svg" alt="Twitter" class="twitter" /></a>
+                <a href="https://www.instagram.com/museedesnuages/"><img src="<?= THEME_URL ?>/assets/img/Instagram.svg" alt="Instagram" class="instagram" /></a>
+                <a href="https://www.linkedin.com/in/mus%C3%A9e-des-nuages-climat-artistique-0578b3133/"><img src="<?= THEME_URL ?>/assets/img/Linkedin.svg" alt="Linkedin" class="linkedin" /></a>
             </div>
         </div>
         <p class="copyright">©Copyright 2018</p>
