@@ -96,9 +96,11 @@
             background-color: #c9c9c9;
             border-radius: 5px;
             margin-bottom: 24px;
-            box-shadow: 4px 6px 20px 3px rgba(220, 220, 220, 0.5);
+            transition: all .3s ease-out;
 
             &:hover {
+                box-shadow: 4px 6px 20px 3px rgba(220, 220, 220, 0.5);
+                
                 .content .articleResume {
                     opacity: 1;
                     transform: translateY(0);
