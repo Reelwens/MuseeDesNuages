@@ -135,16 +135,19 @@ get_header();
                 <li class="termLink activeTerm" data-attribute="linkedinFeed">linkedin</li>
             </ul>
         </div>
-        <div id="facebookFeed">
-            <?php echo do_shortcode('[ff id="1"]')?>
+        <div id="facebookFeed" class="socialFeed">
+            <?php //echo do_shortcode('[ff id="1"]')?>
+            <p>facebook feed</p>
         </div>
-        <div id="twitterFeed">
-            <?php echo do_shortcode('[ff id="2"]')?>
+        <div id="twitterFeed" class="socialFeed">
+            <?php //echo do_shortcode('[ff id="2"]')?>
+            <p>twitter feed</p>
         </div>
-        <div id="instagramFeed">
-            <?php echo do_shortcode('[ff id="3"]')?>
+        <div id="instagramFeed" class="socialFeed">
+            <?php //echo do_shortcode('[ff id="3"]')?>
+            <p>instagramfeed</p>
         </div>
-        <div id="linkedinFeed">
+        <div id="linkedinFeed" class="socialFeed">
             <p>linkedin feed</p>
         </div>
     </div>
