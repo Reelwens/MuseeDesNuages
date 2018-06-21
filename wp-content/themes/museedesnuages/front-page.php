@@ -180,24 +180,24 @@
             <div class="point point-21"></div>
             <div class="paragraph paragraph-21">
                 <div class="partner iesa">
-                    <img src="<?= THEME_URL ?>/assets/img/iesa.png" alt="iesa" />
-                    <p>IESA</p>
+                    <img src="<?= get_field('partenaire_1_image'); ?>" alt="iesa" />
+                    <p><?php the_field('partenaire_1'); ?></p>
                 </div>
                 <div class="partner studialis">
-                    <img src="<?= THEME_URL ?>/assets/img/hetic.png" alt="studialis" />
-                    <p>HETIC</p>
+                    <img src="<?= get_field('partenaire_2_image'); ?>" alt="hetic" />
+                    <p><?php the_field('partenaire_2'); ?></p>
                 </div>
                 <div class="partner iesa-incub">
-                    <img src="<?= THEME_URL ?>/assets/img/iesa-incub.png" alt="iesa incub" />
-                    <p>Iesa incub</p>
+                    <img src="<?= get_field('partenaire_3_image'); ?>" alt="iesa incub" />
+                    <p><?php the_field('partenaire_3'); ?></p>
                 </div>
                 <div class="partner upup">
-                    <img src="<?= THEME_URL ?>/assets/img/up&up.svg" alt="up&up" />
-                    <p>Up&Up</p>
+                    <img src="<?= get_field('partenaire_4_image'); ?>" alt="up&up" />
+                    <p><?php the_field('partenaire_4'); ?></p>
                 </div>
                 <div class="partner medef">
-                    <img src="<?= THEME_URL ?>/assets/img/medef.png" alt="medef" />
-                    <p>Medef</p>
+                    <img src="<?= get_field('partenaire_5_image'); ?>" alt="courants faibles" />
+                    <p><?php the_field('partenaire_5'); ?></p>
                 </div>
             </div>
 

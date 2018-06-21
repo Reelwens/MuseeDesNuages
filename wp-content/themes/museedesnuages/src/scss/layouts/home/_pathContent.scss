@@ -643,10 +643,10 @@
                 }
 
                 &.medef img {
-                    width: 115px;
+                    width: 175px;
 
                     @media (max-width: $phone) {
-                        width: 75px;
+                        width: 100px;
                     }
                 }
             }
