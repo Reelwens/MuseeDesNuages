@@ -24,6 +24,7 @@
                 <a href="https://www.linkedin.com/in/mus%C3%A9e-des-nuages-climat-artistique-0578b3133/"><img src="<?= THEME_URL ?>/assets/img/Linkedin.svg" alt="Linkedin" class="linkedin" /></a>
             </div>
         </div>
+        <div class="legalNotices"><a href="/legalnotices">Mentions légales</a></div>
         <p class="copyright">© Copyright 2018</p>
     </footer>
 
