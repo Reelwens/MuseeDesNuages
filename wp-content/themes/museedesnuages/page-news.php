@@ -135,6 +135,9 @@ get_header();
                 <li class="termLink activeTerm">linkedin</li>
             </ul>
         </div>
+        <div class="instagramFeed">
+            <?php echo do_shortcode('[ff id="1"]')?>
+        </div>
     </div>
 
 <?php get_footer(); ?>
