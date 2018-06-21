@@ -129,14 +129,23 @@ get_header();
         <!-- Social networks -->
         <div>
             <ul id="socialNetworks" class="termsLinks">
-                <li class="termLink activeTerm">facebook</li>
-                <li class="termLink activeTerm">twitter</li>
-                <li class="termLink activeTerm">instagram</li>
-                <li class="termLink activeTerm">linkedin</li>
+                <li class="termLink activeTerm" data-attribute="facebookFeed">facebook</li>
+                <li class="termLink activeTerm" data-attribute="twitterFeed">twitter</li>
+                <li class="termLink activeTerm" data-attribute="instagramFeed">instagram</li>
+                <li class="termLink activeTerm" data-attribute="linkedinFeed">linkedin</li>
             </ul>
         </div>
-        <div class="instagramFeed">
+        <div id="facebookFeed">
             <?php echo do_shortcode('[ff id="1"]')?>
+        </div>
+        <div id="twitterFeed">
+            <?php echo do_shortcode('[ff id="2"]')?>
+        </div>
+        <div id="instagramFeed">
+            <?php echo do_shortcode('[ff id="3"]')?>
+        </div>
+        <div id="linkedinFeed">
+            <p>linkedin feed</p>
         </div>
     </div>
 
