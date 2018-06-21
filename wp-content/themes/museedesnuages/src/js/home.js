@@ -24,7 +24,9 @@ on('/', arg => {
         onScroll();
     }
 
-    setOffset();
+    setTimeout(function() { // Fix invisible path
+        setOffset();
+    }, 100);
 
     window.onresize = setOffset;
     document.body.onscroll = onScroll;
