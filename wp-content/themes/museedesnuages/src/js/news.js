@@ -28,7 +28,6 @@ on('/news', arg => {
         elem.addEventListener("click", function() {
             displayContent(event, elem.dataset.attribute, tabContent, tabLinks);
             subTab[0].className += " activeTerm";
-            console.log('test1');
         });
     });
 
@@ -41,15 +40,21 @@ on('/news', arg => {
     socialLinks.forEach(function(elem) {
         elem.addEventListener("click", function() {
             displayContent(event, elem.dataset.attribute, socialFeed, socialLinks);
-            subTab[1].className += " activeTerm";
-            if(elem != socialLinks[0]){
-                socialLinks[0].classList.remove('activeTerm');
-            }
         });
+    });
+
+    document.querySelector('.subMenu .termLink:first-child').addEventListener("click", function() {
+            // for(var i=0; i < socialLinks.length; i++){
+            //     socialLinks[i].classList.remove('activeTerm');
+            // }
+            document.querySelector('#articles .termLink:first-child').className += " activeTerm";
     });
 
     document.querySelector('.subMenu .termLink:last-child').addEventListener("click", function() {
             document.getElementById('facebookFeed').style.display = "flex";
+            for(var i=0; i < socialLinks.length; i++){
+                socialLinks[i].classList.remove('activeTerm');
+            }
             socialLinks[0].className += " activeTerm";
         });
 });
