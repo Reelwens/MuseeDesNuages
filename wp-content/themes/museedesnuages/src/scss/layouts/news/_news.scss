@@ -9,13 +9,23 @@
         height: auto;
         position: absolute;
         left: 0;
-        bottom: 0;
+        bottom: 73px;
         background-color: white;
         transition: all ease 0.25s;
 
         @media (max-width: $phone) {
             padding: 20px 30px;
         }
+    }
+
+    .headerSocialLinks{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background-color: white;
+        transition: all ease 0.25s;
     }
 
     .listArticles {

@@ -1,7 +1,7 @@
 on('/news', arg => {
 
     const tabContent = document.querySelectorAll(".listArticles");
-    const tabLinks = document.querySelectorAll(".termLink");
+    const tabLinks = document.querySelectorAll(".headerPage .termLink");
     const subTab = document.querySelectorAll(".subMenu .termLink");
     const tab = document.querySelectorAll(".termsLinks");
     const socialLinks = document.querySelectorAll('#socialNetworks .termLink');
@@ -27,19 +27,29 @@ on('/news', arg => {
     tabLinks.forEach(function(elem) {
         elem.addEventListener("click", function() {
             displayContent(event, elem.dataset.attribute, tabContent, tabLinks);
+            subTab[0].className += " activeTerm";
+            console.log('test1');
         });
     });
 
     subTab.forEach(function(elem) {
         elem.addEventListener("click", function() {
-            displayContent(event, elem.dataset.type, tab, subTab);
+            displayContent(event, elem.dataset.menu, tab, subTab);
         });
     });
 
     socialLinks.forEach(function(elem) {
         elem.addEventListener("click", function() {
             displayContent(event, elem.dataset.attribute, socialFeed, socialLinks);
+            subTab[1].className += " activeTerm";
+            if(elem != socialLinks[0]){
+                socialLinks[0].classList.remove('activeTerm');
+            }
         });
     });
 
+    document.querySelector('.subMenu .termLink:last-child').addEventListener("click", function() {
+            document.getElementById('facebookFeed').style.display = "flex";
+            socialLinks[0].className += " activeTerm";
+        });
 });

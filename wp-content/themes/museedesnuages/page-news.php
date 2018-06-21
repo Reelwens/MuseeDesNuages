@@ -11,26 +11,26 @@ get_header();
         <a href="/"><img src="<?= THEME_URL ?>/assets/img/logoWhite.svg" alt="Logo" class="logoMDN" /></a>
         <div class="headerPage">
             <h1 class="headerTitle">Nos actualités</h1>
-            <p class="headerSubtitle">Découvrez ici nos actualités sur nos différentes thématiques.</p>
-        </div>
-        <div class="headerTerms">
-            <ul class="subMenu">
-                <li class="activeTerm termLink" data-attribute="allArticles" data-type="articles">articles</li>
-                <li class="termLink" data-type="socialNetworks">réseaux sociaux</li>
-            </ul>
-        </div>
-        <div>
-            <ul class="termsLinks" id="articles">
-                <li class="termLink activeTerm" data-attribute="allArticles">
-                    voir tout
-                </li>
-                <?php if ($terms = get_terms('theme', 'orderbyname')):
-                 foreach ($terms as $term): ?>
-                    <li class="termLink" data-attribute="<?php echo $term->name; ?>"><?php echo $term->name; ?></li>
-                <?php endforeach;
-                endif;
-                ?>
-            </ul>
+            <p class="headerSubtitle">Découvrez ici nos actualités ainsi que le flux d'informations de nos réseaux sociaux.</p>
+            <div class="headerTerms">
+                <ul class="subMenu">
+                    <li class="activeTerm termLink" data-attribute="allArticles" data-menu="articles">articles</li>
+                    <li class="termLink" data-menu="socialNetworks">réseaux sociaux</li>
+                </ul>
+            </div>
+            <div class="headerSocialLinks">
+                <ul class="termsLinks" id="articles">
+                    <li class="termLink activeTerm" data-attribute="allArticles">
+                        voir tout
+                    </li>
+                    <?php if ($terms = get_terms('theme', 'orderbyname')):
+                     foreach ($terms as $term): ?>
+                        <li class="termLink" data-attribute="<?php echo $term->name; ?>"><?php echo $term->name; ?></li>
+                    <?php endforeach;
+                    endif;
+                    ?>
+                </ul>
+            </div>
         </div>
         <!-- articles by terms -->
         <?php if ($terms = get_terms('theme', 'orderbyname')):
@@ -127,12 +127,12 @@ get_header();
         <?php wp_pagenavi( array( 'query' => $loop ) ); ?>
         </div>
         <!-- Social networks -->
-        <div>
+        <div class="headerSocialLinks">
             <ul id="socialNetworks" class="termsLinks">
                 <li class="termLink activeTerm" data-attribute="facebookFeed">facebook</li>
-                <li class="termLink activeTerm" data-attribute="twitterFeed">twitter</li>
-                <li class="termLink activeTerm" data-attribute="instagramFeed">instagram</li>
-                <li class="termLink activeTerm" data-attribute="linkedinFeed">linkedin</li>
+                <li class="termLink" data-attribute="twitterFeed">twitter</li>
+                <li class="termLink" data-attribute="instagramFeed">instagram</li>
+                <li class="termLink" data-attribute="linkedinFeed">linkedin</li>
             </ul>
         </div>
         <div id="facebookFeed" class="socialFeed">
