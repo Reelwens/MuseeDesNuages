@@ -55,6 +55,36 @@ on('/', arg => {
     }
 
 
+
+
+
+    /*
+     * Interactions
+     */
+
+    document.querySelectorAll('.backButton').forEach(button => {
+        button.onclick = e => {
+            let interaction = button.parentElement.parentElement;
+
+            interaction.classList.remove('visible');
+        }
+    })
+
+    document.querySelector(".point-5").onclick = e => {
+        document.querySelector(".artInteraction").classList.toggle("visible");
+    }
+
+    document.querySelector(".point-9").onclick = e => {
+        document.querySelector(".climatInteraction").classList.toggle("visible");
+    }
+
+    document.querySelector(".point-15").onclick = e => {
+        document.querySelector(".shareInteraction").classList.toggle("visible");
+    }
+
+
+
+
     /*
      * TweenMax home
      */
@@ -121,10 +151,6 @@ on('/', arg => {
 
     new ScrollMagic.Scene({triggerElement: ".point-5", triggerHook: 'onEnter', offset: 250})
         .setClassToggle(".paragraph-5", "visible") // add class toggle
-        .addTo(controller);
-
-    new ScrollMagic.Scene({triggerElement: ".point-5", triggerHook: 'onEnter', offset: 450})
-        .setClassToggle(".artInteraction", "visible") // add class toggle
         .addTo(controller);
 
     new ScrollMagic.Scene({triggerElement: ".point-6", triggerHook: 'onEnter', offset: 250})

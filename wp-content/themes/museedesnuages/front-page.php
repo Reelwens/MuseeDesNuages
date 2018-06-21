@@ -119,7 +119,7 @@
             <p class="paragraph paragraph-4">
                 <?php the_field('paragraphe_4'); ?>
             </p>
-            <div class="point point-5"><img src="<?= THEME_URL ?>/assets/img/art-icon.svg" alt="Art" /></div>
+            <div class="point point-5 big"><img src="<?= THEME_URL ?>/assets/img/art-icon.svg" alt="Art" /></div>
             <p class="paragraph paragraph-5"><?php the_field('paragraphe_5'); ?></p>
             <div class="point point-6"></div>
             <p class="paragraph paragraph-6">
@@ -133,7 +133,7 @@
             <p class="paragraph paragraph-8">
                 <?php the_field('paragraphe_8'); ?>
             </p>
-            <div class="point point-9"><img src="<?= THEME_URL ?>/assets/img/climat-icon.svg" alt="Climat" /></div>
+            <div class="point point-9 big"><img src="<?= THEME_URL ?>/assets/img/climat-icon.svg" alt="Climat" /></div>
             <p class="paragraph paragraph-9"><?php the_field('paragraphe_9'); ?></p>
             <div class="point point-10"></div>
             <p class="paragraph paragraph-10">
@@ -155,7 +155,7 @@
             <p class="paragraph paragraph-14">
                 <?php the_field('paragraphe_14'); ?>
             </p>
-            <div class="point point-15"><img src="<?= THEME_URL ?>/assets/img/partage-icon.svg" alt="Partage" /></div>
+            <div class="point point-15 big"><img src="<?= THEME_URL ?>/assets/img/partage-icon.svg" alt="Partage" /></div>
             <p class="paragraph paragraph-15"><?php the_field('paragraphe_15'); ?></p>
             <div class="point point-16"></div>
             <p class="paragraph paragraph-16">
@@ -289,7 +289,139 @@
 
     <div class="extra">
         <div class="interaction artInteraction">
-            <div class="title">ART</div>
+            <div class="backArea">
+                <p>Retour</p>
+                <div class="backButton">
+                    <img src="<?= THEME_URL ?>/assets/img/back-art-icon.svg" alt="Retour" />
+                </div>
+            </div>
+            <div class="content">
+                <?php
+                // check if the flexible content field has rows of data
+                if( have_rows('interaction_1') ):
+
+                     // loop through the rows of data
+                    while ( have_rows('interaction_1') ) : the_row();
+
+                        if( get_row_layout() == 'section' ):
+
+                            ?><div class="section"><?php the_sub_field('section'); ?></div><?php
+
+                        elseif( get_row_layout() == 'title' ):
+
+                            ?><div class="title"><?php the_sub_field('title'); ?></div><?php
+
+                        elseif( get_row_layout() == 'picture' ):
+
+                            ?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="picture" /><?php
+
+                        elseif( get_row_layout() == 'text' ):
+
+                            ?><div class="text"><?php the_sub_field('text'); ?></div><?php
+
+                        endif;
+
+                    endwhile;
+
+                else :
+
+                    ?><p class="studySubTitle">Aucun résultat</p><?php
+
+                endif;
+
+                ?>
+                <a class="interactionButton" href="/visit">Visiter</a>
+            </div>
+        </div>
+        <div class="interaction climatInteraction">
+            <div class="backArea">
+                <p>Retour</p>
+                <div class="backButton">
+                    <img src="<?= THEME_URL ?>/assets/img/back-climat-icon.svg" alt="Retour" />
+                </div>
+            </div>
+            <div class="content">
+                <?php
+                // check if the flexible content field has rows of data
+                if( have_rows('interaction_2') ):
+
+                     // loop through the rows of data
+                    while ( have_rows('interaction_2') ) : the_row();
+
+                        if( get_row_layout() == 'section' ):
+
+                            ?><div class="section"><?php the_sub_field('section'); ?></div><?php
+
+                        elseif( get_row_layout() == 'title' ):
+
+                            ?><div class="title"><?php the_sub_field('title'); ?></div><?php
+
+                        elseif( get_row_layout() == 'picture' ):
+
+                            ?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="picture" /><?php
+
+                        elseif( get_row_layout() == 'text' ):
+
+                            ?><div class="text"><?php the_sub_field('text'); ?></div><?php
+
+                        endif;
+
+                    endwhile;
+
+                else :
+
+                    ?><p class="studySubTitle">Aucun résultat</p><?php
+
+                endif;
+
+                ?>
+                <a class="interactionButton" href="/visit">Visiter</a>
+            </div>
+        </div>
+        <div class="interaction shareInteraction">
+            <div class="backArea">
+                <p>Retour</p>
+                <div class="backButton">
+                    <img src="<?= THEME_URL ?>/assets/img/back-partage-icon.svg" alt="Retour" />
+                </div>
+            </div>
+            <div class="content">
+                <?php
+                // check if the flexible content field has rows of data
+                if( have_rows('interaction_3') ):
+
+                     // loop through the rows of data
+                    while ( have_rows('interaction_3') ) : the_row();
+
+                        if( get_row_layout() == 'section' ):
+
+                            ?><div class="section"><?php the_sub_field('section'); ?></div><?php
+
+                        elseif( get_row_layout() == 'title' ):
+
+                            ?><div class="title"><?php the_sub_field('title'); ?></div><?php
+
+                        elseif( get_row_layout() == 'picture' ):
+
+                            ?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="picture" /><?php
+
+                        elseif( get_row_layout() == 'text' ):
+
+                            ?><div class="text"><?php the_sub_field('text'); ?></div><?php
+
+                        endif;
+
+                    endwhile;
+
+                else :
+
+                    ?><p class="studySubTitle">Aucun résultat</p><?php
+
+                endif;
+
+                ?>
+                <a class="interactionButton" href="/visit">Visiter</a>
+            </div>
         </div>
         <div class="loader">
             <img src="<?= THEME_URL ?>/assets/img/logoWhite.svg" alt="Logo" class="logo" />

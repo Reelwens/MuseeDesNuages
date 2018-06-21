@@ -58,6 +58,7 @@
         background: black;
         box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.05);
         opacity: 0;
+        z-index: 5;
         transition: all .5s;
 
         img {
@@ -67,6 +68,14 @@
         &.visible {
             opacity: 1;
             transform: translateX(-50%) scale(1);
+        }
+
+        &.big {
+            cursor: pointer;
+
+            &.visible:hover {
+                transform: translateX(-50%) scale(1.1);
+            }
         }
 
         &.point-1 {
