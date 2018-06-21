@@ -15,6 +15,7 @@
 <body <?php if (is_front_page()) { body_class( 'loading loadingEnding' ); }; ?>>
 	<div class="toggleMenu">
 		<?php include 'assets/img/menuToggle.svg' ?>
+		<p class="textMenu">Menu</p>
 	</div>
 
     <header class="menu">
