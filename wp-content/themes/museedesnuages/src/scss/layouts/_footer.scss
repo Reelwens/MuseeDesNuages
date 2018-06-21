@@ -141,8 +141,20 @@ footer {
         }
     }
 
+    .legalNotices {
+        width: 100%;
+        margin-top: 80px;
+        font-size: 16px;
+        letter-spacing: .8px;
+        line-height: 1.5;
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
     .copyright {
-        margin-top: 110px;
+        margin-top: 20px;
         font-size: 16px;
         letter-spacing: .8px;
         line-height: 1.5;

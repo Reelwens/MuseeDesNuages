@@ -192,7 +192,7 @@
                     <p>Iesa incub</p>
                 </div>
                 <div class="partner upup">
-                    <img src="<?= THEME_URL ?>/assets/img/up&up.png" alt="up&up" />
+                    <img src="<?= THEME_URL ?>/assets/img/up&up.svg" alt="up&up" />
                     <p>Up&Up</p>
                 </div>
                 <div class="partner medef">
