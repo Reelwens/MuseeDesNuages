@@ -136,16 +136,16 @@ get_header();
             </ul>
         </div>
         <div id="facebookFeed" class="socialFeed">
-            <?php //echo do_shortcode('[ff id="1"]')?>
-            <p>facebook feed</p>
+            <?php echo do_shortcode('[ff id="1"]')?>
+            <!-- <p>facebook feed</p> -->
         </div>
         <div id="twitterFeed" class="socialFeed">
-            <?php //echo do_shortcode('[ff id="2"]')?>
-            <p>twitter feed</p>
+            <?php echo do_shortcode('[ff id="2"]')?>
+            <!-- <p>twitter feed</p> -->
         </div>
         <div id="instagramFeed" class="socialFeed">
-            <?php //echo do_shortcode('[ff id="3"]')?>
-            <p>instagramfeed</p>
+            <?php echo do_shortcode('[ff id="3"]')?>
+            <!-- <p>instagramfeed</p> -->
         </div>
         <div id="linkedinFeed" class="socialFeed">
             <p>linkedin feed</p>
