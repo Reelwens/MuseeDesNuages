@@ -25,6 +25,7 @@
                 <div class="cloud_3 layer" data-type="parallax" data-depth="0.4"></div>
                 <div class="cloud_2 layer" data-type="parallax" data-depth="0.3"></div>
                 <div class="cloud_1 layer" data-type="parallax" data-depth="0.005"></div>
+                <div class="androidFix"></div>
             </div>
         </div>
 
