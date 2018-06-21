@@ -264,7 +264,7 @@
                 <p class="legend"><?php the_field('legend_picture_9'); ?></p>
             </div>
 
-            <a href="#" class="button seeRealizations">
+            <a href="/visit" class="button seeRealizations">
                 <span>Voir les réalisations</span>
                 <img src="<?= THEME_URL ?>/assets/img/arrow_right.svg" alt="Flèche" />
             </a>
@@ -273,7 +273,7 @@
                 <p class="conclusion-1">Le musée des nuages propose des interventions auprès des entreprises, aux acteurs territoriaux et aux particuliers à travers la RSE, des expositions et ateliers.</p>
                 <p class="conclusion-2">Découvrez ce que le Musée des Nuages peut faire pour vous.</p>
 
-                <a href="#" class="button takeContact">
+                <a href="/contact" class="button takeContact">
                     <span>Prendre contact</span>
                     <img src="<?= THEME_URL ?>/assets/img/arrow_right.svg" alt="Flèche" />
                 </a>

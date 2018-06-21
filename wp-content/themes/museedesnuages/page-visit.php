@@ -42,7 +42,7 @@ get_header();
             <div class="subFrame subFrame-2">
                 <h2 class="subFrameName"><?php the_field('water_1_title'); ?></h2>
                 <p class="description"><?php the_field('water_1_description'); ?></p>
-                <a href="#" class="buttonDetail">Voir le détail du projet</a>
+                <a href="#" class="buttonDetail">Voir le détail</a>
                 <div class="caseStudy caseStudy-1">
                     <div class="container">
                         <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
@@ -90,7 +90,7 @@ get_header();
             <div class="subFrame subFrame-3">
                 <h2 class="subFrameName"><?php the_field('water_2_title'); ?></h2>
                 <p class="description"><?php the_field('water_2_description'); ?></p>
-                <a href="#" class="buttonDetail">Voir le détail du projet</a>
+                <a href="#" class="buttonDetail">Voir le détail</a>
                 <div class="caseStudy caseStudy-2">
                     <div class="container">
                         <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
@@ -138,7 +138,7 @@ get_header();
             <div class="subFrame subFrame-4">
                 <h2 class="subFrameName"><?php the_field('water_3_title'); ?></h2>
                 <p class="description"><?php the_field('water_3_description'); ?></p>
-                <a href="#" class="buttonDetail">Voir le détail du projet</a>
+                <a href="#" class="buttonDetail">Voir le détail</a>
                 <div class="caseStudy caseStudy-3">
                     <div class="container">
                         <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
@@ -186,7 +186,7 @@ get_header();
             <div class="subFrame subFrame-5">
                 <h2 class="subFrameName"><?php the_field('water_4_title'); ?></h2>
                 <p class="description"><?php the_field('water_4_description'); ?></p>
-                <a href="#" class="buttonDetail">Voir le détail du projet</a>
+                <a href="#" class="buttonDetail">Voir le détail</a>
                 <div class="caseStudy caseStudy-4">
                     <div class="container">
                         <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
@@ -233,7 +233,7 @@ get_header();
             <div class="subFrame subFrame-6">
                 <h2 class="subFrameName"><?php the_field('water_5_title'); ?></h2>
                 <p class="description"><?php the_field('water_5_description'); ?></p>
-                <a href="#" class="buttonDetail">Voir le détail du projet</a>
+                <a href="#" class="buttonDetail">Voir le détail</a>
                 <div class="caseStudy caseStudy-5">
                     <div class="container">
                         <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
@@ -289,7 +289,7 @@ get_header();
             <div class="subFrame subFrame-2">
                 <h2 class="subFrameName"><?php the_field('air_1_title'); ?></h2>
                 <p class="description"><?php the_field('air_1_description'); ?></p>
-                <a href="#" class="buttonDetail">Voir le détail du projet</a>
+                <a href="#" class="buttonDetail">Voir le détail</a>
                 <div class="caseStudy caseStudy-6">
                     <div class="container">
                         <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
@@ -337,7 +337,7 @@ get_header();
             <div class="subFrame subFrame-3">
                 <h2 class="subFrameName"><?php the_field('air_2_title'); ?></h2>
                 <p class="description"><?php the_field('air_2_description'); ?></p>
-                <a href="#" class="buttonDetail">Voir le détail du projet</a>
+                <a href="#" class="buttonDetail">Voir le détail</a>
                 <div class="caseStudy caseStudy-7">
                     <div class="container">
                         <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
@@ -385,7 +385,7 @@ get_header();
             <div class="subFrame subFrame-4">
                 <h2 class="subFrameName"><?php the_field('air_3_title'); ?></h2>
                 <p class="description"><?php the_field('air_3_description'); ?></p>
-                <a href="#" class="buttonDetail">Voir le détail du projet</a>
+                <a href="#" class="buttonDetail">Voir le détail</a>
                 <div class="caseStudy caseStudy-8">
                     <div class="container">
                         <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
@@ -433,7 +433,7 @@ get_header();
             <div class="subFrame subFrame-5">
                 <h2 class="subFrameName"><?php the_field('air_4_title'); ?></h2>
                 <p class="description"><?php the_field('air_4_description'); ?></p>
-                <a href="#" class="buttonDetail">Voir le détail du projet</a>
+                <a href="#" class="buttonDetail">Voir le détail</a>
                 <div class="caseStudy caseStudy-9">
                     <div class="container">
                         <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
@@ -490,7 +490,7 @@ get_header();
             <div class="subFrame subFrame-2">
                 <h2 class="subFrameName"><?php the_field('light_1_title'); ?></h2>
                 <p class="description"><?php the_field('light_1_description'); ?></p>
-                <a href="#" class="buttonDetail">Voir le détail du projet</a>
+                <a href="#" class="buttonDetail">Voir le détail</a>
                 <div class="caseStudy caseStudy-10">
                     <div class="container">
                         <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
@@ -538,7 +538,7 @@ get_header();
             <div class="subFrame subFrame-3">
                 <h2 class="subFrameName"><?php the_field('light_2_title'); ?></h2>
                 <p class="description"><?php the_field('light_2_description'); ?></p>
-                <a href="#" class="buttonDetail">Voir le détail du projet</a>
+                <a href="#" class="buttonDetail">Voir le détail</a>
                 <div class="caseStudy caseStudy-11">
                     <div class="container">
                         <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
@@ -586,7 +586,7 @@ get_header();
             <div class="subFrame subFrame-4">
                 <h2 class="subFrameName"><?php the_field('light_3_title'); ?></h2>
                 <p class="description"><?php the_field('light_3_description'); ?></p>
-                <a href="#" class="buttonDetail">Voir le détail du projet</a>
+                <a href="#" class="buttonDetail">Voir le détail</a>
                 <div class="caseStudy caseStudy-12">
                     <div class="container">
                         <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
@@ -633,7 +633,7 @@ get_header();
             <div class="subFrame subFrame-5">
                 <h2 class="subFrameName"><?php the_field('light_4_title'); ?></h2>
                 <p class="description"><?php the_field('light_4_description'); ?></p>
-                <a href="#" class="buttonDetail">Voir le détail du projet</a>
+                <a href="#" class="buttonDetail">Voir le détail</a>
                 <div class="caseStudy caseStudy-13">
                     <div class="container">
                         <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
@@ -689,7 +689,7 @@ get_header();
             <div class="subFrame subFrame-2">
                 <h2 class="subFrameName"><?php the_field('energy_1_title'); ?></h2>
                 <p class="description"><?php the_field('energy_1_description'); ?></p>
-                <a href="#" class="buttonDetail">Voir le détail du projet</a>
+                <a href="#" class="buttonDetail">Voir le détail</a>
                 <div class="caseStudy caseStudy-14">
                     <div class="container">
                         <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />

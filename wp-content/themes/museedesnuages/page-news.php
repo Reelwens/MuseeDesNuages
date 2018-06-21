@@ -11,7 +11,7 @@ get_header();
         <a href="/"><img src="<?= THEME_URL ?>/assets/img/logoWhite.svg" alt="Logo" class="logoMDN" /></a>
         <div class="headerPage">
             <h1 class="headerTitle">Nos actualités</h1>
-            <p class="headerSubtitle">Lorem Ipsum Dolores Dolores Dolores Dolores</p>
+            <p class="headerSubtitle">Découvrez ici nos actualités sur nos différentes thématiques.</p>
         </div>
         <div class="headerTerms">
             <ul class="subMenu">

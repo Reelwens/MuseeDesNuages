@@ -80,7 +80,7 @@
 
             a {
                 .text {
-                    padding: 0 15px 0 50px;
+                    padding: 0 35px 0 30px;
                     opacity: 0;
                     transform: translateX(20%);
                 }
@@ -206,9 +206,9 @@
                 .text {
                     position: static;
                     display: flex;
-                    justify-content: center;
                     align-items: center;
                     padding: 0;
+                    padding-left: 10%;
                 }
 
                 .number {
