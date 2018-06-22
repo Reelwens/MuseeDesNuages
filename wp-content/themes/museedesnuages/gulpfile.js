@@ -4,9 +4,10 @@ var gulp          = require( 'gulp' ),
     sass          = require( 'gulp-sass' ),
     autoprefixer  = require( 'gulp-autoprefixer' ),
     concat        = require( 'gulp-concat' ),
-    uglify        = require( 'gulp-uglify' );
-    imagemin      = require( 'gulp-imagemin' );
-    srcset        = require( 'gulp-srcset' );
+    uglify        = require( 'gulp-uglify' ),
+    imagemin      = require( 'gulp-imagemin' ),
+    srcset        = require( 'gulp-srcset' ),
+    pxtorem       = require( 'gulp-pxtorem' );
 
 
 // Configurations
@@ -39,6 +40,7 @@ gulp.task( 'sass', function()
             browsers: ['last 2 versions'],
             cascade: false
         }))
+        .pipe(pxtorem())
         .pipe(rename(function (path) {
             path.basename += '.min';
         }))

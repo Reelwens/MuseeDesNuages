@@ -17,5 +17,8 @@
     "gulp-sass": "^3.1.0",
     "gulp-srcset": "^1.2.0",
     "gulp-uglify": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp-pxtorem": "^3.0.0"
   }
 }
