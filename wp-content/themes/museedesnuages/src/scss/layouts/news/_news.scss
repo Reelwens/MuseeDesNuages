@@ -162,6 +162,9 @@
                     line-height: 1.5;
                     letter-spacing: .8px;
                     color: white;
+                    opacity: 0;
+                    transform: translateY(30px);
+                    transition: all .3s ease-out;
                 }
             }
 
@@ -180,6 +183,9 @@
                 letter-spacing: .8px;
                 color: #515B6C;
                 text-transform: uppercase;
+                opacity: 0;
+                transform: scale(0);
+                transition: all .3s ease-out;
             }
         }
     }
