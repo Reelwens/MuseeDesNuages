@@ -5,9 +5,27 @@
 get_header();
 ?>
 
-    <div class="visit">
+    <div class="visit main">
         <a href="/"><img src="<?= THEME_URL ?>/assets/img/logoWhite.svg" alt="Logo" class="logoMDN" /></a>
         <div class="background"></div>
+        <div class="arianeString">
+            <div class="arianeElement water">
+                <?php include ('assets/img/water-shape.svg') ?>
+                <p><span>eau</span></p>
+            </div>
+            <div class="arianeElement cloud">
+                <?php include ('assets/img/cloud-shape.svg') ?>
+                <p><span>air</span></p>
+            </div>
+            <div class="arianeElement light">
+                <?php include ('assets/img/light-shape.svg') ?>
+                <p><span>lumière</span></p>
+            </div>
+            <div class="arianeElement flash">
+                <?php include ('assets/img/flash-shape.svg') ?>
+                <p><span>énergie</span></p>
+            </div>
+        </div>
 
         <section class="frame frame-1">
             <div class="texts">

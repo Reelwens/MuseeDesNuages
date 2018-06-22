@@ -8,10 +8,14 @@
 
 @import '../scss/app';
 
-.visit {
+.visit.main {
     height: auto!important;
     background: none!important;
     padding-bottom: 50px;
+
+    .arianeString {
+        display: none;
+    }
 
     .frame {
         position: relative;

@@ -62,6 +62,34 @@ on('/visit', arg => {
             }
         }
 
+
+        /*
+         * Ariane string
+         */
+
+        document.querySelector('.arianeElement.water').onclick = e => {
+            count = 1;
+            document.querySelector('body').dataset.scrollState = 1;
+        }
+
+        document.querySelector('.arianeElement.cloud').onclick = e => {
+            count = 7;
+            document.querySelector('body').dataset.scrollState = 7;
+        }
+
+        document.querySelector('.arianeElement.light').onclick = e => {
+            count = 12;
+            document.querySelector('body').dataset.scrollState = 12;
+        }
+
+        document.querySelector('.arianeElement.flash').onclick = e => {
+            count = 17;
+            document.querySelector('body').dataset.scrollState = 17;
+        }
+
+
+        
+
         /*
          * Overflow hide html
          */

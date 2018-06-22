@@ -1,0 +1,106 @@
+.arianeString {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    z-index: 10;
+
+    .arianeElement {
+        margin: 10px 0;
+        cursor: pointer;
+
+        &.water {
+            p span {
+                color: #7ea8f8;
+            }
+
+            svg {
+                width: 17px;
+            }
+        }
+
+        &.cloud {
+            p span {
+                color: #8396AB;
+            }
+
+            svg {
+                width: 31px;
+            }
+        }
+
+        &.light {
+            p span {
+                color: #ffb900;
+            }
+
+            svg {
+                width: 27px;
+            }
+        }
+
+        &.flash {
+            p span {
+                color: #FC8E8E;
+            }
+
+            svg {
+                width: 15px;
+            }
+        }
+
+        &:hover {
+            svg {
+                transform: translateY(0);
+            }
+
+            p span {
+                transform: translateY(0);
+            }
+
+            &.water svg .st0 {
+                fill: #7ea8f8;
+            }
+
+            &.cloud svg .st0 {
+                fill: #8396AB;
+            }
+
+            &.light svg .st0 {
+                fill: #ffb900;
+            }
+
+            &.flash svg .st0 {
+                fill: #FC8E8E;
+            }
+        }
+
+        svg {
+            transform: translateY(12px);
+            height: auto;
+            transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+
+            .st0 {
+                fill: rgba(#a7a7a7, 0.6);
+                fill-opacity: 1;
+                opacity: 1;
+            }
+        }
+
+        p {
+            overflow: hidden;
+
+            span {
+                display: inline-block;
+                transform: translateY(100%);
+                font-size: 14px;
+                font-weight: bold;
+                font-family: $second-font;
+                transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+            }
+        }
+    }
+}
