@@ -44,7 +44,7 @@
             transform: none;
             height: auto;
             text-align: center;
-            margin-top: 200px;
+            margin-top: 250px;
 
             .description, .subFrameName, .buttonDetail {
                 left: auto;
@@ -88,7 +88,7 @@
                 opacity: .6;
                 height: 140px;
                 width: auto;
-                transform: translate(-50%, 195px) rotate(-5deg);
+                transform: translate(-50%, 245px) rotate(-5deg);
             }
 
             .card-2 {
@@ -101,7 +101,7 @@
         }
 
         .subFrame-2 .card-1 { // Exception for first
-            transform: translate(-50%, 125px) rotate(-5deg);
+            transform: translate(-50%, 175px) rotate(-5deg);
         }
     }
 
