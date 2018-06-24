@@ -1,11 +1,13 @@
 <?php
-
-/**
- * Template Name: All news
-**/
-
 get_header();
 
+// get all the categories, useful for the navbar
+$args = array(
+         'orderby' => 'slug',
+         'parent' => 0
+        );
+
+$categories = get_categories( $args );
 ?>
     <div class="news">
         <a href="/"><img src="<?= THEME_URL ?>/assets/img/logoWhite.svg" alt="Logo" class="logoMDN" /></a>
@@ -23,45 +25,39 @@ get_header();
                     <li class="termLink activeTerm" data-attribute="allArticles">
                         voir tout
                     </li>
-                    <?php if ($terms = get_terms('theme', 'orderbyname')):
-                     foreach ($terms as $term): ?>
-                        <li class="termLink" data-attribute="<?php echo $term->name; ?>"><?php echo $term->name; ?></li>
+                    <?php if ($categories):
+                    foreach ($categories as $category): ?>
+                        <li class="termLink" data-attribute="<?php echo $category->name; ?>"><?php echo $category->name; ?></li>
                     <?php endforeach;
                     endif;
                     ?>
                 </ul>
             </div>
         </div>
-        <!-- articles by terms -->
-        <?php if ($terms = get_terms('theme', 'orderbyname')):
-             foreach ($terms as $term): ?>
-                <div class="listArticles" id="<?php echo $term->name; ?>" id="articles">
+        <!-- articles by category -->
+        <?php if ($categories):
+             foreach ($categories as $category): ?>
+                <div class="listArticles" id="<?php echo $category->name; ?>" id="articles">
                 <?php
                 $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 
-                $term_loop = new WP_Query( array(
-                    'post_type' => 'news',
+                $category_loop = new WP_Query( array(
+                    'post_type' => 'post',
                     'posts_per_page' => 7,
                     'order' => 'DESC',
-                    'tax_query' => array(
-                        array(
-                            'taxonomy' => 'theme',
-                            'field' => 'slug',
-                            'terms' => $term->name,
-                        )
-                    ),
+                    'category_name' => $category->name,
                     'paged' => $paged )
                 );
                 ?>
 
-                <?php while ( $term_loop->have_posts() ) : $term_loop->the_post(); ?>
+                <?php while ( $category_loop->have_posts() ) : $category_loop->the_post(); ?>
 
                     <a class="article" href="<?= get_permalink() ?>"  title="<?= the_title_attribute( 'echo=0' ) ?>">
                         <img class="bgArticle" src="<?php the_post_thumbnail() ?>" alt="background">
                         <div class="gradient"></div>
                         <div class="content">
                             <div class="info">
-                                <p class="theme"><?php echo $term->name; ?></p>
+                                <p class="theme"><?php echo $category->name; ?></p>
                                 <p class="date"><?= get_the_date() ?></p>
                             </div>
                             <div class="articleTitle">
@@ -73,7 +69,7 @@ get_header();
                     </a>
 
                 <?php endwhile; ?>
-                <?php wp_pagenavi( array( 'query' => $term_loop ) ); ?>
+                <?php wp_pagenavi( array( 'query' => $category_loop ) ); ?>
                 </div>
             <?php endforeach;
         endif;
@@ -85,22 +81,22 @@ get_header();
             $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 
             $loop = new WP_Query( array(
-                'post_type' => 'news',
+                'post_type' => 'post',
                 'posts_per_page' => 7,
                 'order' => 'DESC',
                 'paged' => $paged )
             );
 
-        // Displays article terms with commas
-        function display_terms() {
-            $terms = get_the_terms( get_the_ID() , 'theme' );
-            $multiple_terms = '';
-            if ($terms) {
-                foreach ( $terms as $term ) {
-                    $multiple_terms .= $term->name . ', ';
+        // Displays article category with commas
+        function display_category() {
+            $category = get_the_category( get_the_ID() , 'category' );
+            $multiple_category = '';
+            if ($category) {
+                foreach ( $category as $term ) {
+                    $multiple_category .= $term->name . ', ';
                 }
-                $multiple_terms = rtrim( $multiple_terms, ', ' );
-                echo $multiple_terms;
+                $multiple_category = rtrim( $multiple_category, ', ' );
+                echo $multiple_category;
             }
         }
         ?>
@@ -112,7 +108,7 @@ get_header();
                 <div class="gradient"></div>
                 <div class="content">
                     <div class="info">
-                        <p class="theme"><?php echo display_terms(); ?></p>
+                        <p class="theme"><?php echo display_category(); ?></p>
                         <p class="date"><?= get_the_date() ?></p>
                     </div>
                     <div class="articleTitle">
@@ -153,3 +149,4 @@ get_header();
     </div>
 
 <?php get_footer(); ?>
+
