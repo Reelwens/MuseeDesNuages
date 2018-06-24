@@ -291,9 +291,8 @@
     <div class="extra">
         <div class="interaction artInteraction">
             <div class="backArea">
-                <p>Retour</p>
                 <div class="backButton">
-                    <img src="<?= THEME_URL ?>/assets/img/back-art-icon.svg" alt="Retour" />
+                    <img src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Retour" />
                 </div>
             </div>
             <div class="content">
@@ -336,9 +335,8 @@
         </div>
         <div class="interaction climatInteraction">
             <div class="backArea">
-                <p>Retour</p>
                 <div class="backButton">
-                    <img src="<?= THEME_URL ?>/assets/img/back-climat-icon.svg" alt="Retour" />
+                    <img src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Retour" />
                 </div>
             </div>
             <div class="content">
@@ -381,9 +379,8 @@
         </div>
         <div class="interaction shareInteraction">
             <div class="backArea">
-                <p>Retour</p>
                 <div class="backButton">
-                    <img src="<?= THEME_URL ?>/assets/img/back-partage-icon.svg" alt="Retour" />
+                    <img src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Retour" />
                 </div>
             </div>
             <div class="content">
