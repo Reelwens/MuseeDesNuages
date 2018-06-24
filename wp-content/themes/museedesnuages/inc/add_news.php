@@ -31,10 +31,10 @@ function add_new() {
 		'show_in_nav_menus'   => true,
 		'publicly_queryable'  => true,
 		'exclude_from_search' => false,
-		'has_archive'         => false,
+		'has_archive'         => true,
 		'query_var'           => true,
 		'can_export'          => true,
-		'rewrite'             => array( 'slug' => $post_type )
+		'rewrite'             => array( 'slug' => 'article' )
 	);
 
 	register_post_type($post_type, $args );
@@ -43,7 +43,7 @@ function add_new() {
 	$object_type = array("news");
 	$args = array(
 		'label' => __( 'Thème' ),
-		'rewrite' => array( 'slug' => 'news' ),
+		'rewrite' => array( 'slug' => 'article' ),
 		'hierarchical' => true,
 	);
 	register_taxonomy( $taxonomy, $object_type, $args );
