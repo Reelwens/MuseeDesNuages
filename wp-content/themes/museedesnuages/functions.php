@@ -42,7 +42,7 @@ add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
 // Remove useless menus
 function bbx_admin_remove_menus()
 {
-    remove_menu_page('edit.php');
+    // remove_menu_page('edit.php');
     remove_menu_page('upload.php');
     remove_menu_page('admin.php?page=wpcf7');
     remove_menu_page('themes.php');
