@@ -18,6 +18,11 @@
  */
 
 body[data-scroll-state] { // There is a scroll state
+    .arianeString {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
     .visit .background {
         opacity: 1;
     }
@@ -32,6 +37,11 @@ body[data-scroll-state] { // There is a scroll state
 }
 
 body[data-scroll-state="0"] {
+    .arianeString {
+        opacity: 0;
+        pointer-events: none;
+    }
+
     .visit .background {
         opacity: 0;
     }
@@ -1040,7 +1050,7 @@ body[data-scroll-state="19"] {
             fill: #FC8E8E;
         }
     }
-    
+
     .visit .background {
         background: #F6F6F6;
     }
