@@ -31,6 +31,7 @@ function display_category() {
     </style>
     <div class="singleNews">
         <a href="/"><img src="<?= THEME_URL ?>/assets/img/logoGrey.svg" alt="Logo" class="logoMDN" /></a>
+        <a href="../news/"><img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" /></a>
 
         <div class="theme"><span><?php echo display_category(); ?></span></div>
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
