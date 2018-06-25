@@ -133,12 +133,15 @@ $categories = get_categories( $args );
         </div>
         <div id="facebookFeed" class="socialFeed">
             <?php echo do_shortcode('[fts_facebook type=page id=1550817941681559 posts=6 description=yes posts_displayed=page_only]') ?>
+            <a href="https://www.facebook.com/lemuseedesnuages" target="blank" class="button">voir plus</a>
         </div>
         <div id="twitterFeed" class="socialFeed">
             <?php echo do_shortcode('[fts_twitter twitter_name=museedes_nuages tweets_count=6 cover_photo=no stats_bar=no show_retweets=no show_replies=no]') ?>
+            <a href="https://twitter.com/museedes_nuages" target="blank" class="button">voir plus</a>
         </div>
         <div id="instagramFeed" class="socialFeed">
-            <?php echo do_shortcode('[ff id="3"]')?>
+            <?php //echo do_shortcode('[ff id="3"]')?>
+            <a href="https://twitter.com/museedes_nuages" target="blank" class="button">voir plus</a>
         </div>
         <div id="linkedinFeed" class="socialFeed">
             <p>linkedin feed</p>

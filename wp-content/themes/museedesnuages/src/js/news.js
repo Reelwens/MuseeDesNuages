@@ -7,7 +7,7 @@ on('/news', arg => {
     const socialLinks = document.querySelectorAll('#socialNetworks .termLink');
     const socialFeed = document.querySelectorAll('.socialFeed');
 
-    let displayContent = (event, theme, elem1, elem2) => {
+    let displayContent = (event, theme, elem1, elem2, display) => {
 
         // Get all elements with class="tabcontent" and hide them
         for (var i = 0; i < elem1.length; i++) {
@@ -20,45 +20,40 @@ on('/news', arg => {
         }
 
         // Show the current tab, and add an "activeTerm" class to the button that opened the tab
-        document.getElementById(theme).style.display = "flex";
+        document.getElementById(theme).style.display = display;
         event.currentTarget.className += " activeTerm";
     };
 
     tabLinks.forEach(function(elem) {
         elem.addEventListener("click", function() {
-            displayContent(event, elem.dataset.attribute, tabContent, tabLinks);
+            displayContent(event, elem.dataset.attribute, tabContent, tabLinks, 'flex');
             subTab[0].className += " activeTerm";
         });
     });
 
     subTab.forEach(function(elem) {
         elem.addEventListener("click", function() {
-            displayContent(event, elem.dataset.menu, tab, subTab);
+            displayContent(event, elem.dataset.menu, tab, subTab, 'flex');
         });
     });
 
     socialLinks.forEach(function(elem) {
         elem.addEventListener("click", function() {
-            displayContent(event, elem.dataset.attribute, socialFeed, socialLinks);
+            displayContent(event, elem.dataset.attribute, socialFeed, socialLinks, 'block');
         });
     });
 
     document.querySelector('.subMenu .termLink:first-child').addEventListener("click", function() {
-            // for(var i=0; i < socialLinks.length; i++){
-            //     socialLinks[i].classList.remove('activeTerm');
-            // }
             document.querySelector('#articles .termLink:first-child').className += " activeTerm";
     });
 
     document.querySelector('.subMenu .termLink:last-child').addEventListener("click", function() {
-            document.getElementById('facebookFeed').style.display = "flex";
+            document.getElementById('facebookFeed').style.display = 'block';
             for(var i=0; i < socialLinks.length; i++){
                 socialLinks[i].classList.remove('activeTerm');
             }
             socialLinks[0].className += " activeTerm";
         });
-
-
 
     var controller = new ScrollMagic.Controller();
 

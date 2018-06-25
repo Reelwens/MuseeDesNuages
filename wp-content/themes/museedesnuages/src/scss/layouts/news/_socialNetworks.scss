@@ -1,0 +1,132 @@
+/*
+Facebook feed
+*/
+
+#facebookFeed, #twitterFeed{
+    width: 80vw;
+    margin: 30px auto;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.fts-jal-fb-header{
+    display: none;
+}
+
+// photo takes the container size
+.fts-album-photos-wrap{
+    a, .fts-jal-fb-picture{
+        width: 100%;
+        max-height: 500px;
+        overflow: hidden;
+    }
+
+    img{
+        width: 100%;
+    }
+}
+
+// space between each post
+.fts-jal-single-fb-post, .fts-tweeter-wrap .tweeter-info{
+    margin-bottom: 100px;
+    border: none;
+}
+
+// customize title
+.fts-jal-fb-user-name, a.fts-twitter-full-name{
+    letter-spacing: 0.6px;
+    font-family: $first-font;
+    font-weight: 600;
+    line-height: 1.25;
+    color: $colorArticle;
+    font-size: 20px;
+}
+
+// customize date time
+.fts-jal-fb-post-time, .time{
+    text-transform: uppercase;
+    font-family: $second-font;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+    color: #697995;
+}
+
+// icon size
+.fts-jal-fb-user-thumb, .fts-twitter-image{
+    width: 80px;
+
+    a, img{
+        width: 70px;
+    }
+}
+
+.fts-jal-fb-message, .fts-twitter-text{
+    margin-top: 40px;
+    font-family: $first-font;
+    font-size: 16px;
+    color: #515B6C;
+    line-height: 22px;
+    font-weight: normal;
+}
+
+// hide comments and likes
+.fts-likes-shares-etc-wrap, .fts-twitter-reply-wrap-left, .fts-share-wrap{
+    display:none;
+}
+
+// hide plugin signature
+.fts-powered-by-text-popup a.fts-powered-by-text{
+    display: none!important;
+}
+
+.fts-jal-fb-name{
+    letter-spacing: 0.6px;
+    font-family: $first-font;
+    font-weight: 600;
+    line-height: 1.25;
+    color: #515B6C;
+    font-size: 18px;
+}
+
+.jal-fb-description, .jal-fb-caption{
+    font-family: $first-font;
+    font-size: 16px;
+    color: #515B6C;
+}
+
+a.button{
+    padding: 18px 60px;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+}
+
+/*
+Twitter feed
+*/
+
+.time{
+    display: block;
+    line-height: 30px;
+}
+
+a.fts-twitter-full-name{
+    font-size: 20px!important;
+}
+
+.tweeter-info .fts-right{
+    margin-left: 25px;
+}
+
+a.fts-twitter-at-name{
+    font-size: 16px!important;
+    color: $blue!important;
+}
+
+.fts-twitter-text{
+    margin-top: 0px;
+}
