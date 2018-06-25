@@ -28,13 +28,18 @@ on('/services', arg => {
                 sectionSize   = services.item(i).offsetHeight,
                 sectionBottom = rect.bottom;
 
-            let translateX = 114*i;
+            let translateXPhone = 114*i,
+                translateXTablet = 50*i;
 
             if((sectionBottom < sectionSize) && (sectionBottom >= 0 )){
                 anchors.item(i).classList.add('activeAnchor');
                 // different display for mobile
                 if(window.innerWidth < 380){
-                    anchorsLinks.item(0).style.transform = 'translateX(' + -translateX + '%)';
+                    anchorsLinks.item(0).style.transform = 'translateX(' + -translateXPhone + '%)';
+                }
+                // different display for tablet
+                if(window.innerWidth > 380 && window.innerWidth < 770){
+                    anchorsLinks.item(0).style.transform = 'translateX(' + -translateXTablet + '%)';
                 }
             }
             else{

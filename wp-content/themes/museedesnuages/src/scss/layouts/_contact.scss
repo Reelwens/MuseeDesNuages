@@ -24,6 +24,10 @@
         width:auto;
         color:white;
         margin-right: 1rem;
+        transition: all 0.25s ease;
+    }
+    a:hover img{
+        transform: scale(1.2);
     }
 }
 
@@ -38,7 +42,7 @@
 }
 
 .founders{
-    margin: 8rem auto;
+    margin: 7rem auto;
     width: 80vw;
     height: auto;
     text-align: center;
@@ -212,14 +216,15 @@
         letter-spacing: 0.4px;
         width: 100%;
         cursor: pointer;
-        height: 45px;
+        height: 60px;
+        transform: translateX(-10%);
     }
 
     div.contactButton {
         margin: 100px auto;
         text-align: center;
         position:relative;
-        width:200px;
+        width:210px;
         box-shadow: 0 17px 14px 0 rgba(0, 0, 0, 0.09);
         height:auto;
         border-radius: 4px;
@@ -233,8 +238,8 @@
             width: 10px;
             position: absolute;
             display:block;
-            top: 35%;
-            left: 75%;
+            top: 38%;
+            left: 67%;
             transition: all .2s;
         }
 

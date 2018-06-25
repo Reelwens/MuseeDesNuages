@@ -132,18 +132,13 @@ $categories = get_categories( $args );
             </ul>
         </div>
         <div id="facebookFeed" class="socialFeed">
-            <?php //echo do_shortcode('[ff id="1"]')?>
             <?php echo do_shortcode('[fts_facebook type=page id=1550817941681559 posts=6 description=yes posts_displayed=page_only]') ?>
-            <!-- <p>facebook feed</p> -->
         </div>
         <div id="twitterFeed" class="socialFeed">
-            <?php //echo do_shortcode('[ff id="2"]')?>
             <?php echo do_shortcode('[fts_twitter twitter_name=museedes_nuages tweets_count=6 cover_photo=no stats_bar=no show_retweets=no show_replies=no]') ?>
-            <!-- <p>twitter feed</p> -->
         </div>
         <div id="instagramFeed" class="socialFeed">
             <?php echo do_shortcode('[ff id="3"]')?>
-            <!-- <p>instagramfeed</p> -->
         </div>
         <div id="linkedinFeed" class="socialFeed">
             <p>linkedin feed</p>

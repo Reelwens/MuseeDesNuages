@@ -19,6 +19,7 @@
         bottom: 0;
         background-color: white;
         transition: all ease 0.25s;
+        overflow-x: hidden;
 
         @media (max-width: $phone) {
             padding: 20px 30px;
@@ -104,7 +105,7 @@
         margin-bottom: 100px;
 
         @media (max-width: $phone) {
-            padding: 5rem 2rem;
+            padding: 5rem 0rem;
         }
 
         p + p{
@@ -125,7 +126,7 @@
             line-height: 30px;
             color: $argile-dark;
             font-size: 25px;
-            letter-spacing: 1.5px;
+            letter-spacing: 1px;
             color: $argile;
             line-height: 1.5;
         }
@@ -139,6 +140,10 @@
         left:50%;
         transform: translateX(-50%);
         opacity: 1;
+
+        @media (max-width: $phone) {
+            bottom: -4%;
+        }
     }
 
     .servicesList .button{

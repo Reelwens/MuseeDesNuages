@@ -12,10 +12,6 @@
         bottom: 73px;
         background-color: white;
         transition: all ease 0.25s;
-
-        @media (max-width: $phone) {
-            padding: 20px 30px;
-        }
     }
 
     .headerSocialLinks{

@@ -9,6 +9,14 @@
         padding: 10rem 2rem;
     }
 
+    @media (max-width: $tablet) {
+        padding: 20rem 2rem;
+    }
+
+    @media (max-width: $lg-desktop) {
+        padding: 25rem 10rem;
+    }
+
     .headerTitle{
         width: 20rem;
         font-size:28px;
