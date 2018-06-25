@@ -132,7 +132,8 @@ $categories = get_categories( $args );
             </ul>
         </div>
         <div id="facebookFeed" class="socialFeed">
-            <?php echo do_shortcode('[ff id="1"]')?>
+            <?php //echo do_shortcode('[ff id="1"]')?>
+            <?php echo do_shortcode('[fts_facebook type=page id=1550817941681559 posts=6 description=yes posts_displayed=page_only]') ?>
             <!-- <p>facebook feed</p> -->
         </div>
         <div id="twitterFeed" class="socialFeed">
