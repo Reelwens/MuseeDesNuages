@@ -12,8 +12,8 @@ $categories = get_categories( $args );
     <div class="news">
         <a href="/"><img src="<?= THEME_URL ?>/assets/img/logoWhite.svg" alt="Logo" class="logoMDN" /></a>
         <div class="headerPage">
-            <h1 class="headerTitle">Nos actualités</h1>
-            <p class="headerSubtitle">Découvrez ici nos actualités ainsi que le flux d'informations de nos réseaux sociaux.</p>
+            <h1 class="headerTitle"><?php the_field('header_title'); ?></h1>
+            <p class="headerSubtitle"><?php the_field('header_subtitle'); ?></p>
             <div class="headerTerms">
                 <ul class="subMenu">
                     <li class="activeTerm termLink" data-attribute="allArticles" data-menu="articles">articles</li>

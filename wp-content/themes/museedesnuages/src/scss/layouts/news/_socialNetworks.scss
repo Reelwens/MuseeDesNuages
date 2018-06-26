@@ -2,8 +2,10 @@
 Facebook feed
 */
 
-#facebookFeed, #twitterFeed{
-    width: 80vw;
+.socialFeed{
+    width: 600px;
+    min-width: 50%;
+    max-width: 90%;
     margin: 30px auto;
     position: relative;
     padding-bottom: 50px;
@@ -14,7 +16,7 @@ Facebook feed
 }
 
 // photo takes the container size
-.fts-album-photos-wrap{
+.fts-album-photos-wrap, .fts-jal-fb-link-wrap{
 
     a, .fts-jal-fb-picture{
         width: 100%;
@@ -96,6 +98,7 @@ Facebook feed
 .jal-fb-description, .jal-fb-caption{
     font-family: $first-font;
     font-size: 16px;
+    line-height: 21px;
     color: #515B6C;
 }
 
