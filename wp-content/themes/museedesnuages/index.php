@@ -144,7 +144,7 @@ $categories = get_categories( $args );
             <a href="https://twitter.com/museedes_nuages" target="blank" class="button">voir plus</a>
         </div>
         <div id="linkedinFeed" class="socialFeed">
-            <?php echo do_shortcode('[li-company-updates company='11759709']'); ?>
+            <?php echo do_shortcode('[li-company-updates]'); ?>
             <a href="https://twitter.com/museedes_nuages" target="blank" class="button">voir plus</a>
         </div>
     </div>
