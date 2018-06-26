@@ -29,8 +29,8 @@ get_header();
 
         <section class="frame frame-1">
             <div class="texts">
-                <h1 class="title">Nos collections</h1>
-                <p class="bio">Découvrez-ici l’intégralité de nos collections réparties en quatre thématiques.<br />Laissez-vous guider par le sens de la visite. </p>
+                <h1 class="title"><?php the_field('visit_title'); ?></h1>
+                <p class="bio"><?php the_field('visit_bio'); ?></p>
             </div>
 
             <div class="tickets">

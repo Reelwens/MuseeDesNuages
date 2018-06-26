@@ -265,8 +265,8 @@
                 <p class="legend"><?php the_field('legend_picture_9'); ?></p>
             </div>
 
-            <a href="/visit" class="button seeRealizations">
-                <span>Voir les réalisations</span>
+            <a href="/services" class="button seeRealizations">
+                <span>Nos prestations</span>
                 <img src="<?= THEME_URL ?>/assets/img/arrow_right.svg" alt="Flèche" />
             </a>
 
@@ -296,6 +296,7 @@
                 </div>
             </div>
             <div class="content">
+                <img src="<?= THEME_URL ?>/assets/img/art-icon.svg" alt="Art" class="iconInteraction art" />
                 <?php
                 // check if the flexible content field has rows of data
                 if( have_rows('interaction_1') ):
@@ -330,7 +331,7 @@
                 endif;
 
                 ?>
-                <a class="interactionButton" href="/visit">Visiter</a>
+                <a class="interactionButton" href="/services">Découvrir nos prestations</a>
             </div>
         </div>
         <div class="interaction climatInteraction">
@@ -340,6 +341,7 @@
                 </div>
             </div>
             <div class="content">
+                <img src="<?= THEME_URL ?>/assets/img/climat-icon.svg" alt="climat" class="iconInteraction climat" />
                 <?php
                 // check if the flexible content field has rows of data
                 if( have_rows('interaction_2') ):
@@ -374,7 +376,7 @@
                 endif;
 
                 ?>
-                <a class="interactionButton" href="/visit">Visiter</a>
+                <a class="interactionButton" href="/services">Découvrir nos prestations</a>
             </div>
         </div>
         <div class="interaction shareInteraction">
@@ -384,6 +386,7 @@
                 </div>
             </div>
             <div class="content">
+                <img src="<?= THEME_URL ?>/assets/img/share-icon.svg" alt="share" class="iconInteraction share" />
                 <?php
                 // check if the flexible content field has rows of data
                 if( have_rows('interaction_3') ):
@@ -418,7 +421,7 @@
                 endif;
 
                 ?>
-                <a class="interactionButton" href="/visit">Visiter</a>
+                <a class="interactionButton" href="/services">Découvrir nos prestations</a>
             </div>
         </div>
         <div class="loader">

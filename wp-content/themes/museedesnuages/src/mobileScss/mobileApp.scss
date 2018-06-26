@@ -26,6 +26,16 @@
             background: linear-gradient(to bottom, #011747 0%, #257ac5 85%, #a5bed2 100%);
         }
 
+        &.frame-3 {
+            .subFrameName {
+                color: #8396AB;
+            }
+
+            .buttonDetail {
+                background-color: #8396AB;
+            }
+        }
+
         .frameForm {
             display: none;
         }
