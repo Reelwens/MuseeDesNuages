@@ -271,16 +271,5 @@
         width:200px;
         margin-bottom: 10px;
         font-weight: 600;
-
-        &:after {
-            content:'';
-            position: absolute;
-            width:7px;
-            height:7px;
-            border-radius: 50%;
-            background-color: $blue;
-            top: 60%;
-            left: 100%;
-        }
     }
 }
