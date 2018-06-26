@@ -3,7 +3,7 @@
             <img src="<?= THEME_URL ?>/assets/img/logoWhite.svg" alt="Logo" class="logoFooter" />
             <a href="tel:+33683853390" class="number">+33 (0)6 83 85 33 90</a>
             <a href="mailto:museedesnuages@gmail.com" class="mail">accueil@museedesnuages.fr</a>
-            <p class="newsletterTitle">Newsletter</p>
+            <p class="newsletterTitle">Recevoir la newsletter</p>
             <div class="newsletterInput">
                 <input type="text" placeholder="Email" disabled title="À venir prochainement" />
                 <img src="<?= THEME_URL ?>/assets/img/transfer.svg" alt="Arrow" class="arrow" />

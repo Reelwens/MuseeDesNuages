@@ -74,6 +74,14 @@
         line-height: 1.5;
         letter-spacing: 1.2px;
         color: #3D3D3D;
+
+        a {
+            color: #2767c8;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
     }
 
     .picture {

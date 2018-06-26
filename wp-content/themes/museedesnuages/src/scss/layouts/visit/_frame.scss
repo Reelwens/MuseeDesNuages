@@ -77,7 +77,11 @@
     .introduction {
         font-size: 35px;
         font-weight: 200;
-        width: 90%;
+        width: 65%;
+
+        @media (max-width: $tablet) {
+            font-size: 22px;
+        }
     }
 
     .buttonDetail {
