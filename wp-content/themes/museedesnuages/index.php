@@ -2,7 +2,11 @@
 get_header();
 
 // get all the categories, useful for the navbar
-$categories = get_categories( 'exclude=1' );
+$args = array(
+       'orderby' => 'slug',
+       'parent' => 0
+       );
+$categories = get_categories( $args );
 
 ?>
     <div class="news">
@@ -21,9 +25,11 @@ $categories = get_categories( 'exclude=1' );
                     <li class="termLink activeTerm" data-attribute="allArticles">
                         voir tout
                     </li>
-                    <?php if ($categories):
-                    foreach ($categories as $category): ?>
-                        <li class="termLink" data-attribute="<?php echo $category->name; ?>"><?php echo $category->name; ?></li>
+                    <?php
+                    $terms = get_categories( 'exclude=1' );
+                    if ($terms):
+                    foreach ($terms as $term): ?>
+                        <li class="termLink" data-attribute="<?php echo $term->name; ?>"><?php echo $term->name; ?></li>
                     <?php endforeach;
                     endif;
                     ?>
@@ -136,7 +142,7 @@ $categories = get_categories( 'exclude=1' );
             <a href="https://twitter.com/museedes_nuages" target="blank" class="button">voir plus</a>
         </div>
         <div id="instagramFeed" class="socialFeed">
-            <?php echo do_shortcode('[fts_instagram instagram_id=4542366144 access_token=4542366144.da06fb6.324f2118fb244cbc8e3c333871c2d15c pics_count=6 type=user width=50% height=450px profile_wrap=no super_gallery=yes columns=3 force_columns=no space_between_photos=1px icon_size=65px hide_date_likes_comments=no]')?>
+            <?php echo do_shortcode('[fts_instagram instagram_id=4542366144 access_token=4542366144.da06fb6.324f2118fb244cbc8e3c333871c2d15c pics_count=6 type=user profile_wrap=no super_gallery=yes columns=4 force_columns=no space_between_photos=1px icon_size=65px hide_date_likes_comments=no]')?>
             <a href="https://twitter.com/museedes_nuages" target="blank" class="button">voir plus</a>
         </div>
         <div id="linkedinFeed" class="socialFeed">
