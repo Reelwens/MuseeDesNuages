@@ -31,13 +31,13 @@ Facebook feed
     }
 
     // space between each post
-    .fts-jal-single-fb-post, .fts-tweeter-wrap .tweeter-info{
+    .fts-jal-single-fb-post, .fts-tweeter-wrap .tweeter-info, #linkedin-item{
         margin-bottom: 100px;
         border: none;
     }
 
     // customize title
-    .fts-jal-fb-user-name, a.fts-twitter-full-name{
+    .fts-jal-fb-user-name, a.fts-twitter-full-name, #linkedin-item h3{
         letter-spacing: 0.6px;
         font-family: $first-font;
         font-weight: 600;
@@ -47,7 +47,7 @@ Facebook feed
     }
 
     // customize date time
-    .fts-jal-fb-post-time, .time{
+    .fts-jal-fb-post-time, .time, #linkedin-item i{
         text-transform: uppercase;
         font-family: $second-font;
         font-weight: 600;
@@ -168,9 +168,45 @@ Facebook feed
     LinkedIn feed
     */
 
-   #linkedin-con{
-        h2{
+    #linkedin-item{
+        position: relative;
+
+        .linkedin-update-logo{ // logo-mdn
+            width: 70px;
+            height: auto;
+        }
+
+        h3{ // title
+            position: absolute;
+            top: 10px;
+            left: 90px;
+        }
+
+        span > i{ // date
+            position: absolute;
+            top: 40px;
+            left: 90px;
+        }
+
+        div > p{ // post message
+            font-family: $first-font;
+            font-size: 16px;
+            color: #515B6C;
+            line-height: 22px;
+            font-weight: normal;
+        }
+    }
+
+    #linkedin-con{
+        h2, #linkedin-item > span > a{
             display:none;
         }
+    }
+
+    .linkedin-update-image{ // post image
+        width: 100%;
+        max-height: 500px;
+        object-fit: cover;
+        margin: 30px 0;
    }
 }
