@@ -30,6 +30,10 @@
         transition: all ease 0.25s;
 
         @media (max-width: $phone) {
+            width: 85%;
+        }
+
+        @media (max-width: $tablet) {
             width: 70%;
         }
     }

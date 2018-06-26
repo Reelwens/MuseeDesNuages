@@ -28,14 +28,14 @@ on('/services', arg => {
                 sectionSize   = services.item(i).offsetHeight,
                 sectionBottom = rect.bottom;
 
-            let translateXPhone = 114*i,
+            let translateXPhone = 100*i,
                 translateXTablet = 50*i;
 
             if((sectionBottom < sectionSize) && (sectionBottom >= 0 )){
                 anchors.item(i).classList.add('activeAnchor');
                 // different display for mobile
                 if(window.innerWidth < 380){
-                    anchorsLinks.item(0).style.transform = 'translateX(' + -translateXPhone + '%)';
+                    anchorsLinks.item(0).style.transform = 'translateX(' + -translateXPhone + 'vw)';
                 }
                 // different display for tablet
                 if(window.innerWidth > 380 && window.innerWidth < 770){
@@ -75,5 +75,11 @@ on('/services', arg => {
                 });
             });
         });
-    }
+    };
+
+    var controller = new ScrollMagic.Controller();
+
+    var scene = new ScrollMagic.Scene({triggerElement: ".headerAnchors", triggerHook: 'onLeave', offset: -75})
+        .setClassToggle(".toggleMenu", "black") // add class toggle
+        .addTo(controller);
 });

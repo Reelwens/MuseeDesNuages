@@ -74,11 +74,16 @@
 
             a{
                min-width: 250px;
+
+               @media (max-width: 400px) {
+                    display: inline-block;
+                    max-width: 60%;
+               }
             }
 
-            @media (max-width: $phone) {
+            @media (max-width: 400px) {
                 text-align: left;
-                margin-right: 120px;
+                min-width: 100vw;
             }
         }
 
