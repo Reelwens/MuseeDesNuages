@@ -8,8 +8,8 @@ get_header();
 ?>
     <div class="services">
         <div class="headerPage">
-            <h1 class="headerTitle">Nos prestations</h1>
-            <p class="headerSubtitle">Découvrez ici toutes nos prestations mise en place pour les entreprises et les collectivités territoriales.</p>
+            <h1 class="headerTitle"><?php the_field('header_title'); ?></h1>
+            <p class="headerSubtitle"><?php the_field('header_subtitle'); ?></p>
             <!-- ANCHORS -->
         <?php if( have_rows('services_list') ):
             $i = 0;
