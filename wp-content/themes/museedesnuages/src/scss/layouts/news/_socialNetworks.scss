@@ -61,6 +61,7 @@ Facebook feed
 // icon size
 .fts-jal-fb-user-thumb, .fts-twitter-image{
     width: 80px;
+    position: relative;
 
     a, img{
         width: 70px;
@@ -135,4 +136,29 @@ a.fts-twitter-at-name{
 
 .fts-twitter-text{
     margin-top: 0px;
+
+    a{
+        color: $blue;
+        transition: all ease 0.25s;
+
+        &:hover{
+            color: #515B6C;
+        }
+    }
+}
+
+div.fts-twitter-image{
+    position: relative;
+    &:after{
+        content: url('../img/twitter-logo-mdn.png');
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top:0;
+        left:0;
+    }
+}
+
+div.fts-twitter-image > a > img.twitter-image{
+    display:none;
 }
