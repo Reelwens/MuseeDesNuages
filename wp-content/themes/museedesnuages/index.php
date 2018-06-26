@@ -2,12 +2,8 @@
 get_header();
 
 // get all the categories, useful for the navbar
-$args = array(
-         'orderby' => 'slug',
-         'parent' => 0
-        );
+$categories = get_categories( 'exclude=1' );
 
-$categories = get_categories( $args );
 ?>
     <div class="news">
         <a href="/"><img src="<?= THEME_URL ?>/assets/img/logoWhite.svg" alt="Logo" class="logoMDN" /></a>
@@ -140,7 +136,7 @@ $categories = get_categories( $args );
             <a href="https://twitter.com/museedes_nuages" target="blank" class="button">voir plus</a>
         </div>
         <div id="instagramFeed" class="socialFeed">
-            <?php echo do_shortcode('[fts_instagram instagram_id=4542366144 access_token=4542366144.da06fb6.324f2118fb244cbc8e3c333871c2d15c pics_count=6 type=user profile_wrap=no super_gallery=yes columns=4 force_columns=no space_between_photos=1px icon_size=65px hide_date_likes_comments=no]')?>
+            <?php echo do_shortcode('[fts_instagram instagram_id=4542366144 access_token=4542366144.da06fb6.324f2118fb244cbc8e3c333871c2d15c pics_count=6 type=user width=50% height=450px profile_wrap=no super_gallery=yes columns=3 force_columns=no space_between_photos=1px icon_size=65px hide_date_likes_comments=no]')?>
             <a href="https://twitter.com/museedes_nuages" target="blank" class="button">voir plus</a>
         </div>
         <div id="linkedinFeed" class="socialFeed">
