@@ -27,7 +27,7 @@
 				<div class="text">
 					<p class="number">01</p>
 					<p class="name">Accueil</p>
-					<p class="description">Découvrez nos valeurs à travers différentes interactions mettant en avant nos créations.</p>
+					<p class="description">Découvrez l'histoire du&#8239;musée des&#8239;nuages.</p>
 				</div>
             </a>
 
@@ -37,7 +37,7 @@
 				<div class="text">
 					<p class="number">02</p>
 					<p class="name">Visite</p>
-					<p class="description">Plongez dans l’expérience de notre musée virtuel. Découvrez nos différentes collections.</p>
+					<p class="description">Découvrez nos collections. Plongez dans notre musée virtuel.</p>
 				</div>
             </a>
 
@@ -47,7 +47,7 @@
 				<div class="text">
 					<p class="number">03</p>
 					<p class="name">Actualités</p>
-					<p class="description">Articles sur l’eau, l’air et la lumière ainsi que notre flux Twitter des remarques de nos artistes.</p>
+					<p class="description">Articles en liaison avec&nbsp;l'actualité de l'art et&nbsp;de&nbsp;l'environnement.</p>
 				</div>
             </a>
 
@@ -57,7 +57,7 @@
 				<div class="text">
 					<p class="number">04</p>
 					<p class="name">Prestations</p>
-					<p class="description">Découvrez ici toutes nos prestations mise en place pour les entreprises et les collectivités territoriales.</p>
+					<p class="description">Nos prestations pour&nbsp;les&nbsp;entreprises et les&nbsp;collectivités&nbsp;territoriales.</p>
 				</div>
             </a>
 
@@ -67,7 +67,7 @@
 				<div class="text">
 					<p class="number">05</p>
 					<p class="name">Contact</p>
-					<p class="description">Toutes nos informations pratiques ainsi qu’un formulaire de contact pour nous joindre.</p>
+					<p class="description">Contactez-nous et&nbsp;accédez aux informations pratiques.</p>
 				</div>
             </a>
         </nav>
