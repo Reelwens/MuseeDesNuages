@@ -140,11 +140,12 @@ $categories = get_categories( $args );
             <a href="https://twitter.com/museedes_nuages" target="blank" class="button">voir plus</a>
         </div>
         <div id="instagramFeed" class="socialFeed">
-            <?php //echo do_shortcode('[ff id="3"]')?>
+            <?php echo do_shortcode('[fts_instagram instagram_id=4542366144 access_token=4542366144.da06fb6.324f2118fb244cbc8e3c333871c2d15c pics_count=6 type=user profile_wrap=no super_gallery=yes columns=3 force_columns=no space_between_photos=1px icon_size=65px hide_date_likes_comments=no]')?>
             <a href="https://twitter.com/museedes_nuages" target="blank" class="button">voir plus</a>
         </div>
         <div id="linkedinFeed" class="socialFeed">
-            <p>linkedin feed</p>
+            <?php echo do_shortcode('[li-company-updates limit='5' company='11759709']'); ?>
+            <a href="https://twitter.com/museedes_nuages" target="blank" class="button">voir plus</a>
         </div>
     </div>
 
