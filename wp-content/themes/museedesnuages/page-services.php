@@ -36,7 +36,7 @@ get_header();
             <div class="servicesIntro">
                 <p class="chapeau"><?php the_field('chapeau'); ?></p>
                 <p><?php the_field('intro_text'); ?></p>
-                <a href="#" class="button">
+                <a href="/contact" class="button">
                     <span>Nous contacter</span>
                     <img src="<?= THEME_URL ?>/assets/img/arrow_right.svg" alt="Flèche" />
                 </a>
@@ -78,7 +78,7 @@ get_header();
 
                 <?php endwhile; ?>
 
-                <a href="#" class="button">
+                <a href="/contact" class="button">
                     <span>Nous contacter</span>
                     <img src="<?= THEME_URL ?>/assets/img/arrow_right.svg" alt="Flèche" />
                 </a>

@@ -57,7 +57,7 @@ on('/services', arg => {
     // Anchors smooth scroll
     // For older browsers
     if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-        $(document).on('click', 'a[href^="#"]', function (event) {
+        $(document).on('click', '.anchor a[href^="#"]', function (event) {
             event.preventDefault();
             $('html, body').animate({
                 scrollTop: $($.attr(this, 'href')).offset().top
@@ -65,7 +65,7 @@ on('/services', arg => {
         });
     }
     else{
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        document.querySelectorAll('.anchor a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (event) {
                 event.preventDefault();
 
