@@ -15,10 +15,6 @@
 
     .subMenu, .termsLinks{
         padding: 25px 0;
-
-        @media (max-width: $lg-desktop) {
-            padding: 28px 0;
-        }
     }
 
     .termsLinks{

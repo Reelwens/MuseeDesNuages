@@ -82,7 +82,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="illustration" /><?php
 
                                 endif;
 
@@ -130,7 +130,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="illustration" /><?php
 
                                 endif;
 
@@ -178,7 +178,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="illustration" /><?php
 
                                 endif;
 
@@ -226,7 +226,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="illustration" /><?php
 
                                 endif;
 
@@ -273,7 +273,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="illustration" /><?php
 
                                 endif;
 
@@ -329,7 +329,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="illustration" /><?php
 
                                 endif;
 
@@ -377,7 +377,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="illustration" /><?php
 
                                 endif;
 
@@ -425,7 +425,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="illustration" /><?php
 
                                 endif;
 
@@ -473,7 +473,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="illustration" /><?php
 
                                 endif;
 
@@ -530,7 +530,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="illustration" /><?php
 
                                 endif;
 
@@ -578,7 +578,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="illustration" /><?php
 
                                 endif;
 
@@ -626,7 +626,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="illustration" /><?php
 
                                 endif;
 
@@ -673,7 +673,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="illustration" /><?php
 
                                 endif;
 
@@ -729,7 +729,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="illustration" /><?php
 
                                 endif;
 
@@ -777,7 +777,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="illustration" /><?php
 
                                 endif;
 

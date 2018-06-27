@@ -1,9 +1,9 @@
 on('/news', arg => {
 
     const tabContent = document.querySelectorAll(".listArticles");
-    const tabLinks = document.querySelectorAll(".headerPage .termLink");
     const subTab = document.querySelectorAll(".subMenu .termLink");
     const tab = document.querySelectorAll(".termsLinks");
+    const articlesLinks = document.querySelectorAll("#articles .termLink");
     const socialLinks = document.querySelectorAll('#socialNetworks .termLink');
     const socialFeed = document.querySelectorAll('.socialFeed');
 
@@ -24,16 +24,21 @@ on('/news', arg => {
         event.currentTarget.className += " activeTerm";
     };
 
-    tabLinks.forEach(function(elem) {
+    // On click on an element of the first tab, display the second tab
+    subTab.forEach(function(elem) {
         elem.addEventListener("click", function() {
-            displayContent(event, elem.dataset.attribute, tabContent, tabLinks, 'flex');
-            subTab[0].className += " activeTerm";
+
+            for(var i=0; i < subTab.length; i++){
+                subTab[i].classList.remove('activeTerm');
+            }
+
+            displayContent(event, elem.dataset.menu, tab, subTab, 'flex');
         });
     });
 
-    subTab.forEach(function(elem) {
+    articlesLinks.forEach(function(elem) {
         elem.addEventListener("click", function() {
-            displayContent(event, elem.dataset.menu, tab, subTab, 'flex');
+            displayContent(event, elem.dataset.attribute, tabContent, articlesLinks, 'flex');
         });
     });
 
@@ -43,16 +48,24 @@ on('/news', arg => {
         });
     });
 
-    document.querySelector('.subMenu .termLink:first-child').addEventListener("click", function() {
-            document.querySelector('#articles .termLink:first-child').className += " activeTerm";
+    // on click on articles, hide the social feed
+    subTab[0].addEventListener("click", function() {
+
+            document.querySelector('.listArticles').style.display = 'flex';
+
+            for(var i=0; i < socialFeed.length; i++){
+                socialFeed[i].style.display = 'none';
+            }
+
+            subTab[0].className += " activeTerm";
     });
 
-    document.querySelector('.subMenu .termLink:last-child').addEventListener("click", function() {
+    subTab[1].addEventListener("click", function() {
             document.getElementById('facebookFeed').style.display = 'block';
-            for(var i=0; i < socialLinks.length; i++){
-                socialLinks[i].classList.remove('activeTerm');
+
+            for( var i = 0; i < tabContent.length; i++){
+                tabContent[i].style.display = 'none';
             }
-            socialLinks[0].className += " activeTerm";
         });
 
     var controller = new ScrollMagic.Controller();

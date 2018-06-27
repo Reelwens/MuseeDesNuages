@@ -82,7 +82,7 @@ Facebook feed
     }
 
     // hide plugin signature
-    .fts-powered-by-text-popup a.fts-powered-by-text{
+    .fts-powered-by-text {
         display: none!important;
     }
 
@@ -172,11 +172,13 @@ Facebook feed
         margin-bottom: 100px!important;
    }
 
-    .fts-instagram-wrapper{
-        // width: 100%!important;
-        // max-height: 500px;
-        // background-position:center center;
-    }
+   .slicker-instagram-placeholder .fts-instagram-wrapper{
+        min-height: 500px!important;
+        height: 500px;
+        width: 100%!important;
+        background-position:center center;
+        margin: 0px!important;
+   }
 
     .fts-insta-likes-comments-grab-popup{
         display: none!important;
@@ -196,14 +198,12 @@ Facebook feed
 
         h3{ // title
             position: absolute;
-            top: 10px;
+            top: 20px;
             left: 90px;
         }
 
         span > i{ // date
-            position: absolute;
-            top: 40px;
-            left: 90px;
+            display: none!important;
         }
 
         div > p{ // post message

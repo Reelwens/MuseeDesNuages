@@ -27,7 +27,7 @@
 				<div class="text">
 					<p class="number">01</p>
 					<p class="name">Accueil</p>
-					<p class="description">Découvrez l'histoire du&nbsp;;musée des&nbsp;nuages.</p>
+					<p class="description">Découvrez l'histoire du&nbsp;musée des&nbsp;nuages.</p>
 				</div>
             </a>
 
