@@ -37,7 +37,7 @@ Facebook feed
     }
 
     // customize title
-    .fts-jal-fb-user-name, a.fts-twitter-full-name, #linkedin-item h3{
+    .fts-jal-fb-user-name, a.fts-twitter-full-name, .fts-isnta-full-name, #linkedin-item h3{
         letter-spacing: 0.6px;
         font-family: $first-font;
         font-weight: 600;
@@ -47,7 +47,7 @@ Facebook feed
     }
 
     // customize date time
-    .fts-jal-fb-post-time, .time, #linkedin-item i{
+    .fts-jal-fb-post-time, .time, .slicker-date, #linkedin-item i{
         text-transform: uppercase;
         font-family: $second-font;
         font-weight: 600;
@@ -58,7 +58,7 @@ Facebook feed
     }
 
     // icon size
-    .fts-jal-fb-user-thumb, .fts-twitter-image{
+    .fts-jal-fb-user-thumb, .fts-twitter-image, .fts-profile-pic{
         width: 80px;
         position: relative;
 
@@ -103,7 +103,7 @@ Facebook feed
     }
 
     a.button{
-        padding: 18px 60px;
+        padding: 18px 40px;
         position: absolute;
         bottom: 40px;
         left: 50%;
@@ -169,14 +169,17 @@ Facebook feed
     */
 
    .fts-instagram-inline-block-centered{
-        margin-bottom: 100px!important;
+        // margin-bottom: 100px!important;
    }
 
     .fts-instagram-wrapper{
-        width: 100%!important;
-        max-height: 500px;
-        background-position:center center;
-        margin: 0!important;
+        // width: 100%!important;
+        // max-height: 500px;
+        // background-position:center center;
+    }
+
+    .fts-insta-likes-comments-grab-popup{
+        display: none!important;
     }
 
     /*
