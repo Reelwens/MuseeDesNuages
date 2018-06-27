@@ -103,6 +103,7 @@
     }
 
     .text {
+        text-align: left;
         margin-bottom: 20px;
         font-size: 14px;
         font-family: $second-font;
@@ -113,12 +114,12 @@
     }
 
     .picture {
-        height: 290px;
+        height: 200px;
         max-width: 100%;
         object-fit: cover;
         margin: 0 auto 20px 0;
 
-        @media (max-width: $desktop) {
+        @media (max-width: $desktop), (max-height: 700px) {
             display: none;
         }
     }
