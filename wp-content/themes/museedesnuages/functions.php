@@ -18,13 +18,13 @@ foreach ( glob( THEME_PATH . "/inc/*.php" ) as $file ) {
 function ajout_scripts() {
 
 	// Script (first for dev env)
-	wp_register_script('main_script', 'http://localhost/wp-content/themes/museedesnuages/assets/js/app.min.js', '', false, true);
-	//wp_register_script('main_script', get_template_directory_uri() . '/assets/js/app.min.js', '', false, true);
+	//wp_register_script('main_script', 'http://localhost/wp-content/themes/museedesnuages/assets/js/app.min.js', '', false, true);
+	wp_register_script('main_script', get_template_directory_uri() . '/assets/js/app.min.js', '', false, true);
 	wp_enqueue_script('main_script');
 
 	// Style (first for dev env)
-	wp_register_style( 'main_style', 'http://localhost/wp-content/themes/museedesnuages/assets/css/app.min.css' );
-	//wp_register_style( 'main_style', get_template_directory_uri() . '/assets/css/app.min.css' );
+	//wp_register_style( 'main_style', 'http://localhost/wp-content/themes/museedesnuages/assets/css/app.min.css' );
+	wp_register_style( 'main_style', get_template_directory_uri() . '/assets/css/app.min.css' );
 	wp_enqueue_style( 'main_style' );
 
 	// Typos
@@ -42,15 +42,18 @@ add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
 // Remove useless menus
 function bbx_admin_remove_menus()
 {
-    // remove_menu_page('edit.php');
     remove_menu_page('upload.php');
     remove_menu_page('admin.php?page=wpcf7');
     remove_menu_page('themes.php');
-    remove_menu_page('users.php');
-    //remove_menu_page('plugins.php');
+    //remove_menu_page('users.php');
+    remove_menu_page('plugins.php');
     remove_menu_page('tools.php');
-    //remove_menu_page('edit.php?post_type=acf-field-group');
-    remove_menu_page('admin.php?page=mb_email_configuration');
+    remove_menu_page('edit-comments.php');
+    remove_menu_page('admin.php?page=flamingo');
+    remove_menu_page('admin.php?page=wpcf7'); // Configuration du champ de contact
+    remove_menu_page('edit.php?post_type=acf-field-group'); // Configuration des champs ACF
+    remove_menu_page('admin.php?page=feed-them-settings-page'); // Configurtation des réseeaux sociaux
+    remove_menu_page('admin.php?page=mb_email_configuration'); // Configuration de l'envoi de mail
 }
 add_action( 'admin_menu', 'bbx_admin_remove_menus' );
 
