@@ -30,8 +30,8 @@ function display_category() {
         }
     </style>
     <div class="singleNews">
-        <a href="/"><img src="<?= THEME_URL ?>/assets/img/logoGrey.svg" alt="Logo" class="logoMDN" /></a>
-        <a href="../news/"><img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" /></a>
+        <a href="/"><img src="<?= THEME_URL ?>/assets/img/logoGrey.svg" alt="Logo musée des nuages" class="logoMDN" /></a>
+        <a href="../news/"><img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Flèche retour" /></a>
 
         <div class="theme"><span><?php echo display_category(); ?></span></div>
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -45,9 +45,9 @@ function display_category() {
 
         <div class="bottomArticle">
             <div class="social">
-                <a href="https://www.facebook.com/lemuseedesnuages/" target="_blank"><img src="<?= THEME_URL ?>/assets/img/facebook2.svg" alt="Facebook" class="socialIcon" /></a>
-                <a href="https://twitter.com/museedes_nuages" target="_blank"><img src="<?= THEME_URL ?>/assets/img/twitter2.svg" alt="Twitter" class="socialIcon" /></a>
-                <a href="https://www.linkedin.com/in/mus%C3%A9e-des-nuages-climat-artistique-0578b3133/" target="_blank"><img src="<?= THEME_URL ?>/assets/img/linkedin2.svg" alt="LinkedIn" class="socialIcon" /></a>
+                <a href="https://www.facebook.com/lemuseedesnuages/" target="_blank"><img src="<?= THEME_URL ?>/assets/img/facebook2.svg" alt="Logo Facebook" class="socialIcon" /></a>
+                <a href="https://twitter.com/museedes_nuages" target="_blank"><img src="<?= THEME_URL ?>/assets/img/twitter2.svg" alt="Logo Twitter" class="socialIcon" /></a>
+                <a href="https://www.linkedin.com/in/mus%C3%A9e-des-nuages-climat-artistique-0578b3133/" target="_blank"><img src="<?= THEME_URL ?>/assets/img/linkedin2.svg" alt="Logo LinkedIn" class="socialIcon" /></a>
             </div>
             <div class="author">
                 <p class="introduction">Posté par</p>

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta name="description" content="Un musée sans mur, dont l'entrée est partout et la sortie nulle part. Pour y entrer, il suffit de lever la tête." />
+    <meta name="description" content="Un musée de notre temps où l'art inspire notre sensibilité environnementale. Un musée sans mur, dont l'entrée est partout et la sortie nulle part. Pour y entrer, il suffit de lever la tête." />
     <link rel="icon" type="image/png" href="<?= THEME_URL ?>/assets/img/favicon-16x16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="<?= THEME_URL ?>/assets/img/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="<?= THEME_URL ?>/assets/img/favicon-96x96.png" sizes="96x96">
@@ -22,7 +22,7 @@
 		<nav>
 			<div class="mobileTop"></div>
             <a href="<?= home_url() ?>" class="home menuItem menu_0">
-				<img src="<?= THEME_URL ?>/assets/img/menu_1.jpg" alt="Background" class="background">
+				<img src="<?= THEME_URL ?>/assets/img/menu_1.jpg" alt="Mer de nuages" class="background">
 				<div class="mask"></div>
 				<div class="text">
 					<p class="number">01</p>
@@ -32,7 +32,7 @@
             </a>
 
             <a href="<?= home_url() ?>/visit" class="visit menuItem menu_1">
-				<img src="<?= THEME_URL ?>/assets/img/menu_2.jpg" alt="Background" class="background">
+				<img src="<?= THEME_URL ?>/assets/img/menu_2.jpg" alt="Aurore boréale" class="background">
 				<div class="mask"></div>
 				<div class="text">
 					<p class="number">02</p>
@@ -42,7 +42,7 @@
             </a>
 
             <a href="<?= home_url() ?>/news" class="news menuItem menu_2">
-				<img src="<?= THEME_URL ?>/assets/img/menu_3.jpg" alt="Background" class="background">
+				<img src="<?= THEME_URL ?>/assets/img/menu_3.jpg" alt="Foudre" class="background">
 				<div class="mask"></div>
 				<div class="text">
 					<p class="number">03</p>
@@ -52,7 +52,7 @@
             </a>
 
             <a href="<?= home_url() ?>/services" class="services menuItem menu_3">
-				<img src="<?= THEME_URL ?>/assets/img/menu_4.jpg" alt="Background" class="background">
+				<img src="<?= THEME_URL ?>/assets/img/menu_4.jpg" alt="Etoile filante" class="background">
 				<div class="mask"></div>
 				<div class="text">
 					<p class="number">04</p>
@@ -62,7 +62,7 @@
             </a>
 
             <a href="<?= home_url() ?>/contact" class="contact menuItem menu_4">
-				<img src="<?= THEME_URL ?>/assets/img/menu_5.jpg" alt="Background" class="background">
+				<img src="<?= THEME_URL ?>/assets/img/menu_5.jpg" alt="Etoiles" class="background">
 				<div class="mask"></div>
 				<div class="text">
 					<p class="number">05</p>

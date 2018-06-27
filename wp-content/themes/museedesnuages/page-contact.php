@@ -5,7 +5,7 @@
 get_header();
 ?>
     <div class="contact">
-        <a href="/"><img src="<?= THEME_URL ?>/assets/img/logoWhite.svg" alt="Logo" class="logoMDN" /></a>
+        <a href="/"><img src="<?= THEME_URL ?>/assets/img/logoWhite.svg" alt="Logo musée des nuages" class="logoMDN" /></a>
         <div class="headerPage">
             <h1 class="headerTitle"><?php the_field('header_title'); ?></h1>
             <p class="headerSubtitle"><?php the_field('header_subtitle'); ?></p>
@@ -20,10 +20,10 @@ get_header();
                 </div>
                 <div class="contactSocial">
                     <div class="contactLabel">Nous suivre</div>
-                    <a href="<?php the_field('header_facebook'); ?>"><img src="<?= THEME_URL ?>/assets/img/Facebook.svg" alt="Facebook" class="facebook" /></a>
-                    <a href="<?php the_field('header_twitter'); ?>"><img src="<?= THEME_URL ?>/assets/img/Twitter.svg" alt="Twitter" class="twitter" /></a>
-                    <a href="<?php the_field('header_insta'); ?>"><img src="<?= THEME_URL ?>/assets/img/Instagram.svg" alt="Instagram" class="instagram" /></a>
-                    <a href="<?php the_field('header_linkedin'); ?>"><img src="<?= THEME_URL ?>/assets/img/Linkedin.svg" alt="Linkedin" class="linkedin" /></a>
+                    <a href="<?php the_field('header_facebook'); ?>"><img src="<?= THEME_URL ?>/assets/img/Facebook.svg" alt="Logo Facebook" class="facebook" /></a>
+                    <a href="<?php the_field('header_twitter'); ?>"><img src="<?= THEME_URL ?>/assets/img/Twitter.svg" alt="Logo Twitter" class="twitter" /></a>
+                    <a href="<?php the_field('header_insta'); ?>"><img src="<?= THEME_URL ?>/assets/img/Instagram.svg" alt="Logo Instagram" class="instagram" /></a>
+                    <a href="<?php the_field('header_linkedin'); ?>"><img src="<?= THEME_URL ?>/assets/img/Linkedin.svg" alt="Logo Linkedin" class="linkedin" /></a>
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@ get_header();
                     <?php endif; ?>
 
                     <?php if( $photo ): ?>
-                        <div class="founderPhoto"><img src="<?php echo $photo; ?>"/></div>
+                        <div class="founderPhoto"><img alt="fondateurs du musée" src="<?php echo $photo; ?>"/></div>
                     <?php endif; ?>
 
                 </div>

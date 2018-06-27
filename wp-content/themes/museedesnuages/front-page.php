@@ -1,6 +1,6 @@
 <?php get_header();  ?>
     <div id="front-page">
-        <a href="/"><img src="<?= THEME_URL ?>/assets/img/logoWhite.svg" alt="Logo" class="logoMDN" data-type="parallax" data-depth="0.5" /></a>
+        <a href="/"><img src="<?= THEME_URL ?>/assets/img/logoWhite.svg" alt="Logo du musée des nuages" class="logoMDN" data-type="parallax" data-depth="0.5" /></a>
         <div class="toggleSound">
     		<div class="bar bar_0"></div>
     		<div class="bar bar_1"></div>
@@ -17,7 +17,7 @@
 
             <div class="scrollInvitation" data-type="parallax" data-depth="0.6">
                 <p><?php the_field('scroll'); ?></p>
-                <div class="lineScroll"><img src="<?= THEME_URL ?>/assets/img/line_scroll.svg" alt="Line scroll"></div>
+                <div class="lineScroll"><img src="<?= THEME_URL ?>/assets/img/line_scroll.svg" alt="Ligne scroll"></div>
             </div>
 
             <div class="parallax">
@@ -30,67 +30,67 @@
         </div>
 
         <div class="clouds">
-            <img class="underParallax" src="<?= THEME_URL ?>/assets/img/under_parallax.png" alt="cloud">
+            <img class="underParallax" src="<?= THEME_URL ?>/assets/img/under_parallax.png" alt="nuages">
 
             <div class="pattern one">
-                <img class="cloudElement one" src="<?= THEME_URL ?>/assets/img/cloudElement_1.png" alt="cloud" data-type="parallax" data-depth="-0.1">
-                <img class="cloudElement two" src="<?= THEME_URL ?>/assets/img/cloudElement_2.png" alt="cloud" data-type="parallax" data-depth="-0.3">
-                <img class="cloudElement three" src="<?= THEME_URL ?>/assets/img/cloudElement_3.png" alt="cloud" data-type="parallax" data-depth="-0.4">
-                <img class="cloudElement four" src="<?= THEME_URL ?>/assets/img/cloudElement_4.png" alt="cloud" data-type="parallax" data-depth="-0.2">
+                <img class="cloudElement one" src="<?= THEME_URL ?>/assets/img/cloudElement_1.png" alt="nuages" data-type="parallax" data-depth="-0.1">
+                <img class="cloudElement two" src="<?= THEME_URL ?>/assets/img/cloudElement_2.png" alt="nuages" data-type="parallax" data-depth="-0.3">
+                <img class="cloudElement three" src="<?= THEME_URL ?>/assets/img/cloudElement_3.png" alt="nuages" data-type="parallax" data-depth="-0.4">
+                <img class="cloudElement four" src="<?= THEME_URL ?>/assets/img/cloudElement_4.png" alt="nuages" data-type="parallax" data-depth="-0.2">
             </div>
 
             <div class="pattern two">
-                <img class="cloudElement one" src="<?= THEME_URL ?>/assets/img/cloudElement_1.png" alt="cloud" data-type="parallax" data-depth="-0.1">
-                <img class="cloudElement two" src="<?= THEME_URL ?>/assets/img/cloudElement_2.png" alt="cloud" data-type="parallax" data-depth="-0.3">
-                <img class="cloudElement three" src="<?= THEME_URL ?>/assets/img/cloudElement_3.png" alt="cloud" data-type="parallax" data-depth="-0.4">
-                <img class="cloudElement four" src="<?= THEME_URL ?>/assets/img/cloudElement_4.png" alt="cloud" data-type="parallax" data-depth="-0.2">
+                <img class="cloudElement one" src="<?= THEME_URL ?>/assets/img/cloudElement_1.png" alt="nuage" data-type="parallax" data-depth="-0.1">
+                <img class="cloudElement two" src="<?= THEME_URL ?>/assets/img/cloudElement_2.png" alt="nuage" data-type="parallax" data-depth="-0.3">
+                <img class="cloudElement three" src="<?= THEME_URL ?>/assets/img/cloudElement_3.png" alt="nuage" data-type="parallax" data-depth="-0.4">
+                <img class="cloudElement four" src="<?= THEME_URL ?>/assets/img/cloudElement_4.png" alt="nuage" data-type="parallax" data-depth="-0.2">
             </div>
 
             <div class="pattern three">
-                <img class="cloudElement one" src="<?= THEME_URL ?>/assets/img/cloudElement_1.png" alt="cloud" data-type="parallax" data-depth="-0.1">
-                <img class="cloudElement two" src="<?= THEME_URL ?>/assets/img/cloudElement_2.png" alt="cloud" data-type="parallax" data-depth="-0.3">
-                <img class="cloudElement three" src="<?= THEME_URL ?>/assets/img/cloudElement_3.png" alt="cloud" data-type="parallax" data-depth="-0.4">
-                <img class="cloudElement four" src="<?= THEME_URL ?>/assets/img/cloudElement_4.png" alt="cloud" data-type="parallax" data-depth="-0.2">
+                <img class="cloudElement one" src="<?= THEME_URL ?>/assets/img/cloudElement_1.png" alt="nuage" data-type="parallax" data-depth="-0.1">
+                <img class="cloudElement two" src="<?= THEME_URL ?>/assets/img/cloudElement_2.png" alt="nuage" data-type="parallax" data-depth="-0.3">
+                <img class="cloudElement three" src="<?= THEME_URL ?>/assets/img/cloudElement_3.png" alt="nuage" data-type="parallax" data-depth="-0.4">
+                <img class="cloudElement four" src="<?= THEME_URL ?>/assets/img/cloudElement_4.png" alt="nuage" data-type="parallax" data-depth="-0.2">
             </div>
 
             <div class="pattern four">
-                <img class="cloudElement one" src="<?= THEME_URL ?>/assets/img/cloudElement_1.png" alt="cloud" data-type="parallax" data-depth="-0.1">
-                <img class="cloudElement two" src="<?= THEME_URL ?>/assets/img/cloudElement_2.png" alt="cloud" data-type="parallax" data-depth="-0.3">
-                <img class="cloudElement three" src="<?= THEME_URL ?>/assets/img/cloudElement_3.png" alt="cloud" data-type="parallax" data-depth="-0.4">
-                <img class="cloudElement four" src="<?= THEME_URL ?>/assets/img/cloudElement_4.png" alt="cloud" data-type="parallax" data-depth="-0.2">
+                <img class="cloudElement one" src="<?= THEME_URL ?>/assets/img/cloudElement_1.png" alt="nuage" data-type="parallax" data-depth="-0.1">
+                <img class="cloudElement two" src="<?= THEME_URL ?>/assets/img/cloudElement_2.png" alt="nuage" data-type="parallax" data-depth="-0.3">
+                <img class="cloudElement three" src="<?= THEME_URL ?>/assets/img/cloudElement_3.png" alt="nuage" data-type="parallax" data-depth="-0.4">
+                <img class="cloudElement four" src="<?= THEME_URL ?>/assets/img/cloudElement_4.png" alt="nuage" data-type="parallax" data-depth="-0.2">
             </div>
 
             <div class="pattern five">
-                <img class="cloudElement one" src="<?= THEME_URL ?>/assets/img/cloudElement_1.png" alt="cloud" data-type="parallax" data-depth="-0.1">
-                <img class="cloudElement two" src="<?= THEME_URL ?>/assets/img/cloudElement_2.png" alt="cloud" data-type="parallax" data-depth="-0.3">
-                <img class="cloudElement three" src="<?= THEME_URL ?>/assets/img/cloudElement_3.png" alt="cloud" data-type="parallax" data-depth="-0.4">
-                <img class="cloudElement four" src="<?= THEME_URL ?>/assets/img/cloudElement_4.png" alt="cloud" data-type="parallax" data-depth="-0.2">
+                <img class="cloudElement one" src="<?= THEME_URL ?>/assets/img/cloudElement_1.png" alt="nuage" data-type="parallax" data-depth="-0.1">
+                <img class="cloudElement two" src="<?= THEME_URL ?>/assets/img/cloudElement_2.png" alt="nuage" data-type="parallax" data-depth="-0.3">
+                <img class="cloudElement three" src="<?= THEME_URL ?>/assets/img/cloudElement_3.png" alt="nuage" data-type="parallax" data-depth="-0.4">
+                <img class="cloudElement four" src="<?= THEME_URL ?>/assets/img/cloudElement_4.png" alt="nuage" data-type="parallax" data-depth="-0.2">
             </div>
 
             <div class="pattern six">
-                <img class="cloudElement one" src="<?= THEME_URL ?>/assets/img/cloudElement_1.png" alt="cloud" data-type="parallax" data-depth="-0.1">
-                <img class="cloudElement two" src="<?= THEME_URL ?>/assets/img/cloudElement_2.png" alt="cloud" data-type="parallax" data-depth="-0.3">
-                <img class="cloudElement three" src="<?= THEME_URL ?>/assets/img/cloudElement_3.png" alt="cloud" data-type="parallax" data-depth="-0.4">
-                <img class="cloudElement four" src="<?= THEME_URL ?>/assets/img/cloudElement_4.png" alt="cloud" data-type="parallax" data-depth="-0.2">
+                <img class="cloudElement one" src="<?= THEME_URL ?>/assets/img/cloudElement_1.png" alt="nuage" data-type="parallax" data-depth="-0.1">
+                <img class="cloudElement two" src="<?= THEME_URL ?>/assets/img/cloudElement_2.png" alt="nuage" data-type="parallax" data-depth="-0.3">
+                <img class="cloudElement three" src="<?= THEME_URL ?>/assets/img/cloudElement_3.png" alt="nuage" data-type="parallax" data-depth="-0.4">
+                <img class="cloudElement four" src="<?= THEME_URL ?>/assets/img/cloudElement_4.png" alt="nuage" data-type="parallax" data-depth="-0.2">
             </div>
 
             <div class="pattern seven">
-                <img class="cloudElement one" src="<?= THEME_URL ?>/assets/img/cloudElement_1.png" alt="cloud" data-type="parallax" data-depth="-0.1">
-                <img class="cloudElement two" src="<?= THEME_URL ?>/assets/img/cloudElement_2.png" alt="cloud" data-type="parallax" data-depth="-0.3">
-                <img class="cloudElement three" src="<?= THEME_URL ?>/assets/img/cloudElement_3.png" alt="cloud" data-type="parallax" data-depth="-0.4">
-                <img class="cloudElement four" src="<?= THEME_URL ?>/assets/img/cloudElement_4.png" alt="cloud" data-type="parallax" data-depth="-0.2">
+                <img class="cloudElement one" src="<?= THEME_URL ?>/assets/img/cloudElement_1.png" alt="nuage" data-type="parallax" data-depth="-0.1">
+                <img class="cloudElement two" src="<?= THEME_URL ?>/assets/img/cloudElement_2.png" alt="nuage" data-type="parallax" data-depth="-0.3">
+                <img class="cloudElement three" src="<?= THEME_URL ?>/assets/img/cloudElement_3.png" alt="nuage" data-type="parallax" data-depth="-0.4">
+                <img class="cloudElement four" src="<?= THEME_URL ?>/assets/img/cloudElement_4.png" alt="nuage" data-type="parallax" data-depth="-0.2">
             </div>
 
             <div class="pattern eight">
-                <img class="cloudElement one" src="<?= THEME_URL ?>/assets/img/cloudElement_1.png" alt="cloud" data-type="parallax" data-depth="-0.1">
-                <img class="cloudElement two" src="<?= THEME_URL ?>/assets/img/cloudElement_2.png" alt="cloud" data-type="parallax" data-depth="-0.3">
-                <img class="cloudElement three" src="<?= THEME_URL ?>/assets/img/cloudElement_3.png" alt="cloud" data-type="parallax" data-depth="-0.4">
-                <img class="cloudElement four" src="<?= THEME_URL ?>/assets/img/cloudElement_4.png" alt="cloud" data-type="parallax" data-depth="-0.2">
+                <img class="cloudElement one" src="<?= THEME_URL ?>/assets/img/cloudElement_1.png" alt="nuage" data-type="parallax" data-depth="-0.1">
+                <img class="cloudElement two" src="<?= THEME_URL ?>/assets/img/cloudElement_2.png" alt="nuage" data-type="parallax" data-depth="-0.3">
+                <img class="cloudElement three" src="<?= THEME_URL ?>/assets/img/cloudElement_3.png" alt="nuage" data-type="parallax" data-depth="-0.4">
+                <img class="cloudElement four" src="<?= THEME_URL ?>/assets/img/cloudElement_4.png" alt="nuage" data-type="parallax" data-depth="-0.2">
             </div>
 
             <div class="pattern nine">
-                <img class="cloudElement one" src="<?= THEME_URL ?>/assets/img/cloudElement_1.png" alt="cloud" data-type="parallax" data-depth="-0.1">
-                <img class="cloudElement two" src="<?= THEME_URL ?>/assets/img/cloudElement_2.png" alt="cloud" data-type="parallax" data-depth="-0.3">
+                <img class="cloudElement one" src="<?= THEME_URL ?>/assets/img/cloudElement_1.png" alt="nuage" data-type="parallax" data-depth="-0.1">
+                <img class="cloudElement two" src="<?= THEME_URL ?>/assets/img/cloudElement_2.png" alt="nuage" data-type="parallax" data-depth="-0.3">
             </div>
         </div>
 
@@ -189,7 +189,7 @@
                     <p><?php the_field('partenaire_2'); ?></p>
                 </div>
                 <div class="partner iesa-incub">
-                    <img src="<?= get_field('partenaire_3_image'); ?>" alt="iesa incub" />
+                    <img src="<?= get_field('partenaire_3_image'); ?>" alt="iesa incubateur" />
                     <p><?php the_field('partenaire_3'); ?></p>
                 </div>
                 <div class="partner upup">
@@ -203,65 +203,65 @@
             </div>
 
             <div class="picture picture-1">
-                <img src="<?= get_field('picture_1'); ?>" alt="Sylvain" class="mainPicture" />
-                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1_left.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
-                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2_left.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
+                <img src="<?= get_field('picture_1'); ?>" alt="Sylvain Soussan, fondateur" class="mainPicture" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1_left.png" alt="nuage" class="cloud-1" data-type="parallax" data-depth="-0.2" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2_left.png" alt="nuage" class="cloud-2" data-type="parallax" data-depth="-0.3" />
                 <p class="legend"><?php the_field('legend_picture_1'); ?></p>
             </div>
 
             <div class="picture picture-2">
-                <img src="<?= get_field('picture_2'); ?>" alt="Sylvain" class="mainPicture" />
-                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
-                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
+                <img src="<?= get_field('picture_2'); ?>" alt="Sylvain Soussan, fondateur" class="mainPicture" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1.png" alt="nuage" class="cloud-1" data-type="parallax" data-depth="-0.2" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2.png" alt="nuage" class="cloud-2" data-type="parallax" data-depth="-0.3" />
                 <p class="legend"><?php the_field('legend_picture_2'); ?></p>
             </div>
 
             <div class="picture picture-3">
-                <img src="<?= get_field('picture_3'); ?>" alt="Vitre" class="mainPicture" />
-                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1_left.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
-                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2_left.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
+                <img src="<?= get_field('picture_3'); ?>" alt="Vitre vers le ciel" class="mainPicture" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1_left.png" alt="nuage" class="cloud-1" data-type="parallax" data-depth="-0.2" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2_left.png" alt="nuage" class="cloud-2" data-type="parallax" data-depth="-0.3" />
                 <p class="legend"><?php the_field('legend_picture_3'); ?></p>
             </div>
 
             <div class="picture picture-4">
-                <img src="<?= get_field('picture_4'); ?>" alt="Chaise" class="mainPicture" />
-                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
-                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
+                <img src="<?= get_field('picture_4'); ?>" alt="Chaises longues" class="mainPicture" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1.png" alt="nuage" class="cloud-1" data-type="parallax" data-depth="-0.2" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2.png" alt="nuage" class="cloud-2" data-type="parallax" data-depth="-0.3" />
                 <p class="legend"><?php the_field('legend_picture_4'); ?></p>
             </div>
 
             <div class="picture picture-5">
-                <img src="<?= get_field('picture_5'); ?>" alt="Chateau" class="mainPicture" />
-                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1_left.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
-                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2_left.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
+                <img src="<?= get_field('picture_5'); ?>" alt="Chateau d'eau" class="mainPicture" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1_left.png" alt="nuage" class="cloud-1" data-type="parallax" data-depth="-0.2" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2_left.png" alt="nuage" class="cloud-2" data-type="parallax" data-depth="-0.3" />
                 <p class="legend"><?php the_field('legend_picture_5'); ?></p>
             </div>
 
             <div class="picture picture-6">
                 <img src="<?= get_field('picture_6'); ?>" alt="Turell" class="mainPicture" />
-                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1_left.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
-                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2_left.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1_left.png" alt="nuage" class="cloud-1" data-type="parallax" data-depth="-0.2" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2_left.png" alt="nuage" class="cloud-2" data-type="parallax" data-depth="-0.3" />
                 <p class="legend"><?php the_field('legend_picture_6'); ?></p>
             </div>
 
             <div class="picture picture-7">
-                <img src="<?= get_field('picture_7'); ?>" alt="Nakaya" class="mainPicture" />
-                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
-                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
+                <img src="<?= get_field('picture_7'); ?>" alt="Fujiko Nakaya" class="mainPicture" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1.png" alt="nuage" class="cloud-1" data-type="parallax" data-depth="-0.2" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2.png" alt="nuage" class="cloud-2" data-type="parallax" data-depth="-0.3" />
                 <p class="legend"><?php the_field('legend_picture_7'); ?></p>
             </div>
 
             <div class="picture picture-8">
-                <img src="<?= get_field('picture_8'); ?>" alt="Sylvain" class="mainPicture" />
-                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1_left.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
-                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2_left.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
+                <img src="<?= get_field('picture_8'); ?>" alt="Atelier collaboratif" class="mainPicture" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1_left.png" alt="nuage" class="cloud-1" data-type="parallax" data-depth="-0.2" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2_left.png" alt="nuage" class="cloud-2" data-type="parallax" data-depth="-0.3" />
                 <p class="legend"><?php the_field('legend_picture_8'); ?></p>
             </div>
 
             <div class="picture picture-9">
-                <img src="<?= get_field('picture_9'); ?>" alt="Barbe" class="mainPicture" />
-                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1.png" alt="Cloud" class="cloud-1" data-type="parallax" data-depth="-0.2" />
-                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2.png" alt="Cloud" class="cloud-2" data-type="parallax" data-depth="-0.3" />
+                <img src="<?= get_field('picture_9'); ?>" alt="Atelier de création" class="mainPicture" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_1.png" alt="nuage" class="cloud-1" data-type="parallax" data-depth="-0.2" />
+                <img src="<?= THEME_URL ?>/assets/img/cloud_on_image_2.png" alt="nuage" class="cloud-2" data-type="parallax" data-depth="-0.3" />
                 <p class="legend"><?php the_field('legend_picture_9'); ?></p>
             </div>
 
@@ -292,7 +292,7 @@
         <div class="interaction artInteraction">
             <div class="backArea">
                 <div class="backButton">
-                    <img src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Retour" />
+                    <img src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Flèche retour" />
                 </div>
             </div>
             <div class="content">
@@ -314,7 +314,7 @@
 
                         elseif( get_row_layout() == 'picture' ):
 
-                            ?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="picture" /><?php
+                            ?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="illustration" /><?php
 
                         elseif( get_row_layout() == 'text' ):
 
@@ -337,7 +337,7 @@
         <div class="interaction climatInteraction">
             <div class="backArea">
                 <div class="backButton">
-                    <img src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Retour" />
+                    <img src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Flèche retour" />
                 </div>
             </div>
             <div class="content">
@@ -359,7 +359,7 @@
 
                         elseif( get_row_layout() == 'picture' ):
 
-                            ?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="picture" /><?php
+                            ?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="illustration" /><?php
 
                         elseif( get_row_layout() == 'text' ):
 
@@ -382,11 +382,11 @@
         <div class="interaction shareInteraction">
             <div class="backArea">
                 <div class="backButton">
-                    <img src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Retour" />
+                    <img src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Flèche retour" />
                 </div>
             </div>
             <div class="content">
-                <img src="<?= THEME_URL ?>/assets/img/share-icon.svg" alt="share" class="iconInteraction share" />
+                <img src="<?= THEME_URL ?>/assets/img/share-icon.svg" alt="partage" class="iconInteraction share" />
                 <?php
                 // check if the flexible content field has rows of data
                 if( have_rows('interaction_3') ):
@@ -404,7 +404,7 @@
 
                         elseif( get_row_layout() == 'picture' ):
 
-                            ?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="picture" /><?php
+                            ?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="illustration" /><?php
 
                         elseif( get_row_layout() == 'text' ):
 
@@ -425,7 +425,7 @@
             </div>
         </div>
         <div class="loader">
-            <img src="<?= THEME_URL ?>/assets/img/logoWhite.svg" alt="Logo" class="logo" />
+            <img src="<?= THEME_URL ?>/assets/img/logoWhite.svg" alt="Logo musée des nuages" class="logo" />
         </div>
     </div>
 

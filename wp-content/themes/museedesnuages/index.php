@@ -10,10 +10,10 @@ $categories = get_categories( $args );
 
 ?>
     <div class="news">
-        <a href="/"><img src="<?= THEME_URL ?>/assets/img/logoWhite.svg" alt="Logo" class="logoMDN" /></a>
+        <a href="/"><img src="<?= THEME_URL ?>/assets/img/logoWhite.svg" alt="Logo musée des nuages" class="logoMDN" /></a>
         <div class="headerPage">
-            <h1 class="headerTitle"><?php the_field('header_title'); ?></h1>
-            <p class="headerSubtitle"><?php the_field('header_subtitle'); ?></p>
+            <h1 class="headerTitle">Nos actualités</h1>
+            <p class="headerSubtitle">Découvrez l'ensemble de nos articles thématiques ainsi que le flux de nos réseaux sociaux.</p>
             <div class="headerTerms">
                 <ul class="subMenu">
                     <li class="activeTerm termLink" data-attribute="allArticles" data-menu="articles">articles</li>
@@ -55,7 +55,7 @@ $categories = get_categories( $args );
                 <?php while ( $category_loop->have_posts() ) : $category_loop->the_post(); ?>
 
                     <a class="article" href="<?= get_permalink() ?>"  title="<?= the_title_attribute( 'echo=0' ) ?>">
-                        <img class="bgArticle" src="<?php the_post_thumbnail() ?>" alt="background">
+                        <img class="bgArticle" src="<?php the_post_thumbnail() ?>" alt="blog article">
                         <div class="gradient"></div>
                         <div class="content">
                             <div class="info">
@@ -106,7 +106,7 @@ $categories = get_categories( $args );
         <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
             <a class="article" href="<?= get_permalink() ?>"  title="<?= the_title_attribute( 'echo=0' ) ?>">
-                <img class="bgArticle" src="<?php the_post_thumbnail() ?>" alt="background">
+                <img class="bgArticle" src="<?php the_post_thumbnail() ?>" alt="blog article">
                 <div class="gradient"></div>
                 <div class="content">
                     <div class="info">

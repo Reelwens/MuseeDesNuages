@@ -72,7 +72,7 @@ get_header();
                         <div class="serviceList"><?php echo $list; ?></div>
                     <?php endif; ?>
 
-                    <div class="servicePhoto"><img src="<?php echo $photo; ?>"/></div>
+                    <div class="servicePhoto"><img alt="prestation culturelle" src="<?php echo $photo; ?>"/></div>
 
                 </div>
 

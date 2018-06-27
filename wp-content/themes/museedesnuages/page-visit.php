@@ -6,7 +6,7 @@ get_header();
 ?>
 
     <div class="visit main">
-        <a href="/"><img src="<?= THEME_URL ?>/assets/img/logoWhite.svg" alt="Logo" class="logoMDN" /></a>
+        <a href="/"><img src="<?= THEME_URL ?>/assets/img/logoWhite.svg" alt="Logo musée des nuages" class="logoMDN" /></a>
         <div class="background"></div>
         <div class="arianeString">
             <div class="arianeElement water">
@@ -34,18 +34,18 @@ get_header();
             </div>
 
             <div class="tickets">
-                <img src="<?= THEME_URL ?>/assets/img/ticket1.png" alt="Ticket">
-                <img src="<?= THEME_URL ?>/assets/img/ticket2.png" alt="Ticket">
+                <img src="<?= THEME_URL ?>/assets/img/ticket1.png" alt="Ticket de musée">
+                <img src="<?= THEME_URL ?>/assets/img/ticket2.png" alt="Ticket de musée">
             </div>
 
             <div class="scrollInvitation">
                 <p>défiler vers le bas</p>
-                <div class="lineScroll"><img src="<?= THEME_URL ?>/assets/img/line_scroll.svg" alt="Line scroll"></div>
+                <div class="lineScroll"><img src="<?= THEME_URL ?>/assets/img/line_scroll.svg" alt="Ligne scroll"></div>
             </div>
         </section>
 
         <section class="frame frame-2">
-            <img class="frameForm" src="<?= THEME_URL ?>/assets/img/water-shape.svg" alt="Water shape" />
+            <img class="frameForm" src="<?= THEME_URL ?>/assets/img/water-shape.svg" alt="Icône eau" />
             <div class="frameName">L'eau</div>
 
             <div class="subFrame subFrame-1">
@@ -53,9 +53,9 @@ get_header();
             </div>
 
             <div class="subFrameImg subFrame-2">
-                <img src="<?= get_field('water_1_picture_1'); ?>" alt="Chateau" class="card card-1" />
-                <img src="<?= get_field('water_1_picture_2'); ?>" alt="Chateau" class="card card-2" />
-                <img src="<?= get_field('water_1_picture_3'); ?>" alt="Chateau" class="card card-3" />
+                <img src="<?= get_field('water_1_picture_1'); ?>" alt="Chateau d'eau" class="card card-1" />
+                <img src="<?= get_field('water_1_picture_2'); ?>" alt="Chateau d'eau" class="card card-2" />
+                <img src="<?= get_field('water_1_picture_3'); ?>" alt="Chateau d'eau" class="card card-3" />
             </div>
             <div class="subFrame subFrame-2">
                 <h2 class="subFrameName"><?php the_field('water_1_title'); ?></h2>
@@ -63,7 +63,7 @@ get_header();
                 <a href="#" class="buttonDetail">Voir le détail</a>
                 <div class="caseStudy caseStudy-1">
                     <div class="container">
-                        <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
+                        <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Flèche retour" />
                         <p class="studyTitle">Eau</p>
                         <?php
                         // check if the flexible content field has rows of data
@@ -82,7 +82,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
 
                                 endif;
 
@@ -101,9 +101,9 @@ get_header();
             </div>
 
             <div class="subFrameImg subFrame-3">
-                <img src="<?= get_field('water_2_picture_1'); ?>" alt="Chateau" class="card card-1" />
-                <img src="<?= get_field('water_2_picture_2'); ?>" alt="Chateau" class="card card-2" />
-                <img src="<?= get_field('water_2_picture_3'); ?>" alt="Chateau" class="card card-3" />
+                <img src="<?= get_field('water_2_picture_1'); ?>" alt="Bouteilles d'eau" class="card card-1" />
+                <img src="<?= get_field('water_2_picture_2'); ?>" alt="Bouteilles d'eau" class="card card-2" />
+                <img src="<?= get_field('water_2_picture_3'); ?>" alt="Bouteilles d'eau" class="card card-3" />
             </div>
             <div class="subFrame subFrame-3">
                 <h2 class="subFrameName"><?php the_field('water_2_title'); ?></h2>
@@ -111,7 +111,7 @@ get_header();
                 <a href="#" class="buttonDetail">Voir le détail</a>
                 <div class="caseStudy caseStudy-2">
                     <div class="container">
-                        <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
+                        <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Flèche retour" />
                         <p class="studyTitle">Eau</p>
                         <?php
                         // check if the flexible content field has rows of data
@@ -130,7 +130,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
 
                                 endif;
 
@@ -149,9 +149,9 @@ get_header();
             </div>
 
             <div class="subFrameImg subFrame-4">
-                <img src="<?= get_field('water_3_picture_1'); ?>" alt="Chateau" class="card card-1" />
-                <img src="<?= get_field('water_3_picture_2'); ?>" alt="Chateau" class="card card-2" />
-                <img src="<?= get_field('water_3_picture_3'); ?>" alt="Chateau" class="card card-3" />
+                <img src="<?= get_field('water_3_picture_1'); ?>" alt="Fontaines" class="card card-1" />
+                <img src="<?= get_field('water_3_picture_2'); ?>" alt="Fontaines" class="card card-2" />
+                <img src="<?= get_field('water_3_picture_3'); ?>" alt="Fontaines" class="card card-3" />
             </div>
             <div class="subFrame subFrame-4">
                 <h2 class="subFrameName"><?php the_field('water_3_title'); ?></h2>
@@ -178,7 +178,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
 
                                 endif;
 
@@ -197,9 +197,9 @@ get_header();
             </div>
 
             <div class="subFrameImg subFrame-5">
-                <img src="<?= get_field('water_4_picture_1'); ?>" alt="Chateau" class="card card-1" />
-                <img src="<?= get_field('water_4_picture_2'); ?>" alt="Chateau" class="card card-2" />
-                <img src="<?= get_field('water_4_picture_3'); ?>" alt="Chateau" class="card card-3" />
+                <img src="<?= get_field('water_4_picture_1'); ?>" alt="Cocktail" class="card card-1" />
+                <img src="<?= get_field('water_4_picture_2'); ?>" alt="Cocktail" class="card card-2" />
+                <img src="<?= get_field('water_4_picture_3'); ?>" alt="Cocktail" class="card card-3" />
             </div>
             <div class="subFrame subFrame-5">
                 <h2 class="subFrameName"><?php the_field('water_4_title'); ?></h2>
@@ -226,7 +226,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
 
                                 endif;
 
@@ -245,8 +245,8 @@ get_header();
             </div>
 
             <div class="subFrameImg subFrame-6">
-                <img src="<?= get_field('water_5_picture_1'); ?>" alt="Chateau" class="card card-1" />
-                <img src="<?= get_field('water_5_picture_2'); ?>" alt="Chateau" class="card card-2" />
+                <img src="<?= get_field('water_5_picture_1'); ?>" alt="Source d'eau" class="card card-1" />
+                <img src="<?= get_field('water_5_picture_2'); ?>" alt="Source d'eau" class="card card-2" />
             </div>
             <div class="subFrame subFrame-6">
                 <h2 class="subFrameName"><?php the_field('water_5_title'); ?></h2>
@@ -273,7 +273,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
 
                                 endif;
 
@@ -292,7 +292,7 @@ get_header();
             </div>
         </section>
         <section class="frame frame-3 horizontalFrame">
-            <img class="frameForm" src="<?= THEME_URL ?>/assets/img/cloud-shape.svg" alt="Cloud shape" />
+            <img class="frameForm" src="<?= THEME_URL ?>/assets/img/cloud-shape.svg" alt="Icône nuage" />
             <div class="frameName">L'air</div>
 
             <div class="subFrame subFrame-1">
@@ -300,9 +300,9 @@ get_header();
             </div>
 
             <div class="subFrameImg subFrame-2">
-                <img src="<?= get_field('air_1_picture_1'); ?>" alt="Chateau" class="card card-1" />
-                <img src="<?= get_field('air_1_picture_2'); ?>" alt="Chateau" class="card card-2" />
-                <img src="<?= get_field('air_1_picture_3'); ?>" alt="Chateau" class="card card-3" />
+                <img src="<?= get_field('air_1_picture_1'); ?>" alt="Eventail" class="card card-1" />
+                <img src="<?= get_field('air_1_picture_2'); ?>" alt="Eventail" class="card card-2" />
+                <img src="<?= get_field('air_1_picture_3'); ?>" alt="Eventail" class="card card-3" />
             </div>
             <div class="subFrame subFrame-2">
                 <h2 class="subFrameName"><?php the_field('air_1_title'); ?></h2>
@@ -329,7 +329,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
 
                                 endif;
 
@@ -348,9 +348,9 @@ get_header();
             </div>
 
             <div class="subFrameImg subFrame-3">
-                <img src="<?= get_field('air_2_picture_1'); ?>" alt="Chateau" class="card card-1" />
-                <img src="<?= get_field('air_2_picture_2'); ?>" alt="Chateau" class="card card-2" />
-                <img src="<?= get_field('air_2_picture_3'); ?>" alt="Chateau" class="card card-3" />
+                <img src="<?= get_field('air_2_picture_1'); ?>" alt="Exposition" class="card card-1" />
+                <img src="<?= get_field('air_2_picture_2'); ?>" alt="Exposition" class="card card-2" />
+                <img src="<?= get_field('air_2_picture_3'); ?>" alt="Exposition" class="card card-3" />
             </div>
             <div class="subFrame subFrame-3">
                 <h2 class="subFrameName"><?php the_field('air_2_title'); ?></h2>
@@ -358,7 +358,7 @@ get_header();
                 <a href="#" class="buttonDetail">Voir le détail</a>
                 <div class="caseStudy caseStudy-7">
                     <div class="container">
-                        <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
+                        <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Flèche retour" />
                         <p class="studyTitle">Air</p>
                         <?php
                         // check if the flexible content field has rows of data
@@ -377,7 +377,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
 
                                 endif;
 
@@ -396,9 +396,9 @@ get_header();
             </div>
 
             <div class="subFrameImg subFrame-4">
-                <img src="<?= get_field('air_3_picture_1'); ?>" alt="Chateau" class="card card-1" />
-                <img src="<?= get_field('air_3_picture_2'); ?>" alt="Chateau" class="card card-2" />
-                <img src="<?= get_field('air_3_picture_3'); ?>" alt="Chateau" class="card card-3" />
+                <img src="<?= get_field('air_3_picture_1'); ?>" alt="Verrière" class="card card-1" />
+                <img src="<?= get_field('air_3_picture_2'); ?>" alt="Verrière" class="card card-2" />
+                <img src="<?= get_field('air_3_picture_3'); ?>" alt="Verrière" class="card card-3" />
             </div>
             <div class="subFrame subFrame-4">
                 <h2 class="subFrameName"><?php the_field('air_3_title'); ?></h2>
@@ -406,7 +406,7 @@ get_header();
                 <a href="#" class="buttonDetail">Voir le détail</a>
                 <div class="caseStudy caseStudy-8">
                     <div class="container">
-                        <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
+                        <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Flèche retour" />
                         <p class="studyTitle">Air</p>
                         <?php
                         // check if the flexible content field has rows of data
@@ -425,7 +425,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
 
                                 endif;
 
@@ -444,9 +444,9 @@ get_header();
             </div>
 
             <div class="subFrameImg subFrame-5">
-                <img src="<?= get_field('air_4_picture_1'); ?>" alt="Chateau" class="card card-1" />
-                <img src="<?= get_field('air_4_picture_2'); ?>" alt="Chateau" class="card card-2" />
-                <img src="<?= get_field('air_4_picture_3'); ?>" alt="Chateau" class="card card-3" />
+                <img src="<?= get_field('air_4_picture_1'); ?>" alt="Etats du ciel" class="card card-1" />
+                <img src="<?= get_field('air_4_picture_2'); ?>" alt="Etats du ciel" class="card card-2" />
+                <img src="<?= get_field('air_4_picture_3'); ?>" alt="Etats du ciel" class="card card-3" />
             </div>
             <div class="subFrame subFrame-5">
                 <h2 class="subFrameName"><?php the_field('air_4_title'); ?></h2>
@@ -454,7 +454,7 @@ get_header();
                 <a href="#" class="buttonDetail">Voir le détail</a>
                 <div class="caseStudy caseStudy-9">
                     <div class="container">
-                        <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
+                        <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Flèche retour" />
                         <p class="studyTitle">Air</p>
                         <?php
                         // check if the flexible content field has rows of data
@@ -473,7 +473,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
 
                                 endif;
 
@@ -493,7 +493,7 @@ get_header();
 
         </section>
         <section class="frame frame-4">
-            <img class="frameForm" src="<?= THEME_URL ?>/assets/img/light-shape.svg" alt="Light shape" />
+            <img class="frameForm" src="<?= THEME_URL ?>/assets/img/light-shape.svg" alt="Icône lumière" />
             <div class="frameName">La lumière</div>
 
             <div class="subFrame subFrame-1">
@@ -501,9 +501,9 @@ get_header();
             </div>
 
             <div class="subFrameImg subFrame-2">
-                <img src="<?= get_field('light_1_picture_1'); ?>" alt="Chateau" class="card card-1" />
-                <img src="<?= get_field('light_1_picture_2'); ?>" alt="Chateau" class="card card-2" />
-                <img src="<?= get_field('light_1_picture_3'); ?>" alt="Chateau" class="card card-3" />
+                <img src="<?= get_field('light_1_picture_1'); ?>" alt="Chaise longue" class="card card-1" />
+                <img src="<?= get_field('light_1_picture_2'); ?>" alt="Chaise longue" class="card card-2" />
+                <img src="<?= get_field('light_1_picture_3'); ?>" alt="Chaise longue" class="card card-3" />
             </div>
             <div class="subFrame subFrame-2">
                 <h2 class="subFrameName"><?php the_field('light_1_title'); ?></h2>
@@ -511,7 +511,7 @@ get_header();
                 <a href="#" class="buttonDetail">Voir le détail</a>
                 <div class="caseStudy caseStudy-10">
                     <div class="container">
-                        <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
+                        <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Flèche retour" />
                         <p class="studyTitle">Lumière</p>
                         <?php
                         // check if the flexible content field has rows of data
@@ -530,7 +530,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
 
                                 endif;
 
@@ -549,9 +549,9 @@ get_header();
             </div>
 
             <div class="subFrameImg subFrame-3">
-                <img src="<?= get_field('light_2_picture_1'); ?>" alt="Chateau" class="card card-1" />
-                <img src="<?= get_field('light_2_picture_2'); ?>" alt="Chateau" class="card card-2" />
-                <img src="<?= get_field('light_2_picture_3'); ?>" alt="Chateau" class="card card-3" />
+                <img src="<?= get_field('light_2_picture_1'); ?>" alt="Ombre" class="card card-1" />
+                <img src="<?= get_field('light_2_picture_2'); ?>" alt="Ombre" class="card card-2" />
+                <img src="<?= get_field('light_2_picture_3'); ?>" alt="Ombre" class="card card-3" />
             </div>
             <div class="subFrame subFrame-3">
                 <h2 class="subFrameName"><?php the_field('light_2_title'); ?></h2>
@@ -559,7 +559,7 @@ get_header();
                 <a href="#" class="buttonDetail">Voir le détail</a>
                 <div class="caseStudy caseStudy-11">
                     <div class="container">
-                        <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
+                        <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Flèche retour" />
                         <p class="studyTitle">Lumière</p>
                         <?php
                         // check if the flexible content field has rows of data
@@ -578,7 +578,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
 
                                 endif;
 
@@ -597,9 +597,9 @@ get_header();
             </div>
 
             <div class="subFrameImg subFrame-4">
-                <img src="<?= get_field('light_3_picture_1'); ?>" alt="Chateau" class="card card-1" />
-                <img src="<?= get_field('light_3_picture_2'); ?>" alt="Chateau" class="card card-2" />
-                <img src="<?= get_field('light_3_picture_3'); ?>" alt="Chateau" class="card card-3" />
+                <img src="<?= get_field('light_3_picture_1'); ?>" alt="Effet de serre" class="card card-1" />
+                <img src="<?= get_field('light_3_picture_2'); ?>" alt="Effet de serre" class="card card-2" />
+                <img src="<?= get_field('light_3_picture_3'); ?>" alt="Effet de serre" class="card card-3" />
             </div>
             <div class="subFrame subFrame-4">
                 <h2 class="subFrameName"><?php the_field('light_3_title'); ?></h2>
@@ -607,7 +607,7 @@ get_header();
                 <a href="#" class="buttonDetail">Voir le détail</a>
                 <div class="caseStudy caseStudy-12">
                     <div class="container">
-                        <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
+                        <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Flèche retour" />
                         <p class="studyTitle">Lumière</p>
                         <?php
                         // check if the flexible content field has rows of data
@@ -626,7 +626,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
 
                                 endif;
 
@@ -645,8 +645,8 @@ get_header();
             </div>
 
             <div class="subFrameImg subFrame-5">
-                <img src="<?= get_field('light_4_picture_1'); ?>" alt="Chateau" class="card card-1" />
-                <img src="<?= get_field('light_4_picture_2'); ?>" alt="Chateau" class="card card-2" />
+                <img src="<?= get_field('light_4_picture_1'); ?>" alt="Chaise longue" class="card card-1" />
+                <img src="<?= get_field('light_4_picture_2'); ?>" alt="Chaise longue" class="card card-2" />
             </div>
             <div class="subFrame subFrame-5">
                 <h2 class="subFrameName"><?php the_field('light_4_title'); ?></h2>
@@ -654,7 +654,7 @@ get_header();
                 <a href="#" class="buttonDetail">Voir le détail</a>
                 <div class="caseStudy caseStudy-13">
                     <div class="container">
-                        <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
+                        <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Flèche retour" />
                         <p class="studyTitle">Lumière</p>
                         <?php
                         // check if the flexible content field has rows of data
@@ -673,7 +673,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
 
                                 endif;
 
@@ -692,7 +692,7 @@ get_header();
             </div>
         </section>
         <section class="frame frame-5 horizontalFrame">
-            <img class="frameForm" src="<?= THEME_URL ?>/assets/img/flash-shape.svg" alt="Flash shape" />
+            <img class="frameForm" src="<?= THEME_URL ?>/assets/img/flash-shape.svg" alt="Icône énergie" />
             <div class="frameName">L'énergie</div>
 
             <div class="subFrame subFrame-1">
@@ -700,9 +700,9 @@ get_header();
             </div>
 
             <div class="subFrameImg subFrame-2">
-                <img src="<?= get_field('energy_1_picture_1'); ?>" alt="Picture" class="card card-1" />
-                <img src="<?= get_field('energy_1_picture_2'); ?>" alt="Picture" class="card card-2" />
-                <img src="<?= get_field('energy_1_picture_3'); ?>" alt="Picture" class="card card-3" />
+                <img src="<?= get_field('energy_1_picture_1'); ?>" alt="Nuages d'objets" class="card card-1" />
+                <img src="<?= get_field('energy_1_picture_2'); ?>" alt="Nuages d'objets" class="card card-2" />
+                <img src="<?= get_field('energy_1_picture_3'); ?>" alt="Nuages d'objets" class="card card-3" />
             </div>
             <div class="subFrame subFrame-2">
                 <h2 class="subFrameName"><?php the_field('energy_1_title'); ?></h2>
@@ -710,7 +710,7 @@ get_header();
                 <a href="#" class="buttonDetail">Voir le détail</a>
                 <div class="caseStudy caseStudy-14">
                     <div class="container">
-                        <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
+                        <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Flèche retour" />
                         <p class="studyTitle">Lumière</p>
                         <?php
                         // check if the flexible content field has rows of data
@@ -729,7 +729,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
 
                                 endif;
 
@@ -748,9 +748,9 @@ get_header();
             </div>
 
             <div class="subFrameImg subFrame-3">
-                <img src="<?= get_field('energy_2_picture_1'); ?>" alt="Picture" class="card card-1" />
-                <img src="<?= get_field('energy_2_picture_2'); ?>" alt="Picture" class="card card-2" />
-                <img src="<?= get_field('energy_2_picture_3'); ?>" alt="Picture" class="card card-3" />
+                <img src="<?= get_field('energy_2_picture_1'); ?>" alt="Conférences" class="card card-1" />
+                <img src="<?= get_field('energy_2_picture_2'); ?>" alt="Conférences" class="card card-2" />
+                <img src="<?= get_field('energy_2_picture_3'); ?>" alt="Conférences" class="card card-3" />
             </div>
             <div class="subFrame subFrame-3">
                 <h2 class="subFrameName"><?php the_field('energy_2_title'); ?></h2>
@@ -758,7 +758,7 @@ get_header();
                 <a href="#" class="buttonDetail">Les conférences passées</a>
                 <div class="caseStudy caseStudy-15">
                     <div class="container">
-                        <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Go back" />
+                        <img class="goBack arrow" src="<?= THEME_URL ?>/assets/img/arrow_left.svg" alt="Flèche retour" />
                         <p class="studyTitle">Lumière</p>
                         <?php
                         // check if the flexible content field has rows of data
@@ -777,7 +777,7 @@ get_header();
 
                                 elseif( get_row_layout() == 'picture' ):
 
-                                	?><img src="<?php the_sub_field('picture'); ?>" class="picture" alt="picture" /><?php
+                                	?><img src="<?php the_sub_field('picture'); ?>" class="illustration" alt="picture" /><?php
 
                                 endif;
 
