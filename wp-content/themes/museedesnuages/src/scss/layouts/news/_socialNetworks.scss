@@ -2,6 +2,11 @@
 Facebook feed
 */
 
+// hide plugin signature
+.fts-powered-by-text-popup a.fts-powered-by-text {
+    display: none!important;
+}
+
 .socialFeed{
     width: 600px;
     min-width: 50%;
@@ -81,10 +86,10 @@ Facebook feed
         display:none;
     }
 
-    // hide plugin signature
-    .fts-powered-by-text {
-        display: none!important;
-    }
+    // // hide plugin signature
+    // a.fts-powered-by-text {
+    //     display: none!important;
+    // }
 
     .fts-jal-fb-name{
         letter-spacing: 0.6px;
@@ -168,19 +173,23 @@ Facebook feed
     Instagram feed
     */
 
+   .fts-isnta-full-name{
+        margin-top: 20px;
+   }
+
    .fts-instagram-inline-block-centered{
         margin-bottom: 100px!important;
    }
 
-   .slicker-instagram-placeholder .fts-instagram-wrapper{
-        min-height: 500px!important;
-        height: 500px;
+   .slicker-instagram-placeholder.fts-instagram-wrapper{
+        min-height: 300px!important;
+        height: 400px;
+        max-height: 500px;
         width: 100%!important;
-        background-position:center center;
         margin: 0px!important;
    }
 
-    .fts-insta-likes-comments-grab-popup{
+    .slicker-heart-comments-wrap{
         display: none!important;
     }
 
@@ -212,6 +221,7 @@ Facebook feed
             color: #515B6C;
             line-height: 22px;
             font-weight: normal;
+            margin-top: 30px;
         }
     }
 
@@ -225,6 +235,6 @@ Facebook feed
         width: 100%;
         max-height: 500px;
         object-fit: cover;
-        margin: 30px 0;
+        margin-top: 30px;
    }
 }
