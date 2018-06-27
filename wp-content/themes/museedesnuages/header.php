@@ -47,7 +47,7 @@
 				<div class="text">
 					<p class="number">03</p>
 					<p class="name">Actualités</p>
-					<p class="description">Articles en liaison avec&nbsp;l'actualité de l'art et&nbsp;de&nbsp;l'environnement.</p>
+					<p class="description">Articles en liaison avec&nbsp;l'actualité de l'art&nbsp;et&nbsp;de l'environnement.</p>
 				</div>
             </a>
 
@@ -57,7 +57,7 @@
 				<div class="text">
 					<p class="number">04</p>
 					<p class="name">Prestations</p>
-					<p class="description">Nos prestations pour&nbsp;les&nbsp;entreprises et les&nbsp;collectivités&nbsp;territoriales.</p>
+					<p class="description">Nos prestations pour&nbsp;les&nbsp;entreprises et les&nbsp;collectivités territoriales.</p>
 				</div>
             </a>
 
