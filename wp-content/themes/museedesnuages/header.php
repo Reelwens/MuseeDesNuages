@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta name="description" content="Un musée de notre temps où l'art inspire notre sensibilité environnementale. Un musée sans mur, dont l'entrée est partout et la sortie nulle part. Pour y entrer, il suffit de lever la tête." />
+    <meta name="description" content="Un musée sans mur, dont l'entrée est partout et la sortie nulle part. Pour y entrer, il suffit de lever la tête." />
     <link rel="icon" type="image/png" href="<?= THEME_URL ?>/assets/img/favicon-16x16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="<?= THEME_URL ?>/assets/img/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="<?= THEME_URL ?>/assets/img/favicon-96x96.png" sizes="96x96">

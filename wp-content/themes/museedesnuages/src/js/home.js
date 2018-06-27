@@ -13,6 +13,12 @@ on('/', arg => {
         let scrollTop = Math.max(window.pageYOffset, document.documentElement.scrollTop, document.body.scrollTop);
         let percent = (scrollTop + doc.clientHeight - offsetTop) * 100 / (doc.scrollHeight - offsetTop - offsetBottom);
 
+        if (percent > 103) {
+            percent = 103;
+        } else if (percent < 0) {
+            percent = 0;
+        }
+
         path.style['-webkit-mask-image'] = `linear-gradient(to bottom, black ${percent - 3}%, transparent ${percent - 2}%, transparent 100%)`;
     }
 
@@ -27,7 +33,7 @@ on('/', arg => {
 
     setTimeout(function() { // Fix invisible path
         setOffset();
-    }, 100);
+    }, 200);
 
     window.onresize = setOffset;
     document.body.onscroll = onScroll;
