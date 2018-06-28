@@ -21,7 +21,6 @@ Ce projet a été réalisé le cadre des projets pédagogiques lancés par [HETI
 ## 🧙‍ Équipe
 - [Blaise d'Estais](https://medium.com/@D.Blaise) - Responsable marketing
 - [Lisa Fises](https://dribbble.com/lisafises) - Chef de projet
-- [Louis Gourdon](https://fr.linkedin.com/in/louis-gourdon-222b28153) - Designer UX
 - [Simon Lucas](https://github.com/Reelwens) - Lead developer
 - [Tran Minh Villageois](https://dribbble.com/tranminhvillageois) - Lead designer
 - [Lucile VanSeveren](https://www.behance.net/lucilevans8ed4) - Designer UX
