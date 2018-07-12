@@ -111,6 +111,16 @@
         font-weight: 300;
         letter-spacing: 1px;
         line-height: 1.5;
+
+        a {
+            color: #4683c3;
+            font-weight: bold;
+            cursor: pointer;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
     }
 
     .picture {
