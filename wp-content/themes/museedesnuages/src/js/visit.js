@@ -21,12 +21,12 @@ on('/visit', arg => {
          */
 
         // Scroll
-        var lethargy = new Lethargy();
         let scrollLimit = 19,
             count = 0,
             lastScroll = Date.now();
 
-        $(window).bind('mousewheel DOMMouseScroll wheel MozMousePixelScroll', e => {
+        window.onwheel = e => {
+            console.log(e)
 
             if (caseOpened) return;
 
@@ -36,16 +36,14 @@ on('/visit', arg => {
             if (Date.now() - lastScroll < 1200) return;
             lastScroll = Date.now();
 
-            let scrollValue = lethargy.check(e);
-
-            if (scrollValue === 1 && count > 0) {
+            if (e.deltaY < 0 && count > 0) {
                 count--;
                 document.querySelector('body').dataset.scrollState = count;
-            } else if (scrollValue === -1 && scrollLimit > count) {
+            } else if (e.deltaY > 0 && scrollLimit > count) {
                 count++;
                 document.querySelector('body').dataset.scrollState = count;
             }
-        });
+        }
 
         // Arrow
         document.onkeydown = checkKey;
@@ -88,7 +86,7 @@ on('/visit', arg => {
         }
 
 
-        
+
 
         /*
          * Overflow hide html
